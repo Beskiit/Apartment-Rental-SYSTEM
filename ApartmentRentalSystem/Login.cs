@@ -16,5 +16,12 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            admin admin = new admin();
+            admin.Show();
+            this.Hide();
+        }
     }
 }
