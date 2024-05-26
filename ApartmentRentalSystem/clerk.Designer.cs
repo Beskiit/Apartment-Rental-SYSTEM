@@ -34,7 +34,6 @@
             this.unitsIcon = new System.Windows.Forms.Button();
             this.tenantIcon = new System.Windows.Forms.Button();
             this.paymentIcon = new System.Windows.Forms.Button();
-            this.userIcon = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -112,22 +111,6 @@
             this.paymentIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.paymentIcon.UseVisualStyleBackColor = true;
             // 
-            // userIcon
-            // 
-            this.userIcon.AutoSize = true;
-            this.userIcon.FlatAppearance.BorderSize = 0;
-            this.userIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.userIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userIcon.Image = ((System.Drawing.Image)(resources.GetObject("userIcon.Image")));
-            this.userIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.userIcon.Location = new System.Drawing.Point(12, 222);
-            this.userIcon.Name = "userIcon";
-            this.userIcon.Size = new System.Drawing.Size(168, 40);
-            this.userIcon.TabIndex = 2;
-            this.userIcon.Text = "Users";
-            this.userIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.userIcon.UseVisualStyleBackColor = true;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
@@ -140,7 +123,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.userIcon);
             this.panel1.Controls.Add(this.paymentIcon);
             this.panel1.Controls.Add(this.tenantIcon);
             this.panel1.Controls.Add(this.unitsIcon);
@@ -172,7 +154,6 @@
         private System.Windows.Forms.Button unitsIcon;
         private System.Windows.Forms.Button tenantIcon;
         private System.Windows.Forms.Button paymentIcon;
-        private System.Windows.Forms.Button userIcon;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
     }
