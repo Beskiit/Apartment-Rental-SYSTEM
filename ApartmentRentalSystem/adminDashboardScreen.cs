@@ -73,5 +73,25 @@ namespace ApartmentRentalSystem
         {
             dateLabel.Text = DateTime.Now.ToString("dddd, MMMM dd, yyyy");
         }
+
+        private void viewDetailsUnits_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void viewDetailsTenants_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ViewDetailsPayments_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void viewDetailsUsers_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

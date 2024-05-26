@@ -41,5 +41,10 @@ namespace ApartmentRentalSystem
         {
 
         }
+
+        private void adminDashboardScreen1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

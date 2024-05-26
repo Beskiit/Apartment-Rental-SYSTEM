@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminDashboardScreen));
             this.pieChartUnit = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.button1 = new System.Windows.Forms.Button();
+            this.viewDetailsUnits = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.viewDetailsTenants = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.ViewDetailsPayments = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.viewDetailsUsers = new System.Windows.Forms.Button();
             this.dateLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pieChartUnit)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel4.SuspendLayout();
@@ -74,29 +74,30 @@
             this.pieChartUnit.BorderSkin.BackColor = System.Drawing.Color.Transparent;
             this.pieChartUnit.BorderSkin.BorderWidth = 2;
             this.pieChartUnit.BorderSkin.PageColor = System.Drawing.Color.Transparent;
-            chartArea1.Name = "ChartArea1";
-            this.pieChartUnit.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.pieChartUnit.Legends.Add(legend1);
+            chartArea5.Name = "ChartArea1";
+            this.pieChartUnit.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.pieChartUnit.Legends.Add(legend5);
             this.pieChartUnit.Location = new System.Drawing.Point(3, 3);
             this.pieChartUnit.Name = "pieChartUnit";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.pieChartUnit.Series.Add(series1);
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            this.pieChartUnit.Series.Add(series5);
             this.pieChartUnit.Size = new System.Drawing.Size(400, 400);
             this.pieChartUnit.TabIndex = 0;
             this.pieChartUnit.Text = "chart1";
             // 
-            // button1
+            // viewDetailsUnits
             // 
-            this.button1.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(104, 384);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "View Details";
-            this.button1.UseVisualStyleBackColor = true;
+            this.viewDetailsUnits.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDetailsUnits.Location = new System.Drawing.Point(104, 384);
+            this.viewDetailsUnits.Name = "viewDetailsUnits";
+            this.viewDetailsUnits.Size = new System.Drawing.Size(116, 33);
+            this.viewDetailsUnits.TabIndex = 1;
+            this.viewDetailsUnits.Text = "View Details";
+            this.viewDetailsUnits.UseVisualStyleBackColor = true;
+            this.viewDetailsUnits.Click += new System.EventHandler(this.viewDetailsUnits_Click);
             // 
             // panel1
             // 
@@ -109,36 +110,17 @@
             this.panel1.Size = new System.Drawing.Size(170, 82);
             this.panel1.TabIndex = 2;
             // 
-            // panel2
+            // label2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Location = new System.Drawing.Point(409, 175);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(170, 32);
-            this.panel2.TabIndex = 3;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(170, 32);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "View Details";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(72, 76);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(121, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 39);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "0";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label1
             // 
@@ -151,17 +133,37 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Tenants";
             // 
-            // label2
+            // pictureBox1
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(121, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 39);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "0";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(72, 76);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
+            this.panel2.Controls.Add(this.viewDetailsTenants);
+            this.panel2.Location = new System.Drawing.Point(409, 175);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(170, 32);
+            this.panel2.TabIndex = 3;
+            // 
+            // viewDetailsTenants
+            // 
+            this.viewDetailsTenants.FlatAppearance.BorderSize = 0;
+            this.viewDetailsTenants.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewDetailsTenants.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDetailsTenants.Location = new System.Drawing.Point(0, 0);
+            this.viewDetailsTenants.Name = "viewDetailsTenants";
+            this.viewDetailsTenants.Size = new System.Drawing.Size(170, 32);
+            this.viewDetailsTenants.TabIndex = 4;
+            this.viewDetailsTenants.Text = "View Details";
+            this.viewDetailsTenants.UseVisualStyleBackColor = true;
+            this.viewDetailsTenants.Click += new System.EventHandler(this.viewDetailsTenants_Click);
             // 
             // panel3
             // 
@@ -210,23 +212,24 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.panel4.Controls.Add(this.button3);
+            this.panel4.Controls.Add(this.ViewDetailsPayments);
             this.panel4.Location = new System.Drawing.Point(597, 175);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(170, 32);
             this.panel4.TabIndex = 3;
             // 
-            // button3
+            // ViewDetailsPayments
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(0, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(170, 32);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "View Details";
-            this.button3.UseVisualStyleBackColor = true;
+            this.ViewDetailsPayments.FlatAppearance.BorderSize = 0;
+            this.ViewDetailsPayments.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ViewDetailsPayments.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewDetailsPayments.Location = new System.Drawing.Point(0, 0);
+            this.ViewDetailsPayments.Name = "ViewDetailsPayments";
+            this.ViewDetailsPayments.Size = new System.Drawing.Size(170, 32);
+            this.ViewDetailsPayments.TabIndex = 4;
+            this.ViewDetailsPayments.Text = "View Details";
+            this.ViewDetailsPayments.UseVisualStyleBackColor = true;
+            this.ViewDetailsPayments.Click += new System.EventHandler(this.ViewDetailsPayments_Click);
             // 
             // panel5
             // 
@@ -275,23 +278,24 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.panel6.Controls.Add(this.button4);
+            this.panel6.Controls.Add(this.viewDetailsUsers);
             this.panel6.Location = new System.Drawing.Point(409, 337);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(170, 32);
             this.panel6.TabIndex = 3;
             // 
-            // button4
+            // viewDetailsUsers
             // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(170, 32);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "View Details";
-            this.button4.UseVisualStyleBackColor = true;
+            this.viewDetailsUsers.FlatAppearance.BorderSize = 0;
+            this.viewDetailsUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.viewDetailsUsers.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDetailsUsers.Location = new System.Drawing.Point(0, 0);
+            this.viewDetailsUsers.Name = "viewDetailsUsers";
+            this.viewDetailsUsers.Size = new System.Drawing.Size(170, 32);
+            this.viewDetailsUsers.TabIndex = 4;
+            this.viewDetailsUsers.Text = "View Details";
+            this.viewDetailsUsers.UseVisualStyleBackColor = true;
+            this.viewDetailsUsers.Click += new System.EventHandler(this.viewDetailsUsers_Click);
             // 
             // dateLabel
             // 
@@ -326,7 +330,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.viewDetailsUnits);
             this.Controls.Add(this.pieChartUnit);
             this.Name = "adminDashboardScreen";
             this.Size = new System.Drawing.Size(800, 500);
@@ -334,8 +338,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pieChartUnit)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -352,10 +356,10 @@
         #endregion
 
         private System.Windows.Forms.DataVisualization.Charting.Chart pieChartUnit;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button viewDetailsUnits;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button viewDetailsTenants;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
@@ -364,13 +368,13 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button ViewDetailsPayments;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button viewDetailsUsers;
         private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.Label label7;
     }

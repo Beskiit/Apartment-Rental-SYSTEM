@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.userIcon = new System.Windows.Forms.Button();
             this.paymentIcon = new System.Windows.Forms.Button();
             this.tenantIcon = new System.Windows.Forms.Button();
@@ -37,9 +38,8 @@
             this.dashboardIcon = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.adminDashboardScreen1 = new ApartmentRentalSystem.adminDashboardScreen();
             this.adminUnitScreen1 = new ApartmentRentalSystem.adminUnitScreen();
+            this.adminDashboardScreen1 = new ApartmentRentalSystem.adminDashboardScreen();
             this.adminPaymentScreen1 = new ApartmentRentalSystem.adminPaymentScreen();
             this.panel1.SuspendLayout();
             this.mainPanel.SuspendLayout();
@@ -58,6 +58,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 500);
             this.panel1.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
+            this.panel3.Location = new System.Drawing.Point(0, 6);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 40);
+            this.panel3.TabIndex = 3;
             // 
             // userIcon
             // 
@@ -155,21 +163,20 @@
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.Transparent;
-            this.mainPanel.Controls.Add(this.adminUnitScreen1);
             this.mainPanel.Controls.Add(this.adminDashboardScreen1);
             this.mainPanel.Controls.Add(this.adminPaymentScreen1);
+            this.mainPanel.Controls.Add(this.adminUnitScreen1);
             this.mainPanel.Location = new System.Drawing.Point(183, 60);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(802, 500);
             this.mainPanel.TabIndex = 2;
             // 
-            // panel3
+            // adminUnitScreen1
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
-            this.panel3.Location = new System.Drawing.Point(0, 6);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 40);
-            this.panel3.TabIndex = 3;
+            this.adminUnitScreen1.Location = new System.Drawing.Point(0, 0);
+            this.adminUnitScreen1.Name = "adminUnitScreen1";
+            this.adminUnitScreen1.Size = new System.Drawing.Size(800, 500);
+            this.adminUnitScreen1.TabIndex = 1;
             // 
             // adminDashboardScreen1
             // 
@@ -178,13 +185,7 @@
             this.adminDashboardScreen1.Name = "adminDashboardScreen1";
             this.adminDashboardScreen1.Size = new System.Drawing.Size(864, 500);
             this.adminDashboardScreen1.TabIndex = 0;
-            // 
-            // adminUnitScreen1
-            // 
-            this.adminUnitScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminUnitScreen1.Name = "adminUnitScreen1";
-            this.adminUnitScreen1.Size = new System.Drawing.Size(800, 500);
-            this.adminUnitScreen1.TabIndex = 1;
+            this.adminDashboardScreen1.Load += new System.EventHandler(this.adminDashboardScreen1_Load);
             // 
             // adminPaymentScreen1
             // 
