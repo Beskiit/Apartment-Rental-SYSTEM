@@ -1,6 +1,6 @@
 ﻿namespace ApartmentRentalSystem
 {
-    partial class admin
+    partial class clerk
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(clerk));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.adminDashboardScreen1 = new ApartmentRentalSystem.adminDashboardScreen();
-            this.adminUnitScreen1 = new ApartmentRentalSystem.adminUnitScreen();
-            this.adminPaymentScreen1 = new ApartmentRentalSystem.adminPaymentScreen();
-            this.mainPanel = new System.Windows.Forms.Panel();
             this.dashboardIcon = new System.Windows.Forms.Button();
             this.unitsIcon = new System.Windows.Forms.Button();
             this.tenantIcon = new System.Windows.Forms.Button();
@@ -41,7 +37,6 @@
             this.userIcon = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.mainPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,41 +46,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(985, 60);
-            this.panel2.TabIndex = 1;
-            // 
-            // adminDashboardScreen1
-            // 
-            this.adminDashboardScreen1.AutoSize = true;
-            this.adminDashboardScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminDashboardScreen1.Name = "adminDashboardScreen1";
-            this.adminDashboardScreen1.Size = new System.Drawing.Size(864, 500);
-            this.adminDashboardScreen1.TabIndex = 0;
-            this.adminDashboardScreen1.Load += new System.EventHandler(this.adminDashboardScreen1_Load);
-            // 
-            // adminUnitScreen1
-            // 
-            this.adminUnitScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminUnitScreen1.Name = "adminUnitScreen1";
-            this.adminUnitScreen1.Size = new System.Drawing.Size(800, 500);
-            this.adminUnitScreen1.TabIndex = 1;
-            // 
-            // adminPaymentScreen1
-            // 
-            this.adminPaymentScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminPaymentScreen1.Name = "adminPaymentScreen1";
-            this.adminPaymentScreen1.Size = new System.Drawing.Size(800, 500);
-            this.adminPaymentScreen1.TabIndex = 2;
-            // 
-            // mainPanel
-            // 
-            this.mainPanel.BackColor = System.Drawing.Color.Transparent;
-            this.mainPanel.Controls.Add(this.adminDashboardScreen1);
-            this.mainPanel.Controls.Add(this.adminPaymentScreen1);
-            this.mainPanel.Controls.Add(this.adminUnitScreen1);
-            this.mainPanel.Location = new System.Drawing.Point(183, 60);
-            this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(802, 500);
-            this.mainPanel.TabIndex = 2;
+            this.panel2.TabIndex = 4;
             // 
             // dashboardIcon
             // 
@@ -102,7 +63,6 @@
             this.dashboardIcon.Text = "Dashboard";
             this.dashboardIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.dashboardIcon.UseVisualStyleBackColor = true;
-            this.dashboardIcon.Click += new System.EventHandler(this.dashboardIcon_Click);
             // 
             // unitsIcon
             // 
@@ -119,7 +79,6 @@
             this.unitsIcon.Text = "Units";
             this.unitsIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.unitsIcon.UseVisualStyleBackColor = true;
-            this.unitsIcon.Click += new System.EventHandler(this.unitsIcon_Click);
             // 
             // tenantIcon
             // 
@@ -136,7 +95,6 @@
             this.tenantIcon.Text = "Tenants";
             this.tenantIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.tenantIcon.UseVisualStyleBackColor = true;
-            this.tenantIcon.Click += new System.EventHandler(this.tenantIcon_Click);
             // 
             // paymentIcon
             // 
@@ -153,7 +111,6 @@
             this.paymentIcon.Text = "Payments";
             this.paymentIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.paymentIcon.UseVisualStyleBackColor = true;
-            this.paymentIcon.Click += new System.EventHandler(this.paymentIcon_Click);
             // 
             // userIcon
             // 
@@ -170,7 +127,6 @@
             this.userIcon.Text = "Users";
             this.userIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.userIcon.UseVisualStyleBackColor = true;
-            this.userIcon.Click += new System.EventHandler(this.userIcon_Click);
             // 
             // panel3
             // 
@@ -192,21 +148,17 @@
             this.panel1.Location = new System.Drawing.Point(0, 60);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 500);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 3;
             // 
-            // admin
+            // clerk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 561);
-            this.Controls.Add(this.mainPanel);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "admin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "admin";
-            this.mainPanel.ResumeLayout(false);
-            this.mainPanel.PerformLayout();
+            this.Controls.Add(this.panel2);
+            this.Name = "clerk";
+            this.Text = "clerk";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -216,10 +168,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private adminDashboardScreen adminDashboardScreen1;
-        private adminUnitScreen adminUnitScreen1;
-        private adminPaymentScreen adminPaymentScreen1;
-        private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.Button dashboardIcon;
         private System.Windows.Forms.Button unitsIcon;
         private System.Windows.Forms.Button tenantIcon;

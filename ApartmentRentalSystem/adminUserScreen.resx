@@ -133,31 +133,16 @@
   <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAAMhJREFUWEftlkEKAjEMRXsA1ype1KUuPaCgnkZ/ynwIwzA0aTLOog8+bRdNfjPN
+        DwAACw8BkvkDpQAAAMhJREFUWEftlkEKAjEMRXsA1ype1KUuPaCgnkZ/ynwIwzA0aTLOog8+bRdNfjPN
         0DIY7J3DNPbgjnGHPtClrnycoCf0qCsD4voFfafxDFmRPTqGuRJHSNxLAGsleHLZ+4bcVfSYCEtOLCbC
         k5MWE2nJyZqJ9ORkycRmycm8vfTc064udCU2O7lGl13U2qIh/PUTLF04y3+ii7Xbnm6ipdXSTFj6PNyE
         JTkJM+FJTrpN7OJBcoWsJ5/DStzqyoH7QamIiDEYZFHKDzgZaJeDC1XbAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAAfxJREFUWEftlctKVVEYgE9iGdhNIalnqDQomjiwiRo16WVqUpOKMgm60As0Sx36
-        AEJEOPU2KhAq7QIaDSKUSPu+3f7PWedSZx9xuD/4OGf9e/3/XnuttdeulJSUlHRAN17GR/gGv+J27pc8
-        5jX72HffOI2T+A13C2pfc07hnjmGz3ALo/AC3sExdGCHc/0/ivdxFaO/uU/QWh1xHdcxCjndF7EIB3AY
-        NzDy19CabenB5xiJO/nvPUw5hE7xJ3SgD/NYygNMa6gz2tivSj++Rjv+Rqd6OW9fwBRvGEVDYymX0Lg1
-        7qI1bb/CPqxjAFfQDk6dayzf0VhjQro8obEUH8i4NWQcN9GYg/KeGRZfwihyBoOfaLw3a9UoMoAjaNwa
-        gbUjdxGzB2scwFkM3qHxwaxVo9USTGDKeTT+Nmv95Rw2DUCcjlhv3+ERlBdo7FbWquFGchAW01ab8Daa
-        aw3xgIqzxAc+iXU4GjeIHX7hDbyStz/jUSyK772vrrnWuInWtD2HJ7AlB/Ep2lHnMQpNYRe2wz7TaI65
-        1oh6j7HQMX0NP2Akhi/xOP4Lr81gY957vIod4TR62PzAtJiHj3vCjenT6FAe81ra11w3ZyfL14Qb1E3m
-        cZoW/58f0RtX3/X9wLV1J3vEzqIfHT826n9jfox8g4rslZKSkhKoVP4AdyvCbFXG31YAAAAASUVORK5C
-        YII=
-</value>
-  </data>
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAThJREFUWEftlj9KxEAYR6Ngb2PnWmjpCcRDiKyNjYdZRQu1EPEWW4ogCFp4gr3E
+        DgAACw4BQL7hQQAAAThJREFUWEftlj9KxEAYR6Ngb2PnWmjpCcRDiKyNjYdZRQu1EPEWW4ogCFp4gr3E
         4opaiOJf9D13BgaJ3cw2zoNHJl9Cfl9mkuw2lUohVvEK3/EZ+7iIE2ED3/ALH/E1jG9xCYtiuHdt4AHO
         4CyehZozUYw0fIRzGLGJF3zCKQu5ScOdarcDjE04Ey6HSzNtISdp+B4aanjaxGHYv8Ss/A6PpE24HG69
         +xXMxl/hEZuIy+F5np+NLsZXbd9CCzvo8Q/ctJCLGl7D26jh2cPTj8yxhRb8+Hg8+0dGbtCL6x2uY0rR

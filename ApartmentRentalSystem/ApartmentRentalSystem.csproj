@@ -223,6 +223,12 @@
     <Compile Include="adminUserScreen.Designer.cs">
       <DependentUpon>adminUserScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="clerk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clerk.Designer.cs">
+      <DependentUpon>clerk.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -260,6 +266,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminUserScreen.resx">
       <DependentUpon>adminUserScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerk.resx">
+      <DependentUpon>clerk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

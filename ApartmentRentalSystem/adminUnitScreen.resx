@@ -130,10 +130,19 @@
     <value>True</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAMhJREFUWEftlkEKAjEMRXsA1ype1KUuPaCgnkZ/ynwIwzA0aTLOog8+bRdNfjPN
+        0DIY7J3DNPbgjnGHPtClrnycoCf0qCsD4voFfafxDFmRPTqGuRJHSNxLAGsleHLZ+4bcVfSYCEtOLCbC
+        k5MWE2nJyZqJ9ORkycRmycm8vfTc064udCU2O7lGl13U2qIh/PUTLF04y3+ii7Xbnm6ipdXSTFj6PNyE
+        JTkJM+FJTrpN7OJBcoWsJ5/DStzqyoH7QamIiDEYZFHKDzgZaJeDC1XbAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAThJREFUWEftlj9KxEAYR6Ngb2PnWmjpCcRDiKyNjYdZRQu1EPEWW4ogCFp4gr3E
+        DwAACw8BkvkDpQAAAThJREFUWEftlj9KxEAYR6Ngb2PnWmjpCcRDiKyNjYdZRQu1EPEWW4ogCFp4gr3E
         4opaiOJf9D13BgaJ3cw2zoNHJl9Cfl9mkuw2lUohVvEK3/EZ+7iIE2ED3/ALH/E1jG9xCYtiuHdt4AHO
         4CyehZozUYw0fIRzGLGJF3zCKQu5ScOdarcDjE04Ey6HSzNtISdp+B4aanjaxGHYv8Ss/A6PpE24HG69
         +xXMxl/hEZuIy+F5np+NLsZXbd9CCzvo8Q/ctJCLGl7D26jh2cPTj8yxhRb8+Hg8+0dGbtCL6x2uY0rR
@@ -141,41 +150,4 @@
         zOLhC2iYD+A1HuEWLuNE8M9jZzys/Aua5hvC8pMHDCWhEwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAH8SURBVFhH7ZXLSlVRGIBPYhnYTSGpZ6g0KJo4sIkaNell
-        alKTijIJutALNEsd+gBCRDj1NioQKu0CGg0ilEj7vt3+z1nnUmcfcbg/+Dhn/Xv9/157rbXXrpSUlJR0
-        QDdexkf4Br/idu6XPOY1+9h33ziNk/gNdwtqX3NO4Z45hs9wC6PwAt7BMXRgh3P9P4r3cRWjv7lP0Fod
-        cR3XMQo53RexCAdwGDcw8tfQmm3pwecYiTv57z1MOYRO8Sd0oA/zWMoDTGuoM9rYr0o/vkY7/kanejlv
-        X8AUbxhFQ2Mpl9C4Ne6iNW2/wj6sYwBX0A5OnWss39FYY0K6PKGxFB/IuDVkHDfRmIPynhkWX8IocgaD
-        n2i8N2vVKDKAI2jcGoG1I3cRswdrHMBZDN6h8cGsVaPVEkxgynk0/jZr/eUcNg1AnI5Yb9/hEZQXaOxW
-        1qrhRnIQFtNWm/A2mmsN8YCKs8QHPol1OBo3iB1+4Q28krc/41Esiu+9r6651riJ1rQ9hyewJQfxKdpR
-        5zEKTWEXtsM+02iOudaIeo+x0DF9DT9gJIYv8Tj+C6/NYGPee7yKHeE0etj8wLSYh497wo3p0+hQHvNa
-        2tdcN2cny9eEG9RN5nGaFv+fH9EbV9/1/cC1dSd7xM6iHx0/Nup/Y36MfIOK7JWSkpISqFT+AHcrwmxV
-        xt9WAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAADISURBVFhH7ZZBCgIxDEV7ANcqXtSlLj2goJ5Gf8p8CMMw
-        NGkyzqIPPm0XTX4zzdAyGOydwzT24I5xhz7Qpa58nKAn9KgrA+L6BX2n8QxZkT06hrkSR0jcSwBrJXhy
-        2fuG3FX0mAhLTiwmwpOTFhNpycmaifTkZMnEZsnJvL303NOuLnQlNju5Rpdd1NqiIfz1EyxdOMt/oou1
-        255uoqXV0kxY+jzchCU5CTPhSU66TeziQXKFrCefw0rc6sqB+0GpiIgxGGRRyg84GWiXgwtV2wAAAABJ
-        RU5ErkJggg==
-</value>
-  </data>
-  <metadata name="unitIdColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="descriptionColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="priceColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="statusColumn.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
