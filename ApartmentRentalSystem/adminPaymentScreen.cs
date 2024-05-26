@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
 {
-    public partial class adminTenantScreen : UserControl
+    public partial class adminPaymentScreen : UserControl
     {
-        public adminTenantScreen()
+        public adminPaymentScreen()
         {
             InitializeComponent();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            adminAddTenantForm adminAddTenantForm = new adminAddTenantForm();
-            adminAddTenantForm.Show();
+            adminAddTransactionForm adminAddTransactionForm = new adminAddTransactionForm();
+                adminAddTransactionForm.Show();
         }
     }
 }

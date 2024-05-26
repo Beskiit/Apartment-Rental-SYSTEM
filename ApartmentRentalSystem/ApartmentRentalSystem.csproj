@@ -169,17 +169,41 @@
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminAddTenantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminAddTenantForm.Designer.cs">
+      <DependentUpon>adminAddTenantForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminAddTransactionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminAddTransactionForm.Designer.cs">
+      <DependentUpon>adminAddTransactionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminAddUnitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminAddUnitForm.Designer.cs">
+      <DependentUpon>adminAddUnitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminAddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminAddUserForm.Designer.cs">
+      <DependentUpon>adminAddUserForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminDashboardScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="adminDashboardScreen.Designer.cs">
       <DependentUpon>adminDashboardScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminPaymentScreej.cs">
+    <Compile Include="adminPaymentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminPaymentScreej.Designer.cs">
-      <DependentUpon>adminPaymentScreej.cs</DependentUpon>
+    <Compile Include="adminPaymentScreen.Designer.cs">
+      <DependentUpon>adminPaymentScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="adminTenantScreen.cs">
       <SubType>UserControl</SubType>
@@ -210,8 +234,29 @@
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="adminAddTenantForm.resx">
+      <DependentUpon>adminAddTenantForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminAddTransactionForm.resx">
+      <DependentUpon>adminAddTransactionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminAddUnitForm.resx">
+      <DependentUpon>adminAddUnitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminAddUserForm.resx">
+      <DependentUpon>adminAddUserForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="adminDashboardScreen.resx">
       <DependentUpon>adminDashboardScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminPaymentScreen.resx">
+      <DependentUpon>adminPaymentScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminTenantScreen.resx">
+      <DependentUpon>adminTenantScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminUnitScreen.resx">
+      <DependentUpon>adminUnitScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminUserScreen.resx">
       <DependentUpon>adminUserScreen.cs</DependentUpon>

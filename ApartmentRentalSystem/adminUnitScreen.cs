@@ -16,5 +16,11 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            adminAddUnitForm adminAddUnitForm = new adminAddUnitForm();
+            adminAddUnitForm.Show();
+        }
     }
 }

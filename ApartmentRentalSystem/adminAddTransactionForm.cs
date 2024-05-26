@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
 {
-    public partial class adminPaymentScreej : UserControl
+    public partial class adminAddTransactionForm : Form
     {
-        public adminPaymentScreej()
+        public adminAddTransactionForm()
         {
             InitializeComponent();
         }
