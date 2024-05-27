@@ -23,5 +23,12 @@ namespace ApartmentRentalSystem
             admin.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            clerk clerk = new clerk();
+            clerk.Show();
+            this.Hide();
+        }
     }
 }
