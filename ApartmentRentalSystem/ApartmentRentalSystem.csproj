@@ -277,6 +277,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="overlayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="overlayForm.Designer.cs">
+      <DependentUpon>overlayForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="admin.resx">

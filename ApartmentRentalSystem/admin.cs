@@ -12,6 +12,8 @@ namespace ApartmentRentalSystem
 {
     public partial class admin : Form
     {
+        private overlayForm overlayForm;
+
         public admin()
         {
             InitializeComponent();
@@ -23,8 +25,8 @@ namespace ApartmentRentalSystem
             mainPanel.Controls.Clear();
             mainPanel.Controls.Add(userControl);
             userControl.BringToFront();
-
         }
+
         private void dashboardIcon_Click(object sender, EventArgs e)
         {
             adminDashboardScreen ads = new adminDashboardScreen();
@@ -57,7 +59,22 @@ namespace ApartmentRentalSystem
 
         private void adminDashboardScreen1_Load(object sender, EventArgs e)
         {
-            
+        }
+
+        public void ShowOverlay()
+        {
+            overlayForm = new overlayForm();
+            overlayForm.SetOwner(this);
+            overlayForm.Show();
+        }
+
+        public void HideOverlay()
+        {
+            if (overlayForm != null)
+            {
+                overlayForm.Close();
+                overlayForm = null;
+            }
         }
     }
 }
