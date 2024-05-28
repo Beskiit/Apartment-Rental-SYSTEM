@@ -50,7 +50,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1313, 74);
             this.panel2.TabIndex = 4;
@@ -64,7 +64,7 @@
             this.dashboardIcon.Image = ((System.Drawing.Image)(resources.GetObject("dashboardIcon.Image")));
             this.dashboardIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dashboardIcon.Location = new System.Drawing.Point(16, 7);
-            this.dashboardIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dashboardIcon.Margin = new System.Windows.Forms.Padding(4);
             this.dashboardIcon.Name = "dashboardIcon";
             this.dashboardIcon.Size = new System.Drawing.Size(224, 49);
             this.dashboardIcon.TabIndex = 2;
@@ -82,7 +82,7 @@
             this.unitsIcon.Image = ((System.Drawing.Image)(resources.GetObject("unitsIcon.Image")));
             this.unitsIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.unitsIcon.Location = new System.Drawing.Point(16, 74);
-            this.unitsIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.unitsIcon.Margin = new System.Windows.Forms.Padding(4);
             this.unitsIcon.Name = "unitsIcon";
             this.unitsIcon.Size = new System.Drawing.Size(224, 49);
             this.unitsIcon.TabIndex = 2;
@@ -100,13 +100,14 @@
             this.tenantIcon.Image = ((System.Drawing.Image)(resources.GetObject("tenantIcon.Image")));
             this.tenantIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tenantIcon.Location = new System.Drawing.Point(16, 140);
-            this.tenantIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tenantIcon.Margin = new System.Windows.Forms.Padding(4);
             this.tenantIcon.Name = "tenantIcon";
             this.tenantIcon.Size = new System.Drawing.Size(224, 49);
             this.tenantIcon.TabIndex = 2;
             this.tenantIcon.Text = "Tenants";
             this.tenantIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.tenantIcon.UseVisualStyleBackColor = true;
+            this.tenantIcon.Click += new System.EventHandler(this.tenantIcon_Click);
             // 
             // paymentIcon
             // 
@@ -117,19 +118,20 @@
             this.paymentIcon.Image = ((System.Drawing.Image)(resources.GetObject("paymentIcon.Image")));
             this.paymentIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.paymentIcon.Location = new System.Drawing.Point(16, 207);
-            this.paymentIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.paymentIcon.Margin = new System.Windows.Forms.Padding(4);
             this.paymentIcon.Name = "paymentIcon";
             this.paymentIcon.Size = new System.Drawing.Size(224, 49);
             this.paymentIcon.TabIndex = 2;
             this.paymentIcon.Text = "Payments";
             this.paymentIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.paymentIcon.UseVisualStyleBackColor = true;
+            this.paymentIcon.Click += new System.EventHandler(this.paymentIcon_Click);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
             this.panel3.Location = new System.Drawing.Point(0, 7);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(13, 49);
             this.panel3.TabIndex = 3;
@@ -144,7 +146,7 @@
             this.panel1.Controls.Add(this.unitsIcon);
             this.panel1.Controls.Add(this.dashboardIcon);
             this.panel1.Location = new System.Drawing.Point(0, 74);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(240, 615);
             this.panel1.TabIndex = 3;
@@ -209,9 +211,10 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "clerk";
             this.Text = "clerk";
+            this.Load += new System.EventHandler(this.clerk_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel5.ResumeLayout(false);

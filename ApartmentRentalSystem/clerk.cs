@@ -41,5 +41,23 @@ namespace ApartmentRentalSystem
             clerkUnitScreen cus = new clerkUnitScreen();
             addUserControl(cus);
         }
+
+        private void tenantIcon_Click(object sender, EventArgs e)
+        {
+            clerkTenantScreen cts = new clerkTenantScreen();
+            addUserControl(cts);
+        }
+
+        private void paymentIcon_Click(object sender, EventArgs e)
+        {
+            clerkPaymentScreen cps = new clerkPaymentScreen();
+            addUserControl(cps);
+        }
+
+        private void clerk_Load(object sender, EventArgs e)
+        {
+            clerkDashboardScreen cds = new clerkDashboardScreen();
+            addUserControl(cds);
+        }
     }
 }
