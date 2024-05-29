@@ -59,5 +59,18 @@ namespace ApartmentRentalSystem
             clerkDashboardScreen cds = new clerkDashboardScreen();
             addUserControl(cds);
         }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("Are you sure you want to log out?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Login loginForm = new Login();
+                loginForm.Show();
+                this.Close();
+
+            }
+        }
     }
 }

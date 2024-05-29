@@ -28,51 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.username = new System.Windows.Forms.TextBox();
+            this.password = new System.Windows.Forms.TextBox();
+            this.loginButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // username
             // 
-            this.button1.Location = new System.Drawing.Point(133, 164);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.username.Location = new System.Drawing.Point(247, 153);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(301, 22);
+            this.username.TabIndex = 0;
             // 
-            // button2
+            // password
             // 
-            this.button2.Location = new System.Drawing.Point(389, 164);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 28);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.password.Location = new System.Drawing.Point(247, 226);
+            this.password.Name = "password";
+            this.password.Size = new System.Drawing.Size(301, 22);
+            this.password.TabIndex = 1;
+            // 
+            // loginButton
+            // 
+            this.loginButton.Location = new System.Drawing.Point(360, 309);
+            this.loginButton.Name = "loginButton";
+            this.loginButton.Size = new System.Drawing.Size(75, 23);
+            this.loginButton.TabIndex = 2;
+            this.loginButton.Text = "button1";
+            this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click_1);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 321);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClientSize = new System.Drawing.Size(738, 500);
+            this.Controls.Add(this.loginButton);
+            this.Controls.Add(this.password);
+            this.Controls.Add(this.username);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.Button loginButton;
     }
 }
 

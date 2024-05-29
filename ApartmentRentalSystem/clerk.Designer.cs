@@ -42,6 +42,8 @@
             this.clerkTenantScreen1 = new ApartmentRentalSystem.clerkTenantScreen();
             this.clerkUnitScreen1 = new ApartmentRentalSystem.clerkUnitScreen();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.logoutButton = new System.Windows.Forms.Button();
+            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
@@ -49,6 +51,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
+            this.panel2.Controls.Add(this.logoutButton);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
@@ -186,7 +189,7 @@
             // clerkUnitScreen1
             // 
             this.clerkUnitScreen1.Location = new System.Drawing.Point(2, 0);
-            this.clerkUnitScreen1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clerkUnitScreen1.Margin = new System.Windows.Forms.Padding(4);
             this.clerkUnitScreen1.Name = "clerkUnitScreen1";
             this.clerkUnitScreen1.Size = new System.Drawing.Size(1067, 615);
             this.clerkUnitScreen1.TabIndex = 8;
@@ -203,6 +206,16 @@
             this.panel5.Size = new System.Drawing.Size(1069, 616);
             this.panel5.TabIndex = 9;
             // 
+            // logoutButton
+            // 
+            this.logoutButton.Location = new System.Drawing.Point(1001, 35);
+            this.logoutButton.Name = "logoutButton";
+            this.logoutButton.Size = new System.Drawing.Size(75, 23);
+            this.logoutButton.TabIndex = 0;
+            this.logoutButton.Text = "button1";
+            this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
+            // 
             // clerk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -215,6 +228,7 @@
             this.Name = "clerk";
             this.Text = "clerk";
             this.Load += new System.EventHandler(this.clerk_Load);
+            this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -237,5 +251,6 @@
         private clerkTenantScreen clerkTenantScreen1;
         private clerkUnitScreen clerkUnitScreen1;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button logoutButton;
     }
 }
