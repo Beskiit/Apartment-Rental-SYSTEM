@@ -23,6 +23,6 @@ namespace ApartmentRentalSystem
 
     public class Connection
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\APARTMENT_RENTAL.mdf;Integrated Security=True");
+        public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\APARTMENT_RENTAL.mdf;Integrated Security=True");
     }
 }
