@@ -59,7 +59,7 @@
             // logoutButton
             // 
             this.logoutButton.Location = new System.Drawing.Point(802, 24);
-            this.logoutButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.logoutButton.Margin = new System.Windows.Forms.Padding(2);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(56, 19);
             this.logoutButton.TabIndex = 0;
@@ -75,7 +75,7 @@
             this.mainPanel.Controls.Add(this.adminUnitScreen1);
             this.mainPanel.Location = new System.Drawing.Point(183, 60);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(949, 651);
+            this.mainPanel.Size = new System.Drawing.Size(949, 600);
             this.mainPanel.TabIndex = 2;
             // 
             // dashboardIcon

@@ -22,5 +22,10 @@ namespace ApartmentRentalSystem
             adminAddUnitForm adminAddUnitForm = new adminAddUnitForm();
             adminAddUnitForm.Show();
         }
+
+        private void adminUnitScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

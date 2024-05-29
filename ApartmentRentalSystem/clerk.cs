@@ -19,8 +19,8 @@ namespace ApartmentRentalSystem
         private void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
-            panel5.Controls.Clear();
-            panel5.Controls.Add(userControl);
+            mainPanel.Controls.Clear();
+            mainPanel.Controls.Add(userControl);
             userControl.BringToFront();
 
         }

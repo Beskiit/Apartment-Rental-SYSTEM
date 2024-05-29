@@ -271,6 +271,24 @@
     <Compile Include="clerkUnitScreen.Designer.cs">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="dataGridClerkPaymentScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dataGridClerkPaymentScreen.Designer.cs">
+      <DependentUpon>dataGridClerkPaymentScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dataGridClerkTenantScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dataGridClerkTenantScreen.Designer.cs">
+      <DependentUpon>dataGridClerkTenantScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dataGridClerkUnitScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dataGridClerkUnitScreen.Designer.cs">
+      <DependentUpon>dataGridClerkUnitScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="dataGridPaymentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -362,6 +380,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clerkUnitScreen.resx">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dataGridClerkPaymentScreen.resx">
+      <DependentUpon>dataGridClerkPaymentScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dataGridClerkTenantScreen.resx">
+      <DependentUpon>dataGridClerkTenantScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dataGridClerkUnitScreen.resx">
+      <DependentUpon>dataGridClerkUnitScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dataGridPaymentScreen.resx">
       <DependentUpon>dataGridPaymentScreen.cs</DependentUpon>

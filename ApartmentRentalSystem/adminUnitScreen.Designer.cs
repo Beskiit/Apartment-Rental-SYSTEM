@@ -42,8 +42,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.backPanel = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.dataGridUnitScreen1 = new ApartmentRentalSystem.dataGridUnitScreen();
+            this.label7 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -204,6 +204,14 @@
             this.backPanel.Size = new System.Drawing.Size(910, 450);
             this.backPanel.TabIndex = 20;
             // 
+            // dataGridUnitScreen1
+            // 
+            this.dataGridUnitScreen1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dataGridUnitScreen1.Location = new System.Drawing.Point(-1, 50);
+            this.dataGridUnitScreen1.Name = "dataGridUnitScreen1";
+            this.dataGridUnitScreen1.Size = new System.Drawing.Size(910, 37);
+            this.dataGridUnitScreen1.TabIndex = 1;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -213,13 +221,6 @@
             this.label7.Size = new System.Drawing.Size(82, 28);
             this.label7.TabIndex = 0;
             this.label7.Text = "AMOUNT";
-            // 
-            // dataGridUnitScreen1
-            // 
-            this.dataGridUnitScreen1.Location = new System.Drawing.Point(-1, 50);
-            this.dataGridUnitScreen1.Name = "dataGridUnitScreen1";
-            this.dataGridUnitScreen1.Size = new System.Drawing.Size(910, 37);
-            this.dataGridUnitScreen1.TabIndex = 1;
             // 
             // adminUnitScreen
             // 
@@ -231,6 +232,7 @@
             this.Controls.Add(this.label1);
             this.Name = "adminUnitScreen";
             this.Size = new System.Drawing.Size(950, 600);
+            this.Load += new System.EventHandler(this.adminUnitScreen_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
