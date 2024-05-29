@@ -30,9 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.adminDashboardScreen1 = new ApartmentRentalSystem.adminDashboardScreen();
-            this.adminUnitScreen1 = new ApartmentRentalSystem.adminUnitScreen();
-            this.adminPaymentScreen1 = new ApartmentRentalSystem.adminPaymentScreen();
+            this.logoutButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.dashboardIcon = new System.Windows.Forms.Button();
             this.unitsIcon = new System.Windows.Forms.Button();
@@ -41,7 +39,9 @@
             this.userIcon = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.logoutButton = new System.Windows.Forms.Button();
+            this.adminDashboardScreen1 = new ApartmentRentalSystem.adminDashboardScreen();
+            this.adminPaymentScreen1 = new ApartmentRentalSystem.adminPaymentScreen();
+            this.adminUnitScreen1 = new ApartmentRentalSystem.adminUnitScreen();
             this.panel2.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -52,36 +52,20 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
             this.panel2.Controls.Add(this.logoutButton);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1313, 74);
+            this.panel2.Size = new System.Drawing.Size(1132, 60);
             this.panel2.TabIndex = 1;
             // 
-            // adminDashboardScreen1
+            // logoutButton
             // 
-            this.adminDashboardScreen1.AutoSize = true;
-            this.adminDashboardScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminDashboardScreen1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.adminDashboardScreen1.Name = "adminDashboardScreen1";
-            this.adminDashboardScreen1.Size = new System.Drawing.Size(1369, 638);
-            this.adminDashboardScreen1.TabIndex = 0;
-            this.adminDashboardScreen1.Load += new System.EventHandler(this.adminDashboardScreen1_Load);
-            // 
-            // adminUnitScreen1
-            // 
-            this.adminUnitScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminUnitScreen1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.adminUnitScreen1.Name = "adminUnitScreen1";
-            this.adminUnitScreen1.Size = new System.Drawing.Size(1067, 615);
-            this.adminUnitScreen1.TabIndex = 1;
-            // 
-            // adminPaymentScreen1
-            // 
-            this.adminPaymentScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminPaymentScreen1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.adminPaymentScreen1.Name = "adminPaymentScreen1";
-            this.adminPaymentScreen1.Size = new System.Drawing.Size(1067, 615);
-            this.adminPaymentScreen1.TabIndex = 2;
+            this.logoutButton.Location = new System.Drawing.Point(802, 24);
+            this.logoutButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.logoutButton.Name = "logoutButton";
+            this.logoutButton.Size = new System.Drawing.Size(56, 19);
+            this.logoutButton.TabIndex = 0;
+            this.logoutButton.Text = "button1";
+            this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // mainPanel
             // 
@@ -89,10 +73,9 @@
             this.mainPanel.Controls.Add(this.adminDashboardScreen1);
             this.mainPanel.Controls.Add(this.adminPaymentScreen1);
             this.mainPanel.Controls.Add(this.adminUnitScreen1);
-            this.mainPanel.Location = new System.Drawing.Point(244, 74);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mainPanel.Location = new System.Drawing.Point(183, 60);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(1069, 615);
+            this.mainPanel.Size = new System.Drawing.Size(949, 651);
             this.mainPanel.TabIndex = 2;
             // 
             // dashboardIcon
@@ -103,10 +86,9 @@
             this.dashboardIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardIcon.Image = ((System.Drawing.Image)(resources.GetObject("dashboardIcon.Image")));
             this.dashboardIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashboardIcon.Location = new System.Drawing.Point(16, 7);
-            this.dashboardIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dashboardIcon.Location = new System.Drawing.Point(12, 6);
             this.dashboardIcon.Name = "dashboardIcon";
-            this.dashboardIcon.Size = new System.Drawing.Size(224, 49);
+            this.dashboardIcon.Size = new System.Drawing.Size(168, 40);
             this.dashboardIcon.TabIndex = 2;
             this.dashboardIcon.Text = "Dashboard";
             this.dashboardIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -121,10 +103,9 @@
             this.unitsIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.unitsIcon.Image = ((System.Drawing.Image)(resources.GetObject("unitsIcon.Image")));
             this.unitsIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.unitsIcon.Location = new System.Drawing.Point(16, 74);
-            this.unitsIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.unitsIcon.Location = new System.Drawing.Point(12, 60);
             this.unitsIcon.Name = "unitsIcon";
-            this.unitsIcon.Size = new System.Drawing.Size(224, 49);
+            this.unitsIcon.Size = new System.Drawing.Size(168, 40);
             this.unitsIcon.TabIndex = 2;
             this.unitsIcon.Text = "Units";
             this.unitsIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -139,10 +120,9 @@
             this.tenantIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenantIcon.Image = ((System.Drawing.Image)(resources.GetObject("tenantIcon.Image")));
             this.tenantIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tenantIcon.Location = new System.Drawing.Point(16, 140);
-            this.tenantIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tenantIcon.Location = new System.Drawing.Point(12, 114);
             this.tenantIcon.Name = "tenantIcon";
-            this.tenantIcon.Size = new System.Drawing.Size(224, 49);
+            this.tenantIcon.Size = new System.Drawing.Size(168, 40);
             this.tenantIcon.TabIndex = 2;
             this.tenantIcon.Text = "Tenants";
             this.tenantIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -157,10 +137,9 @@
             this.paymentIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.paymentIcon.Image = ((System.Drawing.Image)(resources.GetObject("paymentIcon.Image")));
             this.paymentIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.paymentIcon.Location = new System.Drawing.Point(16, 207);
-            this.paymentIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.paymentIcon.Location = new System.Drawing.Point(12, 168);
             this.paymentIcon.Name = "paymentIcon";
-            this.paymentIcon.Size = new System.Drawing.Size(224, 49);
+            this.paymentIcon.Size = new System.Drawing.Size(168, 40);
             this.paymentIcon.TabIndex = 2;
             this.paymentIcon.Text = "Payments";
             this.paymentIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -175,10 +154,9 @@
             this.userIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userIcon.Image = ((System.Drawing.Image)(resources.GetObject("userIcon.Image")));
             this.userIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.userIcon.Location = new System.Drawing.Point(16, 273);
-            this.userIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.userIcon.Location = new System.Drawing.Point(12, 222);
             this.userIcon.Name = "userIcon";
-            this.userIcon.Size = new System.Drawing.Size(224, 49);
+            this.userIcon.Size = new System.Drawing.Size(168, 40);
             this.userIcon.TabIndex = 2;
             this.userIcon.Text = "Users";
             this.userIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -188,10 +166,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
-            this.panel3.Location = new System.Drawing.Point(0, 7);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(0, 6);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(13, 49);
+            this.panel3.Size = new System.Drawing.Size(10, 40);
             this.panel3.TabIndex = 3;
             // 
             // panel1
@@ -203,31 +180,45 @@
             this.panel1.Controls.Add(this.tenantIcon);
             this.panel1.Controls.Add(this.unitsIcon);
             this.panel1.Controls.Add(this.dashboardIcon);
-            this.panel1.Location = new System.Drawing.Point(0, 74);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 60);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(240, 615);
+            this.panel1.Size = new System.Drawing.Size(180, 651);
             this.panel1.TabIndex = 0;
             // 
-            // logoutButton
+            // adminDashboardScreen1
             // 
-            this.logoutButton.Location = new System.Drawing.Point(1070, 30);
-            this.logoutButton.Name = "logoutButton";
-            this.logoutButton.Size = new System.Drawing.Size(75, 23);
-            this.logoutButton.TabIndex = 0;
-            this.logoutButton.Text = "button1";
-            this.logoutButton.UseVisualStyleBackColor = true;
-            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
+            this.adminDashboardScreen1.AutoSize = true;
+            this.adminDashboardScreen1.Location = new System.Drawing.Point(0, 0);
+            this.adminDashboardScreen1.Margin = new System.Windows.Forms.Padding(4);
+            this.adminDashboardScreen1.Name = "adminDashboardScreen1";
+            this.adminDashboardScreen1.Size = new System.Drawing.Size(949, 600);
+            this.adminDashboardScreen1.TabIndex = 0;
+            this.adminDashboardScreen1.Load += new System.EventHandler(this.adminDashboardScreen1_Load);
+            // 
+            // adminPaymentScreen1
+            // 
+            this.adminPaymentScreen1.Location = new System.Drawing.Point(0, 0);
+            this.adminPaymentScreen1.Margin = new System.Windows.Forms.Padding(4);
+            this.adminPaymentScreen1.Name = "adminPaymentScreen1";
+            this.adminPaymentScreen1.Size = new System.Drawing.Size(949, 600);
+            this.adminPaymentScreen1.TabIndex = 2;
+            // 
+            // adminUnitScreen1
+            // 
+            this.adminUnitScreen1.Location = new System.Drawing.Point(0, 0);
+            this.adminUnitScreen1.Margin = new System.Windows.Forms.Padding(4);
+            this.adminUnitScreen1.Name = "adminUnitScreen1";
+            this.adminUnitScreen1.Size = new System.Drawing.Size(949, 600);
+            this.adminUnitScreen1.TabIndex = 1;
             // 
             // admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1312, 690);
+            this.ClientSize = new System.Drawing.Size(1134, 661);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "admin";
