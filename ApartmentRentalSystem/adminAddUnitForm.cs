@@ -16,5 +16,16 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            adminGrids adminGrids = new adminGrids();
+            adminGrids.methodName(rmnumText.Text, dscpText.Text, priceText.Text);
+            this.Close();
+        }
+
+       
+        
     }
 }

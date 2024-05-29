@@ -27,5 +27,15 @@ namespace ApartmentRentalSystem
         {
 
         }
+
+        private void dataGridUnitScreen1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

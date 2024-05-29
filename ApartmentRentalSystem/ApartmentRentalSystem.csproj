@@ -199,6 +199,12 @@
     <Compile Include="adminDashboardScreen.Designer.cs">
       <DependentUpon>adminDashboardScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminGrids.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminGrids.Designer.cs">
+      <DependentUpon>adminGrids.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminPaymentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -344,6 +350,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminDashboardScreen.resx">
       <DependentUpon>adminDashboardScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminGrids.resx">
+      <DependentUpon>adminGrids.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminPaymentScreen.resx">
       <DependentUpon>adminPaymentScreen.cs</DependentUpon>
