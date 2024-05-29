@@ -38,7 +38,7 @@
             this.lastNameBox = new System.Windows.Forms.TextBox();
             this.phoneBox = new System.Windows.Forms.TextBox();
             this.emailBox = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.addTenantBtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.moveInDateBox = new System.Windows.Forms.TextBox();
@@ -98,7 +98,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(188, 372);
+            this.label6.Location = new System.Drawing.Point(188, 385);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(63, 20);
@@ -137,16 +137,16 @@
             this.emailBox.Size = new System.Drawing.Size(148, 26);
             this.emailBox.TabIndex = 1;
             // 
-            // button1
+            // addTenantBtn
             // 
-            this.button1.Location = new System.Drawing.Point(501, 251);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 35);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "add";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.addTenantBtn.Location = new System.Drawing.Point(327, 443);
+            this.addTenantBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.addTenantBtn.Name = "addTenantBtn";
+            this.addTenantBtn.Size = new System.Drawing.Size(112, 35);
+            this.addTenantBtn.TabIndex = 4;
+            this.addTenantBtn.Text = "Add Tenant";
+            this.addTenantBtn.UseVisualStyleBackColor = true;
+            this.addTenantBtn.Click += new System.EventHandler(this.addTenantBtn_Click);
             // 
             // panel1
             // 
@@ -191,7 +191,7 @@
             this.Controls.Add(this.moveInDateBox);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.addTenantBtn);
             this.Controls.Add(this.emailBox);
             this.Controls.Add(this.phoneBox);
             this.Controls.Add(this.lastNameBox);
@@ -222,7 +222,7 @@
         private System.Windows.Forms.TextBox lastNameBox;
         private System.Windows.Forms.TextBox phoneBox;
         private System.Windows.Forms.TextBox emailBox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button addTenantBtn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox moveInDateBox;
