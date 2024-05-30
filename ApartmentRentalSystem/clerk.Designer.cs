@@ -39,8 +39,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.clerkDashboardScreen1 = new ApartmentRentalSystem.clerkDashboardScreen();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.mainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -55,7 +57,7 @@
             // logoutButton
             // 
             this.logoutButton.Location = new System.Drawing.Point(751, 28);
-            this.logoutButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.logoutButton.Margin = new System.Windows.Forms.Padding(2);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(56, 19);
             this.logoutButton.TabIndex = 0;
@@ -157,7 +159,7 @@
             // panel4
             // 
             this.panel4.Location = new System.Drawing.Point(178, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(804, 505);
             this.panel4.TabIndex = 5;
@@ -165,11 +167,19 @@
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.Transparent;
+            this.mainPanel.Controls.Add(this.clerkDashboardScreen1);
             this.mainPanel.Location = new System.Drawing.Point(181, 60);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(2);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(950, 600);
             this.mainPanel.TabIndex = 9;
+            // 
+            // clerkDashboardScreen1
+            // 
+            this.clerkDashboardScreen1.Location = new System.Drawing.Point(0, 0);
+            this.clerkDashboardScreen1.Name = "clerkDashboardScreen1";
+            this.clerkDashboardScreen1.Size = new System.Drawing.Size(950, 600);
+            this.clerkDashboardScreen1.TabIndex = 0;
             // 
             // clerk
             // 
@@ -185,6 +195,7 @@
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.mainPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -201,5 +212,6 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.Button logoutButton;
+        private clerkDashboardScreen clerkDashboardScreen1;
     }
 }

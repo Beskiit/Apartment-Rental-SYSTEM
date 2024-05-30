@@ -43,7 +43,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.backPanel = new System.Windows.Forms.Panel();
-            this.dataGridUserScreen1 = new ApartmentRentalSystem.dataGridUserScreen();
+            this.adminUserListRepater1 = new ApartmentRentalSystem.AdminUserListRepater();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -105,11 +105,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(3, 5);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 28);
+            this.label9.Size = new System.Drawing.Size(124, 20);
             this.label9.TabIndex = 0;
             this.label9.Text = "EDIT/DELETE";
             // 
@@ -125,11 +125,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(3, 5);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 28);
+            this.label3.Size = new System.Drawing.Size(28, 20);
             this.label3.TabIndex = 0;
             this.label3.Text = "ID";
             // 
@@ -145,11 +145,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(0, 5);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 28);
+            this.label4.Size = new System.Drawing.Size(59, 20);
             this.label4.TabIndex = 0;
             this.label4.Text = "NAME";
             // 
@@ -166,10 +166,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(3, 5);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 28);
+            this.label6.Size = new System.Drawing.Size(109, 20);
             this.label6.TabIndex = 0;
             this.label6.Text = "USERNAME";
             // 
@@ -185,21 +185,21 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(3, 5);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(103, 28);
+            this.label5.Size = new System.Drawing.Size(111, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "PASSWORD";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(579, 7);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 28);
+            this.label7.Size = new System.Drawing.Size(83, 20);
             this.label7.TabIndex = 0;
             this.label7.Text = "AMOUNT";
             // 
@@ -207,20 +207,19 @@
             // 
             this.backPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.backPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.backPanel.Controls.Add(this.dataGridUserScreen1);
+            this.backPanel.Controls.Add(this.adminUserListRepater1);
             this.backPanel.Controls.Add(this.label7);
             this.backPanel.Location = new System.Drawing.Point(20, 134);
             this.backPanel.Name = "backPanel";
             this.backPanel.Size = new System.Drawing.Size(910, 450);
             this.backPanel.TabIndex = 18;
             // 
-            // dataGridUserScreen1
+            // adminUserListRepater1
             // 
-            this.dataGridUserScreen1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.dataGridUserScreen1.Location = new System.Drawing.Point(-1, 50);
-            this.dataGridUserScreen1.Name = "dataGridUserScreen1";
-            this.dataGridUserScreen1.Size = new System.Drawing.Size(910, 37);
-            this.dataGridUserScreen1.TabIndex = 1;
+            this.adminUserListRepater1.Location = new System.Drawing.Point(-1, 59);
+            this.adminUserListRepater1.Name = "adminUserListRepater1";
+            this.adminUserListRepater1.Size = new System.Drawing.Size(908, 38);
+            this.adminUserListRepater1.TabIndex = 1;
             // 
             // adminUserScreen
             // 
@@ -266,6 +265,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel backPanel;
-        private dataGridUserScreen dataGridUserScreen1;
+        private AdminUserListRepater adminUserListRepater1;
     }
 }

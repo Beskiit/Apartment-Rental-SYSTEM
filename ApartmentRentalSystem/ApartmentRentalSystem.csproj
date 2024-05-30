@@ -205,11 +205,23 @@
     <Compile Include="adminGrids.Designer.cs">
       <DependentUpon>adminGrids.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminPaymentListRepeater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminPaymentListRepeater.Designer.cs">
+      <DependentUpon>adminPaymentListRepeater.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminPaymentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="adminPaymentScreen.Designer.cs">
       <DependentUpon>adminPaymentScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminTenantListRepeater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminTenantListRepeater.Designer.cs">
+      <DependentUpon>adminTenantListRepeater.cs</DependentUpon>
     </Compile>
     <Compile Include="adminTenantScreen.cs">
       <SubType>UserControl</SubType>
@@ -217,11 +229,23 @@
     <Compile Include="adminTenantScreen.Designer.cs">
       <DependentUpon>adminTenantScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminUnitListRepeater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminUnitListRepeater.Designer.cs">
+      <DependentUpon>adminUnitListRepeater.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminUnitScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="adminUnitScreen.Designer.cs">
       <DependentUpon>adminUnitScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUserListRepater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminUserListRepater.Designer.cs">
+      <DependentUpon>AdminUserListRepater.cs</DependentUpon>
     </Compile>
     <Compile Include="adminUserScreen.cs">
       <SubType>UserControl</SubType>
@@ -259,11 +283,23 @@
     <Compile Include="clerkDashboardScreen.Designer.cs">
       <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="clerkPaymentListRepeater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkPaymentListRepeater.Designer.cs">
+      <DependentUpon>clerkPaymentListRepeater.cs</DependentUpon>
+    </Compile>
     <Compile Include="clerkPaymentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="clerkPaymentScreen.Designer.cs">
       <DependentUpon>clerkPaymentScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkTenantListRepeater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkTenantListRepeater.Designer.cs">
+      <DependentUpon>clerkTenantListRepeater.cs</DependentUpon>
     </Compile>
     <Compile Include="clerkTenantScreen.cs">
       <SubType>UserControl</SubType>
@@ -271,53 +307,17 @@
     <Compile Include="clerkTenantScreen.Designer.cs">
       <DependentUpon>clerkTenantScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="clerkUnitListRepeater.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkUnitListRepeater.Designer.cs">
+      <DependentUpon>clerkUnitListRepeater.cs</DependentUpon>
+    </Compile>
     <Compile Include="clerkUnitScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="clerkUnitScreen.Designer.cs">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="dataGridClerkPaymentScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="dataGridClerkPaymentScreen.Designer.cs">
-      <DependentUpon>dataGridClerkPaymentScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="dataGridClerkTenantScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="dataGridClerkTenantScreen.Designer.cs">
-      <DependentUpon>dataGridClerkTenantScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="dataGridClerkUnitScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="dataGridClerkUnitScreen.Designer.cs">
-      <DependentUpon>dataGridClerkUnitScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="dataGridPaymentScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="dataGridPaymentScreen.Designer.cs">
-      <DependentUpon>dataGridPaymentScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="dataGridTenantScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="dataGridTenantScreen.Designer.cs">
-      <DependentUpon>dataGridTenantScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="dataGridUnitScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="dataGridUnitScreen.Designer.cs">
-      <DependentUpon>dataGridUnitScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="dataGridUserScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="dataGridUserScreen.Designer.cs">
-      <DependentUpon>dataGridUserScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -354,14 +354,26 @@
     <EmbeddedResource Include="adminGrids.resx">
       <DependentUpon>adminGrids.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="adminPaymentListRepeater.resx">
+      <DependentUpon>adminPaymentListRepeater.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="adminPaymentScreen.resx">
       <DependentUpon>adminPaymentScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminTenantListRepeater.resx">
+      <DependentUpon>adminTenantListRepeater.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminTenantScreen.resx">
       <DependentUpon>adminTenantScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="adminUnitListRepeater.resx">
+      <DependentUpon>adminUnitListRepeater.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="adminUnitScreen.resx">
       <DependentUpon>adminUnitScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUserListRepater.resx">
+      <DependentUpon>AdminUserListRepater.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminUserScreen.resx">
       <DependentUpon>adminUserScreen.cs</DependentUpon>
@@ -381,35 +393,23 @@
     <EmbeddedResource Include="clerkDashboardScreen.resx">
       <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="clerkPaymentListRepeater.resx">
+      <DependentUpon>clerkPaymentListRepeater.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clerkPaymentScreen.resx">
       <DependentUpon>clerkPaymentScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkTenantListRepeater.resx">
+      <DependentUpon>clerkTenantListRepeater.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clerkTenantScreen.resx">
       <DependentUpon>clerkTenantScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="clerkUnitListRepeater.resx">
+      <DependentUpon>clerkUnitListRepeater.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clerkUnitScreen.resx">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="dataGridClerkPaymentScreen.resx">
-      <DependentUpon>dataGridClerkPaymentScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="dataGridClerkTenantScreen.resx">
-      <DependentUpon>dataGridClerkTenantScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="dataGridClerkUnitScreen.resx">
-      <DependentUpon>dataGridClerkUnitScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="dataGridPaymentScreen.resx">
-      <DependentUpon>dataGridPaymentScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="dataGridTenantScreen.resx">
-      <DependentUpon>dataGridTenantScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="dataGridUnitScreen.resx">
-      <DependentUpon>dataGridUnitScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="dataGridUserScreen.resx">
-      <DependentUpon>dataGridUserScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

@@ -39,9 +39,7 @@
             this.userIcon = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.adminDashboardScreen1 = new ApartmentRentalSystem.adminDashboardScreen();
-            this.adminPaymentScreen1 = new ApartmentRentalSystem.adminPaymentScreen();
-            this.adminUnitScreen1 = new ApartmentRentalSystem.adminUnitScreen();
+            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
             this.panel2.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -70,9 +68,7 @@
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.Transparent;
-            this.mainPanel.Controls.Add(this.adminDashboardScreen1);
-            this.mainPanel.Controls.Add(this.adminPaymentScreen1);
-            this.mainPanel.Controls.Add(this.adminUnitScreen1);
+            this.mainPanel.Controls.Add(this.adminDashboardScreen2);
             this.mainPanel.Location = new System.Drawing.Point(183, 60);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(949, 600);
@@ -185,31 +181,13 @@
             this.panel1.Size = new System.Drawing.Size(180, 651);
             this.panel1.TabIndex = 0;
             // 
-            // adminDashboardScreen1
+            // adminDashboardScreen2
             // 
-            this.adminDashboardScreen1.AutoSize = true;
-            this.adminDashboardScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminDashboardScreen1.Margin = new System.Windows.Forms.Padding(4);
-            this.adminDashboardScreen1.Name = "adminDashboardScreen1";
-            this.adminDashboardScreen1.Size = new System.Drawing.Size(949, 600);
-            this.adminDashboardScreen1.TabIndex = 0;
-            this.adminDashboardScreen1.Load += new System.EventHandler(this.adminDashboardScreen1_Load);
-            // 
-            // adminPaymentScreen1
-            // 
-            this.adminPaymentScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminPaymentScreen1.Margin = new System.Windows.Forms.Padding(4);
-            this.adminPaymentScreen1.Name = "adminPaymentScreen1";
-            this.adminPaymentScreen1.Size = new System.Drawing.Size(949, 600);
-            this.adminPaymentScreen1.TabIndex = 2;
-            // 
-            // adminUnitScreen1
-            // 
-            this.adminUnitScreen1.Location = new System.Drawing.Point(0, 0);
-            this.adminUnitScreen1.Margin = new System.Windows.Forms.Padding(4);
-            this.adminUnitScreen1.Name = "adminUnitScreen1";
-            this.adminUnitScreen1.Size = new System.Drawing.Size(949, 600);
-            this.adminUnitScreen1.TabIndex = 1;
+            this.adminDashboardScreen2.AutoSize = true;
+            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
+            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
+            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 460);
+            this.adminDashboardScreen2.TabIndex = 0;
             // 
             // admin
             // 
@@ -246,5 +224,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button logoutButton;
+        private adminDashboardScreen adminDashboardScreen2;
     }
 }

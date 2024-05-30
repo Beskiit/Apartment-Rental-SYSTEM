@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminDashboardScreen));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.viewDetailsUnits = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -68,7 +68,7 @@
             // 
             // viewDetailsUnits
             // 
-            this.viewDetailsUnits.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDetailsUnits.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewDetailsUnits.Location = new System.Drawing.Point(130, 424);
             this.viewDetailsUnits.Name = "viewDetailsUnits";
             this.viewDetailsUnits.Size = new System.Drawing.Size(116, 33);
@@ -91,7 +91,7 @@
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(136, 40);
             this.label2.Name = "label2";
@@ -103,11 +103,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(113, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 28);
+            this.label1.Size = new System.Drawing.Size(74, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tenants";
             // 
@@ -134,7 +134,7 @@
             // 
             this.viewDetailsTenants.FlatAppearance.BorderSize = 0;
             this.viewDetailsTenants.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewDetailsTenants.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDetailsTenants.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewDetailsTenants.Location = new System.Drawing.Point(0, 0);
             this.viewDetailsTenants.Name = "viewDetailsTenants";
             this.viewDetailsTenants.Size = new System.Drawing.Size(200, 32);
@@ -157,7 +157,7 @@
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(136, 40);
             this.label3.Name = "label3";
@@ -169,11 +169,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(95, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 28);
+            this.label4.Size = new System.Drawing.Size(87, 20);
             this.label4.TabIndex = 1;
             this.label4.Text = "Payments";
             // 
@@ -200,7 +200,7 @@
             // 
             this.ViewDetailsPayments.FlatAppearance.BorderSize = 0;
             this.ViewDetailsPayments.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ViewDetailsPayments.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewDetailsPayments.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ViewDetailsPayments.Location = new System.Drawing.Point(0, 0);
             this.ViewDetailsPayments.Name = "ViewDetailsPayments";
             this.ViewDetailsPayments.Size = new System.Drawing.Size(200, 32);
@@ -223,7 +223,7 @@
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(136, 40);
             this.label5.Name = "label5";
@@ -235,11 +235,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(135, 12);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 28);
+            this.label6.Size = new System.Drawing.Size(56, 20);
             this.label6.TabIndex = 1;
             this.label6.Text = "Users";
             // 
@@ -266,7 +266,7 @@
             // 
             this.viewDetailsUsers.FlatAppearance.BorderSize = 0;
             this.viewDetailsUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewDetailsUsers.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDetailsUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewDetailsUsers.Location = new System.Drawing.Point(0, 0);
             this.viewDetailsUsers.Name = "viewDetailsUsers";
             this.viewDetailsUsers.Size = new System.Drawing.Size(200, 32);
@@ -277,7 +277,7 @@
             // 
             // dateLabel
             // 
-            this.dateLabel.Font = new System.Drawing.Font("Poppins Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateLabel.Location = new System.Drawing.Point(725, 18);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(170, 23);
@@ -288,10 +288,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(152, 18);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(71, 34);
+            this.label7.Size = new System.Drawing.Size(70, 24);
             this.label7.TabIndex = 5;
             this.label7.Text = "UNITS";
             // 
@@ -303,16 +303,16 @@
             this.pieChartUnit.BorderSkin.BackColor = System.Drawing.Color.Transparent;
             this.pieChartUnit.BorderSkin.BorderWidth = 2;
             this.pieChartUnit.BorderSkin.PageColor = System.Drawing.Color.Transparent;
-            chartArea5.Name = "ChartArea1";
-            this.pieChartUnit.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.pieChartUnit.Legends.Add(legend5);
+            chartArea1.Name = "ChartArea1";
+            this.pieChartUnit.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.pieChartUnit.Legends.Add(legend1);
             this.pieChartUnit.Location = new System.Drawing.Point(3, 3);
             this.pieChartUnit.Name = "pieChartUnit";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.pieChartUnit.Series.Add(series5);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.pieChartUnit.Series.Add(series1);
             this.pieChartUnit.Size = new System.Drawing.Size(480, 454);
             this.pieChartUnit.TabIndex = 8;
             this.pieChartUnit.Text = "chart1";

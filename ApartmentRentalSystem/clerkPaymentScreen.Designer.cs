@@ -48,7 +48,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.backPanel = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.dataGridClerkPaymentScreen1 = new ApartmentRentalSystem.dataGridClerkPaymentScreen();
+            this.clerkPaymentListRepeater1 = new ApartmentRentalSystem.clerkPaymentListRepeater();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -125,11 +125,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(3, 5);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 28);
+            this.label9.Size = new System.Drawing.Size(78, 20);
             this.label9.TabIndex = 0;
             this.label9.Text = "STATUS";
             // 
@@ -145,11 +145,11 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(0, 5);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(52, 28);
+            this.label8.Size = new System.Drawing.Size(56, 20);
             this.label8.TabIndex = 0;
             this.label8.Text = "DATE";
             // 
@@ -165,11 +165,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(3, 5);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(143, 28);
+            this.label3.Size = new System.Drawing.Size(148, 20);
             this.label3.TabIndex = 0;
             this.label3.Text = "TRANSACTION #";
             // 
@@ -185,11 +185,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(0, 5);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 28);
+            this.label4.Size = new System.Drawing.Size(101, 20);
             this.label4.TabIndex = 0;
             this.label4.Text = "TENANT ID";
             // 
@@ -206,10 +206,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(3, 5);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 28);
+            this.label6.Size = new System.Drawing.Size(50, 20);
             this.label6.TabIndex = 0;
             this.label6.Text = "UNIT";
             // 
@@ -225,11 +225,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(3, 5);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 28);
+            this.label5.Size = new System.Drawing.Size(83, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "AMOUNT";
             // 
@@ -244,11 +244,11 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(3, 5);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 28);
+            this.label10.Size = new System.Drawing.Size(124, 20);
             this.label10.TabIndex = 0;
             this.label10.Text = "EDIT/DELETE";
             // 
@@ -256,7 +256,7 @@
             // 
             this.backPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.backPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.backPanel.Controls.Add(this.dataGridClerkPaymentScreen1);
+            this.backPanel.Controls.Add(this.clerkPaymentListRepeater1);
             this.backPanel.Controls.Add(this.label7);
             this.backPanel.Location = new System.Drawing.Point(20, 134);
             this.backPanel.Name = "backPanel";
@@ -266,20 +266,19 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(579, 7);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 28);
+            this.label7.Size = new System.Drawing.Size(83, 20);
             this.label7.TabIndex = 0;
             this.label7.Text = "AMOUNT";
             // 
-            // dataGridClerkPaymentScreen1
+            // clerkPaymentListRepeater1
             // 
-            this.dataGridClerkPaymentScreen1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.dataGridClerkPaymentScreen1.Location = new System.Drawing.Point(-1, 50);
-            this.dataGridClerkPaymentScreen1.Name = "dataGridClerkPaymentScreen1";
-            this.dataGridClerkPaymentScreen1.Size = new System.Drawing.Size(910, 37);
-            this.dataGridClerkPaymentScreen1.TabIndex = 1;
+            this.clerkPaymentListRepeater1.Location = new System.Drawing.Point(-1, 50);
+            this.clerkPaymentListRepeater1.Name = "clerkPaymentListRepeater1";
+            this.clerkPaymentListRepeater1.Size = new System.Drawing.Size(910, 37);
+            this.clerkPaymentListRepeater1.TabIndex = 1;
             // 
             // clerkPaymentScreen
             // 
@@ -335,7 +334,7 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel backPanel;
-        private dataGridClerkPaymentScreen dataGridClerkPaymentScreen1;
         private System.Windows.Forms.Label label7;
+        private clerkPaymentListRepeater clerkPaymentListRepeater1;
     }
 }

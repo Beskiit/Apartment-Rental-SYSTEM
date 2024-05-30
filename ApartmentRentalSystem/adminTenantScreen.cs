@@ -13,7 +13,6 @@ namespace ApartmentRentalSystem
 {
     public partial class adminTenantScreen : UserControl
     {
-        static SqlCommand cmd = new SqlCommand();
         public adminTenantScreen()
         {
             InitializeComponent();
@@ -23,17 +22,6 @@ namespace ApartmentRentalSystem
         {
             adminAddTenantForm adminAddTenantForm = new adminAddTenantForm();
             adminAddTenantForm.Show();
-        }
-
-        private void adminTenantScreen_Load(object sender, EventArgs e)
-        {
-            Connection.conn.Open();
-            cmd = new SqlCommand("SELECT firstName, lastName, phoneNumber, unit, moveInDate FROM Tenant", Connection.conn);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dataTable = new DataTable();
-            sda.Fill(dataTable);
-
-            dataGridTenantScreen.DataSource = dataTable;
         }
     }
 }

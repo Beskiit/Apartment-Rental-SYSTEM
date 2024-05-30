@@ -43,7 +43,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.backPanel = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.dataGridClerkUnitScreen1 = new ApartmentRentalSystem.dataGridClerkUnitScreen();
+            this.clerkUnitListRepeater1 = new ApartmentRentalSystem.clerkUnitListRepeater();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -105,11 +105,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(3, 5);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(107, 28);
+            this.label9.Size = new System.Drawing.Size(124, 20);
             this.label9.TabIndex = 0;
             this.label9.Text = "EDIT/DELETE";
             // 
@@ -125,11 +125,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(3, 5);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 28);
+            this.label3.Size = new System.Drawing.Size(50, 20);
             this.label3.TabIndex = 0;
             this.label3.Text = "UNIT";
             // 
@@ -145,11 +145,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(0, 5);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 28);
+            this.label4.Size = new System.Drawing.Size(129, 20);
             this.label4.TabIndex = 0;
             this.label4.Text = "DESCRIPTION";
             // 
@@ -166,10 +166,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(3, 5);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 28);
+            this.label6.Size = new System.Drawing.Size(63, 20);
             this.label6.TabIndex = 0;
             this.label6.Text = "PRICE";
             // 
@@ -185,11 +185,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(3, 5);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 28);
+            this.label5.Size = new System.Drawing.Size(78, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "STATUS";
             // 
@@ -197,7 +197,7 @@
             // 
             this.backPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.backPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.backPanel.Controls.Add(this.dataGridClerkUnitScreen1);
+            this.backPanel.Controls.Add(this.clerkUnitListRepeater1);
             this.backPanel.Controls.Add(this.label7);
             this.backPanel.Location = new System.Drawing.Point(23, 136);
             this.backPanel.Name = "backPanel";
@@ -207,20 +207,19 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(579, 7);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(82, 28);
+            this.label7.Size = new System.Drawing.Size(83, 20);
             this.label7.TabIndex = 0;
             this.label7.Text = "AMOUNT";
             // 
-            // dataGridClerkUnitScreen1
+            // clerkUnitListRepeater1
             // 
-            this.dataGridClerkUnitScreen1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.dataGridClerkUnitScreen1.Location = new System.Drawing.Point(-1, 47);
-            this.dataGridClerkUnitScreen1.Name = "dataGridClerkUnitScreen1";
-            this.dataGridClerkUnitScreen1.Size = new System.Drawing.Size(910, 38);
-            this.dataGridClerkUnitScreen1.TabIndex = 1;
+            this.clerkUnitListRepeater1.Location = new System.Drawing.Point(-1, 50);
+            this.clerkUnitListRepeater1.Name = "clerkUnitListRepeater1";
+            this.clerkUnitListRepeater1.Size = new System.Drawing.Size(910, 37);
+            this.clerkUnitListRepeater1.TabIndex = 1;
             // 
             // clerkUnitScreen
             // 
@@ -266,6 +265,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel backPanel;
         private System.Windows.Forms.Label label7;
-        private dataGridClerkUnitScreen dataGridClerkUnitScreen1;
+        private clerkUnitListRepeater clerkUnitListRepeater1;
     }
 }
