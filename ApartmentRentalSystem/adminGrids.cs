@@ -15,11 +15,9 @@ namespace ApartmentRentalSystem
         public adminGrids()
         {
             InitializeComponent();
-            
-            
         }
 
-        public string methodName(string roomName, string description, string price) 
+        public void methodName(string roomName, string description, string price) 
         { 
             unitLabel.Text = Convert.ToString(roomName);
             descLabel.Text = Convert.ToString(description);

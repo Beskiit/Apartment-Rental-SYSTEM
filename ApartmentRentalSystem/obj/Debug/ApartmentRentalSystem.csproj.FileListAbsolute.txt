@@ -274,3 +274,11 @@ C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridUnitScreen.resources
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridUserScreen.resources
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminGrids.resources
+C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminGrids.resources
+C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridClerkPaymentScreen.resources
+C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridClerkTenantScreen.resources
+C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridClerkUnitScreen.resources
+C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridPaymentScreen.resources
+C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridTenantScreen.resources
+C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridUnitScreen.resources
+C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.dataGridUserScreen.resources

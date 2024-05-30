@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,9 +18,20 @@ namespace ApartmentRentalSystem
             InitializeComponent();
         }
 
-        private void label8_Click(object sender, EventArgs e)
+        public void LoadData()
         {
+            try
+            {
+                Connection.conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT firstName, lastName, phoneNumber, unit, moveInDate FROM Tenant");
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+            }
+            catch
+            {
 
+            }
         }
     }
 }
