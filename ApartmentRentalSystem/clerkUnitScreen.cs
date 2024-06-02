@@ -20,5 +20,15 @@ namespace ApartmentRentalSystem
         private void button4_Click(object sender, EventArgs e)
         {
         }
+
+        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

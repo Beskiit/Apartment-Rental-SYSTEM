@@ -20,5 +20,10 @@ namespace ApartmentRentalSystem
         private void button4_Click(object sender, EventArgs e)
         {
         }
+
+        private void adminUserScreen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

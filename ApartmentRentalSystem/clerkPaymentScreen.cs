@@ -36,5 +36,10 @@ namespace ApartmentRentalSystem
         private void addPayment_Click(object sender, EventArgs e)
         {
         }
+
+        private void clerkAddPayment11_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

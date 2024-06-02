@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
 {
     public partial class adminTenantScreen : UserControl
     {
-        private addTenant1 addControl;
         private addTenant addTenantControl;
 
         public adminTenantScreen()
@@ -22,13 +14,11 @@ namespace ApartmentRentalSystem
 
         private void ShowAddControl()
         {
-            addControl.Visible = true;
             addTenantControl.Visible = false;
         }
 
         private void ShowAddTenantControl()
         {
-            addControl.Visible = false;
             addTenantControl.Visible = true;
         }
 
@@ -40,6 +30,16 @@ namespace ApartmentRentalSystem
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ShowAddTenantControl();
+        }
+
+        private void addTenant1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void adminTenantScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
