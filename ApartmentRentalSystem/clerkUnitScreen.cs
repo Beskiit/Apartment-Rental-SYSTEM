@@ -19,8 +19,6 @@ namespace ApartmentRentalSystem
 
         private void button4_Click(object sender, EventArgs e)
         {
-            clerkAddUnitForm clerkAddUnitForm = new clerkAddUnitForm();
-            clerkAddUnitForm.Show();
         }
     }
 }

@@ -35,8 +35,6 @@ namespace ApartmentRentalSystem
 
         private void addPayment_Click(object sender, EventArgs e)
         {
-            clerkAddPaymentForm clerkAddPaymentForm =new clerkAddPaymentForm();
-            clerkAddPaymentForm.Show();
         }
     }
 }

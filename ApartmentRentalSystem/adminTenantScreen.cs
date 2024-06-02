@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,15 +12,34 @@ namespace ApartmentRentalSystem
 {
     public partial class adminTenantScreen : UserControl
     {
+        private addTenant1 addControl;
+        private addTenant addTenantControl;
+
         public adminTenantScreen()
         {
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void ShowAddControl()
         {
-            adminAddTenantForm adminAddTenantForm = new adminAddTenantForm();
-            adminAddTenantForm.Show();
+            addControl.Visible = true;
+            addTenantControl.Visible = false;
+        }
+
+        private void ShowAddTenantControl()
+        {
+            addControl.Visible = false;
+            addTenantControl.Visible = true;
+        }
+
+        private void addToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ShowAddControl();
+        }
+
+        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ShowAddTenantControl();
         }
     }
 }

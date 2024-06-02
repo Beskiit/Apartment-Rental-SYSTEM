@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
@@ -15,43 +10,38 @@ namespace ApartmentRentalSystem
         public adminPaymentScreen()
         {
             InitializeComponent();
+
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-        
             admin bigForm = Application.OpenForms.OfType<admin>().FirstOrDefault();
-
             if (bigForm != null)
             {
-    
                 bigForm.ShowOverlay();
-
-
-                adminAddTransactionForm adminAddTransactionForm = new adminAddTransactionForm();
-                adminAddTransactionForm.FormClosed += (s, args) => bigForm.HideOverlay();
-                adminAddTransactionForm.ShowDialog(bigForm); 
             }
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        public class CustomToolStripRenderer : ToolStripProfessionalRenderer
         {
+            protected override void OnRenderItemText(ToolStripItemTextRenderEventArgs e)
+            {
+                base.OnRenderItemText(e);
 
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void adminPaymentScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void backPanel_Paint(object sender, PaintEventArgs e)
-        {
-
+                if (e.Item.Selected)
+                {
+                    // Increase font size when hovered
+                    Font originalFont = e.Item.Font;
+                    Font hoverFont = new Font(originalFont.FontFamily, originalFont.Size + 2, originalFont.Style);
+                    e.TextFont = hoverFont;
+                }
+                else
+                {
+                    // Reset font size when not hovered
+                    e.TextFont = e.Item.Font;
+                }
+            }
         }
     }
 }

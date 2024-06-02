@@ -35,23 +35,26 @@
             // 
             // username
             // 
-            this.username.Location = new System.Drawing.Point(247, 153);
+            this.username.Location = new System.Drawing.Point(185, 124);
+            this.username.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(301, 22);
+            this.username.Size = new System.Drawing.Size(227, 20);
             this.username.TabIndex = 0;
             // 
             // password
             // 
-            this.password.Location = new System.Drawing.Point(247, 226);
+            this.password.Location = new System.Drawing.Point(185, 184);
+            this.password.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(301, 22);
+            this.password.Size = new System.Drawing.Size(227, 20);
             this.password.TabIndex = 1;
             // 
             // loginButton
             // 
-            this.loginButton.Location = new System.Drawing.Point(360, 309);
+            this.loginButton.Location = new System.Drawing.Point(270, 251);
+            this.loginButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(75, 23);
+            this.loginButton.Size = new System.Drawing.Size(56, 19);
             this.loginButton.TabIndex = 2;
             this.loginButton.Text = "button1";
             this.loginButton.UseVisualStyleBackColor = true;
@@ -59,13 +62,12 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 500);
+            this.ClientSize = new System.Drawing.Size(554, 406);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.password);
             this.Controls.Add(this.username);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

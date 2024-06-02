@@ -56,6 +56,15 @@
     <Reference Include="Azure.Identity, Version=1.10.3.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
       <HintPath>..\packages\Azure.Identity.1.10.3\lib\netstandard2.0\Azure.Identity.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Downloads\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI-unpacked">
+      <HintPath>..\..\..\..\Downloads\Guna.UI-unpacked.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.1\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
@@ -93,6 +102,7 @@
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=6.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.6.0.1\lib\net461\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
@@ -103,6 +113,7 @@
     <Reference Include="System.IO.FileSystem.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.FileSystem.AccessControl.5.0.0\lib\net461\System.IO.FileSystem.AccessControl.dll</HintPath>
     </Reference>
+    <Reference Include="System.Management" />
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
     </Reference>
@@ -149,6 +160,7 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Windows.Forms.DataVisualization.Design" />
     <Reference Include="System.Xml.Linq" />
@@ -163,35 +175,59 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addTenant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addTenant.Designer.cs">
+      <DependentUpon>addTenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addTenant1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addTenant1.Designer.cs">
+      <DependentUpon>addTenant1.cs</DependentUpon>
+    </Compile>
     <Compile Include="admin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminAddTenantForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="adminAddPayment.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminAddTenantForm.Designer.cs">
-      <DependentUpon>adminAddTenantForm.cs</DependentUpon>
+    <Compile Include="adminAddPayment.Designer.cs">
+      <DependentUpon>adminAddPayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminAddTransactionForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="adminAddPayment1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminAddTransactionForm.Designer.cs">
-      <DependentUpon>adminAddTransactionForm.cs</DependentUpon>
+    <Compile Include="adminAddPayment1.Designer.cs">
+      <DependentUpon>adminAddPayment1.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminAddUnitForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="adminaddUnit.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminAddUnitForm.Designer.cs">
-      <DependentUpon>adminAddUnitForm.cs</DependentUpon>
+    <Compile Include="adminaddUnit.Designer.cs">
+      <DependentUpon>adminaddUnit.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminAddUserForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="adminAddUnit1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminAddUserForm.Designer.cs">
-      <DependentUpon>adminAddUserForm.cs</DependentUpon>
+    <Compile Include="adminAddUnit1.Designer.cs">
+      <DependentUpon>adminAddUnit1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminAddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminAddUser.Designer.cs">
+      <DependentUpon>adminAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminAddUser1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminAddUser1.Designer.cs">
+      <DependentUpon>adminAddUser1.cs</DependentUpon>
     </Compile>
     <Compile Include="adminDashboardScreen.cs">
       <SubType>UserControl</SubType>
@@ -199,17 +235,41 @@
     <Compile Include="adminDashboardScreen.Designer.cs">
       <DependentUpon>adminDashboardScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminGrids.cs">
+    <Compile Include="adminDeletePayment.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminGrids.Designer.cs">
-      <DependentUpon>adminGrids.cs</DependentUpon>
+    <Compile Include="adminDeletePayment.Designer.cs">
+      <DependentUpon>adminDeletePayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminPaymentListRepeater.cs">
+    <Compile Include="adminDeletePayment1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminPaymentListRepeater.Designer.cs">
-      <DependentUpon>adminPaymentListRepeater.cs</DependentUpon>
+    <Compile Include="adminDeletePayment1.Designer.cs">
+      <DependentUpon>adminDeletePayment1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminDeleteUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminDeleteUnit.Designer.cs">
+      <DependentUpon>adminDeleteUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminDeleteUnit1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminDeleteUnit1.Designer.cs">
+      <DependentUpon>adminDeleteUnit1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminDeleteUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminDeleteUser.Designer.cs">
+      <DependentUpon>adminDeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminDeleteUser1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminDeleteUser1.Designer.cs">
+      <DependentUpon>adminDeleteUser1.cs</DependentUpon>
     </Compile>
     <Compile Include="adminPaymentScreen.cs">
       <SubType>UserControl</SubType>
@@ -217,23 +277,11 @@
     <Compile Include="adminPaymentScreen.Designer.cs">
       <DependentUpon>adminPaymentScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminTenantListRepeater.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="adminTenantListRepeater.Designer.cs">
-      <DependentUpon>adminTenantListRepeater.cs</DependentUpon>
-    </Compile>
     <Compile Include="adminTenantScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="adminTenantScreen.Designer.cs">
       <DependentUpon>adminTenantScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="adminUnitListRepeater.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="adminUnitListRepeater.Designer.cs">
-      <DependentUpon>adminUnitListRepeater.cs</DependentUpon>
     </Compile>
     <Compile Include="adminUnitScreen.cs">
       <SubType>UserControl</SubType>
@@ -241,11 +289,41 @@
     <Compile Include="adminUnitScreen.Designer.cs">
       <DependentUpon>adminUnitScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminUserListRepater.cs">
+    <Compile Include="adminUpdatePayment.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AdminUserListRepater.Designer.cs">
-      <DependentUpon>AdminUserListRepater.cs</DependentUpon>
+    <Compile Include="adminUpdatePayment.Designer.cs">
+      <DependentUpon>adminUpdatePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminUpdatePayment1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminUpdatePayment1.Designer.cs">
+      <DependentUpon>adminUpdatePayment1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminUpdateUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminUpdateUnit.Designer.cs">
+      <DependentUpon>adminUpdateUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminUpdateUnit1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminUpdateUnit1.Designer.cs">
+      <DependentUpon>adminUpdateUnit1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminUpdateUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminUpdateUser.Designer.cs">
+      <DependentUpon>adminUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminUpdateUser1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminUpdateUser1.Designer.cs">
+      <DependentUpon>adminUpdateUser1.cs</DependentUpon>
     </Compile>
     <Compile Include="adminUserScreen.cs">
       <SubType>UserControl</SubType>
@@ -259,23 +337,41 @@
     <Compile Include="clerk.Designer.cs">
       <DependentUpon>clerk.cs</DependentUpon>
     </Compile>
-    <Compile Include="clerkAddPaymentForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="clerkAddPayment.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="clerkAddPaymentForm.Designer.cs">
-      <DependentUpon>clerkAddPaymentForm.cs</DependentUpon>
+    <Compile Include="clerkAddPayment.Designer.cs">
+      <DependentUpon>clerkAddPayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="clerkAddTenantForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="clerkAddPayment1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="clerkAddTenantForm.Designer.cs">
-      <DependentUpon>clerkAddTenantForm.cs</DependentUpon>
+    <Compile Include="clerkAddPayment1.Designer.cs">
+      <DependentUpon>clerkAddPayment1.cs</DependentUpon>
     </Compile>
-    <Compile Include="clerkAddUnitForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="clerkAddTenant.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="clerkAddUnitForm.Designer.cs">
-      <DependentUpon>clerkAddUnitForm.cs</DependentUpon>
+    <Compile Include="clerkAddTenant.Designer.cs">
+      <DependentUpon>clerkAddTenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkAddTenant1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkAddTenant1.Designer.cs">
+      <DependentUpon>clerkAddTenant1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkAddUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkAddUnit.Designer.cs">
+      <DependentUpon>clerkAddUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkAddUnit1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkAddUnit1.Designer.cs">
+      <DependentUpon>clerkAddUnit1.cs</DependentUpon>
     </Compile>
     <Compile Include="clerkDashboardScreen.cs">
       <SubType>UserControl</SubType>
@@ -283,23 +379,11 @@
     <Compile Include="clerkDashboardScreen.Designer.cs">
       <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="clerkPaymentListRepeater.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkPaymentListRepeater.Designer.cs">
-      <DependentUpon>clerkPaymentListRepeater.cs</DependentUpon>
-    </Compile>
     <Compile Include="clerkPaymentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="clerkPaymentScreen.Designer.cs">
       <DependentUpon>clerkPaymentScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkTenantListRepeater.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkTenantListRepeater.Designer.cs">
-      <DependentUpon>clerkTenantListRepeater.cs</DependentUpon>
     </Compile>
     <Compile Include="clerkTenantScreen.cs">
       <SubType>UserControl</SubType>
@@ -307,17 +391,23 @@
     <Compile Include="clerkTenantScreen.Designer.cs">
       <DependentUpon>clerkTenantScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="clerkUnitListRepeater.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkUnitListRepeater.Designer.cs">
-      <DependentUpon>clerkUnitListRepeater.cs</DependentUpon>
-    </Compile>
     <Compile Include="clerkUnitScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="clerkUnitScreen.Designer.cs">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteTenant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="deleteTenant.Designer.cs">
+      <DependentUpon>deleteTenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteTenant1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="deleteTenant1.Designer.cs">
+      <DependentUpon>deleteTenant1.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -333,47 +423,92 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="updateTenant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="updateTenant.Designer.cs">
+      <DependentUpon>updateTenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateTenant1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="updateTenant1.Designer.cs">
+      <DependentUpon>updateTenant1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addTenant.resx">
+      <DependentUpon>addTenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addTenant1.resx">
+      <DependentUpon>addTenant1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminAddTenantForm.resx">
-      <DependentUpon>adminAddTenantForm.cs</DependentUpon>
+    <EmbeddedResource Include="adminAddPayment.resx">
+      <DependentUpon>adminAddPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminAddTransactionForm.resx">
-      <DependentUpon>adminAddTransactionForm.cs</DependentUpon>
+    <EmbeddedResource Include="adminAddPayment1.resx">
+      <DependentUpon>adminAddPayment1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminAddUnitForm.resx">
-      <DependentUpon>adminAddUnitForm.cs</DependentUpon>
+    <EmbeddedResource Include="adminaddUnit.resx">
+      <DependentUpon>adminaddUnit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminAddUserForm.resx">
-      <DependentUpon>adminAddUserForm.cs</DependentUpon>
+    <EmbeddedResource Include="adminAddUnit1.resx">
+      <DependentUpon>adminAddUnit1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminAddUser.resx">
+      <DependentUpon>adminAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminAddUser1.resx">
+      <DependentUpon>adminAddUser1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminDashboardScreen.resx">
       <DependentUpon>adminDashboardScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminGrids.resx">
-      <DependentUpon>adminGrids.cs</DependentUpon>
+    <EmbeddedResource Include="adminDeletePayment.resx">
+      <DependentUpon>adminDeletePayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminPaymentListRepeater.resx">
-      <DependentUpon>adminPaymentListRepeater.cs</DependentUpon>
+    <EmbeddedResource Include="adminDeletePayment1.resx">
+      <DependentUpon>adminDeletePayment1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminDeleteUnit.resx">
+      <DependentUpon>adminDeleteUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminDeleteUnit1.resx">
+      <DependentUpon>adminDeleteUnit1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminDeleteUser.resx">
+      <DependentUpon>adminDeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminDeleteUser1.resx">
+      <DependentUpon>adminDeleteUser1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminPaymentScreen.resx">
       <DependentUpon>adminPaymentScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminTenantListRepeater.resx">
-      <DependentUpon>adminTenantListRepeater.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="adminTenantScreen.resx">
       <DependentUpon>adminTenantScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="adminUnitListRepeater.resx">
-      <DependentUpon>adminUnitListRepeater.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminUnitScreen.resx">
       <DependentUpon>adminUnitScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminUserListRepater.resx">
-      <DependentUpon>AdminUserListRepater.cs</DependentUpon>
+    <EmbeddedResource Include="adminUpdatePayment.resx">
+      <DependentUpon>adminUpdatePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminUpdatePayment1.resx">
+      <DependentUpon>adminUpdatePayment1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminUpdateUnit.resx">
+      <DependentUpon>adminUpdateUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminUpdateUnit1.resx">
+      <DependentUpon>adminUpdateUnit1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminUpdateUser.resx">
+      <DependentUpon>adminUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminUpdateUser1.resx">
+      <DependentUpon>adminUpdateUser1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminUserScreen.resx">
       <DependentUpon>adminUserScreen.cs</DependentUpon>
@@ -381,35 +516,41 @@
     <EmbeddedResource Include="clerk.resx">
       <DependentUpon>clerk.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clerkAddPaymentForm.resx">
-      <DependentUpon>clerkAddPaymentForm.cs</DependentUpon>
+    <EmbeddedResource Include="clerkAddPayment.resx">
+      <DependentUpon>clerkAddPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clerkAddTenantForm.resx">
-      <DependentUpon>clerkAddTenantForm.cs</DependentUpon>
+    <EmbeddedResource Include="clerkAddPayment1.resx">
+      <DependentUpon>clerkAddPayment1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clerkAddUnitForm.resx">
-      <DependentUpon>clerkAddUnitForm.cs</DependentUpon>
+    <EmbeddedResource Include="clerkAddTenant.resx">
+      <DependentUpon>clerkAddTenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkAddTenant1.resx">
+      <DependentUpon>clerkAddTenant1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkAddUnit.resx">
+      <DependentUpon>clerkAddUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkAddUnit1.resx">
+      <DependentUpon>clerkAddUnit1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clerkDashboardScreen.resx">
       <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clerkPaymentListRepeater.resx">
-      <DependentUpon>clerkPaymentListRepeater.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="clerkPaymentScreen.resx">
       <DependentUpon>clerkPaymentScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkTenantListRepeater.resx">
-      <DependentUpon>clerkTenantListRepeater.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clerkTenantScreen.resx">
       <DependentUpon>clerkTenantScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clerkUnitListRepeater.resx">
-      <DependentUpon>clerkUnitListRepeater.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="clerkUnitScreen.resx">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteTenant.resx">
+      <DependentUpon>deleteTenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteTenant1.resx">
+      <DependentUpon>deleteTenant1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -423,6 +564,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="updateTenant.resx">
+      <DependentUpon>updateTenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateTenant1.resx">
+      <DependentUpon>updateTenant1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -19,8 +19,6 @@ namespace ApartmentRentalSystem
 
         private void button4_Click(object sender, EventArgs e)
         {
-            adminAddUnitForm adminAddUnitForm = new adminAddUnitForm();
-            adminAddUnitForm.Show();
         }
 
         private void adminUnitScreen_Load(object sender, EventArgs e)
