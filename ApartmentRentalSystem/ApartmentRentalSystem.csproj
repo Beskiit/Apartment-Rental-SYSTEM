@@ -193,6 +193,12 @@
     <Compile Include="adminAddPayment.Designer.cs">
       <DependentUpon>adminAddPayment.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminAddTransaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminAddTransaction.Designer.cs">
+      <DependentUpon>adminAddTransaction.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminaddUnit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -217,6 +223,12 @@
     <Compile Include="adminDeletePayment.Designer.cs">
       <DependentUpon>adminDeletePayment.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminDeleteTransaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminDeleteTransaction.Designer.cs">
+      <DependentUpon>adminDeleteTransaction.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminDeleteUnit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -240,6 +252,18 @@
     </Compile>
     <Compile Include="adminTenantScreen.Designer.cs">
       <DependentUpon>adminTenantScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminTransactionScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminTransactionScreen.Designer.cs">
+      <DependentUpon>adminTransactionScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminUdateTransaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminUdateTransaction.Designer.cs">
+      <DependentUpon>adminUdateTransaction.cs</DependentUpon>
     </Compile>
     <Compile Include="adminUnitScreen.cs">
       <SubType>UserControl</SubType>
@@ -295,6 +319,12 @@
     <Compile Include="clerkTenantScreen.Designer.cs">
       <DependentUpon>clerkTenantScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="clerkTransactionScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkTransactionScreen.Designer.cs">
+      <DependentUpon>clerkTransactionScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="clerkUnitScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -342,6 +372,9 @@
     <EmbeddedResource Include="adminAddPayment.resx">
       <DependentUpon>adminAddPayment.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="adminAddTransaction.resx">
+      <DependentUpon>adminAddTransaction.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="adminaddUnit.resx">
       <DependentUpon>adminaddUnit.cs</DependentUpon>
     </EmbeddedResource>
@@ -354,6 +387,9 @@
     <EmbeddedResource Include="adminDeletePayment.resx">
       <DependentUpon>adminDeletePayment.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="adminDeleteTransaction.resx">
+      <DependentUpon>adminDeleteTransaction.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="adminDeleteUnit.resx">
       <DependentUpon>adminDeleteUnit.cs</DependentUpon>
     </EmbeddedResource>
@@ -365,6 +401,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminTenantScreen.resx">
       <DependentUpon>adminTenantScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminTransactionScreen.resx">
+      <DependentUpon>adminTransactionScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminUdateTransaction.resx">
+      <DependentUpon>adminUdateTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminUnitScreen.resx">
       <DependentUpon>adminUnitScreen.cs</DependentUpon>
@@ -392,6 +434,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clerkTenantScreen.resx">
       <DependentUpon>clerkTenantScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkTransactionScreen.resx">
+      <DependentUpon>clerkTransactionScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clerkUnitScreen.resx">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>

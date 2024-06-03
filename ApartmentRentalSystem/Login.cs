@@ -41,10 +41,10 @@ namespace ApartmentRentalSystem
 
 
            
-        private void loginButton_Click_1(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-            string username1 = username.Text;
-            string password1 = password.Text;
+            string username1 = guna2TextBox2.Text;
+            string password1 = guna2TextBox1.Text;
 
             if (username1 == "admin" && password1 == "admin123")
             {
@@ -63,7 +63,7 @@ namespace ApartmentRentalSystem
                 MessageBox.Show("Invalid username or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
     }
 }
+
 

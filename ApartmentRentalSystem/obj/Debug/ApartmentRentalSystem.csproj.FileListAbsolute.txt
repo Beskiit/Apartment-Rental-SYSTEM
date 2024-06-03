@@ -283,3 +283,8 @@ C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\De
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdateUnit.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdateUser.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.successForm.resources
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminAddTransaction.resources
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminTransactionScreen.resources
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminDeleteTransaction.resources
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUdateTransaction.resources
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.clerkTransactionScreen.resources
