@@ -16,7 +16,7 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
-        private void addUserControl(UserControl userControl)
+        public void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
             mainPanel.Controls.Clear();
@@ -71,6 +71,11 @@ namespace ApartmentRentalSystem
                 this.Close();
 
             }
+        }
+
+        private void clerkDashboardScreen1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

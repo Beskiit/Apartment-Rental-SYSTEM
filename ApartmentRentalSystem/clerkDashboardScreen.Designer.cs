@@ -59,10 +59,11 @@
             // 
             // dateLabel
             // 
-            this.dateLabel.Font = new System.Drawing.Font("Poppins Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateLabel.Location = new System.Drawing.Point(725, 18);
+            this.dateLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateLabel.Location = new System.Drawing.Point(967, 22);
+            this.dateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(170, 23);
+            this.dateLabel.Size = new System.Drawing.Size(227, 28);
             this.dateLabel.TabIndex = 16;
             this.dateLabel.Text = "label7";
             this.dateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -79,24 +80,26 @@
             this.pieChartUnit.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.pieChartUnit.Legends.Add(legend1);
-            this.pieChartUnit.Location = new System.Drawing.Point(3, 3);
+            this.pieChartUnit.Location = new System.Drawing.Point(4, 4);
+            this.pieChartUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pieChartUnit.Name = "pieChartUnit";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.pieChartUnit.Series.Add(series1);
-            this.pieChartUnit.Size = new System.Drawing.Size(480, 454);
+            this.pieChartUnit.Size = new System.Drawing.Size(640, 559);
             this.pieChartUnit.TabIndex = 18;
             this.pieChartUnit.Text = "chart1";
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(136, 40);
+            this.label3.Location = new System.Drawing.Point(181, 49);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 39);
+            this.label3.Size = new System.Drawing.Size(61, 48);
             this.label3.TabIndex = 2;
             this.label3.Text = "0";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -104,11 +107,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(95, 9);
+            this.label4.Location = new System.Drawing.Point(127, 11);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 28);
+            this.label4.Size = new System.Drawing.Size(107, 25);
             this.label4.TabIndex = 1;
             this.label4.Text = "Payments";
             // 
@@ -116,10 +120,11 @@
             // 
             this.ViewDetailsPayments.FlatAppearance.BorderSize = 0;
             this.ViewDetailsPayments.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ViewDetailsPayments.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewDetailsPayments.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ViewDetailsPayments.Location = new System.Drawing.Point(0, 0);
+            this.ViewDetailsPayments.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ViewDetailsPayments.Name = "ViewDetailsPayments";
-            this.ViewDetailsPayments.Size = new System.Drawing.Size(200, 32);
+            this.ViewDetailsPayments.Size = new System.Drawing.Size(267, 39);
             this.ViewDetailsPayments.TabIndex = 4;
             this.ViewDetailsPayments.Text = "View Details";
             this.ViewDetailsPayments.UseVisualStyleBackColor = true;
@@ -127,9 +132,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(72, 76);
+            this.pictureBox2.Size = new System.Drawing.Size(96, 94);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -137,10 +143,11 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(152, 18);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(203, 22);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(71, 34);
+            this.label7.Size = new System.Drawing.Size(91, 29);
             this.label7.TabIndex = 17;
             this.label7.Text = "UNITS";
             // 
@@ -150,40 +157,45 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Location = new System.Drawing.Point(695, 95);
+            this.panel3.Location = new System.Drawing.Point(927, 117);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 82);
+            this.panel3.Size = new System.Drawing.Size(267, 101);
             this.panel3.TabIndex = 11;
             // 
             // viewDetailsTenants
             // 
             this.viewDetailsTenants.FlatAppearance.BorderSize = 0;
             this.viewDetailsTenants.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewDetailsTenants.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDetailsTenants.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewDetailsTenants.Location = new System.Drawing.Point(0, 0);
+            this.viewDetailsTenants.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.viewDetailsTenants.Name = "viewDetailsTenants";
-            this.viewDetailsTenants.Size = new System.Drawing.Size(200, 32);
+            this.viewDetailsTenants.Size = new System.Drawing.Size(267, 39);
             this.viewDetailsTenants.TabIndex = 4;
             this.viewDetailsTenants.Text = "View Details";
             this.viewDetailsTenants.UseVisualStyleBackColor = true;
+            this.viewDetailsTenants.Click += new System.EventHandler(this.viewDetailsTenants_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.panel2.Controls.Add(this.viewDetailsTenants);
-            this.panel2.Location = new System.Drawing.Point(489, 177);
+            this.panel2.Location = new System.Drawing.Point(652, 218);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 32);
+            this.panel2.Size = new System.Drawing.Size(267, 39);
             this.panel2.TabIndex = 14;
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.Font = new System.Drawing.Font("Poppins Medium", 12.75F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(136, 40);
+            this.label2.Location = new System.Drawing.Point(181, 49);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 39);
+            this.label2.Size = new System.Drawing.Size(61, 48);
             this.label2.TabIndex = 2;
             this.label2.Text = "0";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -191,20 +203,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(113, 9);
+            this.label1.Location = new System.Drawing.Point(151, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 28);
+            this.label1.Size = new System.Drawing.Size(91, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tenants";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(72, 76);
+            this.pictureBox1.Size = new System.Drawing.Size(96, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -213,9 +227,10 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.panel4.Controls.Add(this.ViewDetailsPayments);
-            this.panel4.Location = new System.Drawing.Point(695, 177);
+            this.panel4.Location = new System.Drawing.Point(927, 218);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 32);
+            this.panel4.Size = new System.Drawing.Size(267, 39);
             this.panel4.TabIndex = 15;
             // 
             // panel1
@@ -224,24 +239,26 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(489, 95);
+            this.panel1.Location = new System.Drawing.Point(652, 117);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 82);
+            this.panel1.Size = new System.Drawing.Size(267, 101);
             this.panel1.TabIndex = 12;
             // 
             // viewDetailsUnits
             // 
-            this.viewDetailsUnits.Font = new System.Drawing.Font("Poppins", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewDetailsUnits.Location = new System.Drawing.Point(130, 424);
+            this.viewDetailsUnits.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewDetailsUnits.Location = new System.Drawing.Point(173, 522);
+            this.viewDetailsUnits.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.viewDetailsUnits.Name = "viewDetailsUnits";
-            this.viewDetailsUnits.Size = new System.Drawing.Size(116, 33);
+            this.viewDetailsUnits.Size = new System.Drawing.Size(155, 41);
             this.viewDetailsUnits.TabIndex = 9;
             this.viewDetailsUnits.Text = "View Details";
             this.viewDetailsUnits.UseVisualStyleBackColor = true;
             // 
             // clerkDashboardScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.label7);
@@ -251,8 +268,9 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.viewDetailsUnits);
             this.Controls.Add(this.pieChartUnit);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "clerkDashboardScreen";
-            this.Size = new System.Drawing.Size(950, 600);
+            this.Size = new System.Drawing.Size(1267, 738);
             ((System.ComponentModel.ISupportInitialize)(this.pieChartUnit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);

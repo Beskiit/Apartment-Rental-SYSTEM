@@ -1,129 +1,137 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\",
+  "WorkspaceRootPath": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\deletetenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|c:\\users\\tristan\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\deletetenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\deletetenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\updatetenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\updatetenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdateunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminupdateunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdatepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminupdatepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminudatetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminudatetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admintransactionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admintransactionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admintenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admintenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admintenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminudatetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminudatetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdatepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminupdatepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeleteunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeleteunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdateunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminupdateunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeletetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeletetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeletepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeletepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminaddunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminaddunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminaddtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminaddtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminaddpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminaddpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admintransactionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admintransactionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admintenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admintenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\addtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\addtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminaddunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminaddunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\updatetenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\updatetenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admintransactionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admintransactionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeleteunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeleteunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeletetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeletetransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeletepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeletepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminaddtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminaddtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminaddpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminaddpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admintransactionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admintransactionscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admintenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admintenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\addtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\addtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -133,139 +141,131 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jack_\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\dataGridClerkTenantScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\overlayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\overlayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\overlayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\successform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\successform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\successform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerktenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerktenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerktenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkdashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkdashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkdashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkunitscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminuserscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminuserscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminuserscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkpaymentscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkpaymentscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkpaymentscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkunitscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkunitscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkunitscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerktenantscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerktenantscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerktenantscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminunitscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminunitscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminunitscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminpaymentscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminpaymentscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminpaymentscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\successform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\successform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\successform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\successform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\successform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\successform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerktenantscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerktenantscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerktenantscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkpaymentscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkpaymentscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkpaymentscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminpaymentscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminpaymentscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminpaymentscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkunitscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkunitscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkunitscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminunitscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminunitscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminunitscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminuserscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminuserscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminuserscreen.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminadduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeleteunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindeleteunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindeleteunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdatepayment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdatepayment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminupdatepayment.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdatepayment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\adminupdatepayment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\adminupdatepayment.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admintenantscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admintenantscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admintenantscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerktenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerktenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerktenantscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkpaymentscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkdashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\clerkdashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\clerkdashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\overlayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\overlayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\overlayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\apartmentrentalsystem\\admindashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C414474B-0D55-465D-91E3-0C54DDB6B4FB}|ApartmentRentalSystem\\ApartmentRentalSystem.csproj|solutionrelative:apartmentrentalsystem\\admindashboardscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -296,76 +296,58 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jack_\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\dataGridPaymentScreen.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admindeleteuser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\admindeleteuser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admindeleteuser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admindeletepayment1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\admindeletepayment1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admindeletepayment1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admindeleteunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\admindeleteunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admindeleteunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admindeletepayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\admindeletepayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\admindeletepayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminadduser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\adminadduser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminadduser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminaddunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\adminaddunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminaddunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminaddpayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\adminaddpayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminaddpayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\addtenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\addtenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\addtenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminupdateuser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\adminupdateuser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminupdateuser1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\clerkaddunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\clerkaddunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminupdateunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\adminupdateunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\adminupdateunit1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\updatetenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\updatetenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\updatetenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\deletetenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\deletetenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\deletetenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddtenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\clerkaddtenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddtenant1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\clerkaddtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddtenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddpayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\clerkaddpayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddpayment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:apartmentrentalsystem\\clerkaddpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\cedri\\source\\repos\\apartment-rental-system\\apartmentrentalsystem\\clerkaddpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -375,15 +357,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 8,
               "Title": "admin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\admin.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.cs [Design]",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.cs [Design]",
               "RelativeToolTip": "ApartmentRentalSystem\\admin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T00:17:54.001Z",
@@ -392,15 +374,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\Login.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\Login.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\Login.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T02:18:51.426Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -408,99 +394,19 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "updateTenant.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\updateTenant.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\updateTenant.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T03:14:14.209Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "deleteTenant.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\deleteTenant.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\deleteTenant.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\deleteTenant.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\deleteTenant.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T03:46:00.967Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "adminUpdateUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUser.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdateUser.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUser.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdateUser.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T04:04:30.873Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "adminUpdateUnit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUnit.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdateUnit.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUnit.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdateUnit.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T04:03:00.409Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "adminUpdatePayment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdatePayment.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdatePayment.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T03:53:14.283Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "adminUdateTransaction.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUdateTransaction.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUdateTransaction.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUdateTransaction.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUdateTransaction.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T01:01:28.317Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "adminTransactionScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminTransactionScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminTransactionScreen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T01:00:00.265Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "adminTenantScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminTenantScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.cs [Design]",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.cs [Design]",
               "RelativeToolTip": "ApartmentRentalSystem\\adminTenantScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T03:08:15.306Z",
@@ -508,172 +414,264 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "adminPaymentScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminPaymentScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminPaymentScreen.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "deleteTenant.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\deleteTenant.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\deleteTenant.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\deleteTenant.cs [Design]",
+              "RelativeToolTip": "ApartmentRentalSystem\\deleteTenant.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T23:05:28.171Z",
+              "WhenOpened": "2024-06-02T03:46:00.967Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clerkUnitScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkUnitScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.cs [Design]*",
+              "RelativeToolTip": "ApartmentRentalSystem\\clerkUnitScreen.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T11:36:04.92Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clerkUnitScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkUnitScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.cs*",
+              "RelativeToolTip": "ApartmentRentalSystem\\clerkUnitScreen.cs*",
+              "ViewState": "AQIAABYAAAAAAAAAAAAhwCAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T23:15:01.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "adminUdateTransaction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUdateTransaction.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUdateTransaction.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUdateTransaction.cs [Design]",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminUdateTransaction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T01:01:28.317Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "adminUpdatePayment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdatePayment.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.cs [Design]",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdatePayment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T03:53:14.283Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "adminUpdateUnit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUnit.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdateUnit.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUnit.cs [Design]",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdateUnit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:03:00.409Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "adminUpdateUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUser.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdateUser.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUser.cs [Design]",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdateUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:04:30.873Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "adminDeleteUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteUser.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeleteUser.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T04:05:08.945Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "adminDeleteUnit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteUnit.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeleteUnit.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T04:03:28.415Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "adminDeleteTransaction.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteTransaction.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteTransaction.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteTransaction.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeleteTransaction.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T01:01:37.049Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "adminDeletePayment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeletePayment.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeletePayment.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T03:53:52.605Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "adminDashboardScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDashboardScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDashboardScreen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T04:35:51.116Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "adminAddUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddUser.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminAddUser.cs [Design]*",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser.cs [Design]",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminAddUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:04:13.531Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "adminaddUnit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminaddUnit.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminaddUnit.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminaddUnit.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminaddUnit.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminaddUnit.cs [Design]*",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminaddUnit.cs [Design]",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminaddUnit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:02:43.342Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "adminAddTransaction.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddTransaction.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddTransaction.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddTransaction.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminAddTransaction.cs [Design]*",
+              "DocumentIndex": 11,
+              "Title": "updateTenant.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\updateTenant.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T01:01:13.275Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-02T03:14:14.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "adminTransactionScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminTransactionScreen.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T01:00:00.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "adminPaymentScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminPaymentScreen.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T23:05:28.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "adminDeleteUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteUser.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:05:08.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "adminDeleteUnit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteUnit.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T04:03:28.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "adminDeleteTransaction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteTransaction.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteTransaction.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteTransaction.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteTransaction.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T01:01:37.049Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "adminAddPayment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddPayment.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment.cs [Design]*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminAddPayment.cs [Design]*",
+              "Title": "adminDeletePayment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeletePayment.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T03:52:57.601Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2024-06-02T03:53:52.605Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "adminUserScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUserScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUserScreen.cs [Design]",
+              "Title": "adminDashboardScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDashboardScreen.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T04:30:44.297Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-26T04:35:51.116Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "adminUnitScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUnitScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUnitScreen.cs [Design]",
+              "Title": "adminAddTransaction.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddTransaction.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddTransaction.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddTransaction.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddTransaction.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T04:37:44.742Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-03T01:01:13.275Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "adminTransactionScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminTransactionScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminTransactionScreen.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCMAAAAjAAAA",
+              "Title": "adminAddPayment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddPayment.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment.cs [Design]*",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T14:14:48.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T03:52:57.601Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "adminUserScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUserScreen.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:30:44.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "adminUnitScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUnitScreen.cs",
+              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:37:44.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "adminTransactionScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminTransactionScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTransactionScreen.cs",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminTransactionScreen.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T14:14:48.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "adminTenantScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminTenantScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\adminTenantScreen.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAA4wCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -682,75 +680,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "addTenant.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\addTenant.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\addTenant.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\addTenant.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\addTenant.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\addTenant.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\addTenant.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T03:14:37.324Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "program.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\program.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\program.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\program.cs",
-              "RelativeToolTip": "ApartmentRentalSystem\\program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T14:29:38.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "adminUserScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUserScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUserScreen.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC0AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T04:35:38.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "adminUnitScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUnitScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUnitScreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T15:12:33.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T03:14:37.324Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "adminPaymentScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminPaymentScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminPaymentScreen.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAvwBwAAAAAAAAA",
+              "Title": "program.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\program.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\program.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\program.cs",
+              "RelativeToolTip": "ApartmentRentalSystem\\program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T13:51:50.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T14:29:38.599Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
+              "Title": "adminUserScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUserScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.cs",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminUserScreen.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T04:35:38.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "adminUnitScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUnitScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.cs",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminUnitScreen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:12:33.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "adminPaymentScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs",
+              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminPaymentScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.cs",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminPaymentScreen.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAvwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T13:51:50.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "admin.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\admin.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\admin.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAqwCAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -759,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "dataGridClerkTenantScreen.cs",
               "DocumentMoniker": "C:\\Users\\jack_\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\dataGridClerkTenantScreen.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\jack_\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\dataGridClerkTenantScreen.cs",
@@ -781,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "dataGridTenantScreen.cs",
               "DocumentMoniker": "C:\\Users\\jack_\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\dataGridTenantScreen.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\jack_\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\dataGridTenantScreen.cs",
@@ -804,11 +797,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\Login.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\Login.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\Login.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\Login.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\Login.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAuwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -816,102 +809,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "successForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\successForm.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\successForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T21:45:07.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "overlayForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\overlayForm.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\overlayForm.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\overlayForm.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\overlayForm.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\overlayForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\overlayForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T11:34:52.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "clerkUnitScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkUnitScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkUnitScreen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T11:36:04.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "clerkPaymentScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkPaymentScreen.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkPaymentScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T11:25:27.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "clerkTenantScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkTenantScreen.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkTenantScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T11:27:38.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "clerkDashboardScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkDashboardScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkDashboardScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkDashboardScreen.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkDashboardScreen.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkDashboardScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkDashboardScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T11:06:29.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "clerkUnitScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkUnitScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.cs*",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkUnitScreen.cs*",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA0wB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T23:15:01.777Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 40,
               "Title": "adminUserScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUserScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.Designer.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\adminUserScreen.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T23:06:55.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T23:06:55.136Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
               "Title": "clerkPaymentScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkPaymentScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.Designer.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkPaymentScreen.Designer.cs",
               "ViewState": "AQIAADoAAAAAAAAAAAAAADoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -921,9 +890,9 @@
               "$type": "Document",
               "DocumentIndex": 46,
               "Title": "successForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\successForm.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.Designer.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.Designer.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\successForm.Designer.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -933,9 +902,9 @@
               "$type": "Document",
               "DocumentIndex": 47,
               "Title": "successForm.resx",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.resx",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.resx",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\successForm.resx",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.resx",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\successForm.resx",
               "RelativeToolTip": "ApartmentRentalSystem\\successForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-06-02T21:02:21.451Z"
@@ -944,9 +913,9 @@
               "$type": "Document",
               "DocumentIndex": 48,
               "Title": "clerkTenantScreen.resx",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.resx",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.resx",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkTenantScreen.resx",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.resx",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.resx",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkTenantScreen.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-06-02T21:02:21.407Z"
@@ -955,9 +924,9 @@
               "$type": "Document",
               "DocumentIndex": 49,
               "Title": "clerkPaymentScreen.resx",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.resx",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.resx",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkPaymentScreen.resx",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.resx",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.resx",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkPaymentScreen.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-06-02T21:02:21.324Z"
@@ -966,33 +935,33 @@
               "$type": "Document",
               "DocumentIndex": 50,
               "Title": "adminPaymentScreen.resx",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.resx",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.resx",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminPaymentScreen.resx",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.resx",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.resx",
               "RelativeToolTip": "ApartmentRentalSystem\\adminPaymentScreen.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-02T21:02:21.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T21:02:21.178Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
               "Title": "clerkUnitScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkUnitScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.Designer.cs*",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.Designer.cs*",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkUnitScreen.Designer.cs*",
               "ViewState": "AQIAAB8CAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T23:07:34.559Z"
+              "WhenOpened": "2024-06-01T23:07:34.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 43,
               "Title": "clerkTenantScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkTenantScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.Designer.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkTenantScreen.Designer.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1002,71 +971,68 @@
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "adminUnitScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUnitScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.Designer.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\adminUnitScreen.Designer.cs",
               "ViewState": "AQIAANoAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T23:06:24.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T23:06:24.563Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
               "Title": "adminPaymentScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminPaymentScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminPaymentScreen.Designer.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\adminPaymentScreen.Designer.cs",
               "ViewState": "AQIAANwAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T09:48:32.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T09:48:32.635Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 51,
               "Title": "clerkUnitScreen.resx",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.resx",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.resx",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkUnitScreen.resx",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.resx*",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkUnitScreen.resx*",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkUnitScreen.resx*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-02T21:02:21.132Z"
+              "WhenOpened": "2024-06-02T21:02:21.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 52,
               "Title": "adminUnitScreen.resx",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.resx",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.resx",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUnitScreen.resx",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.resx",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUnitScreen.resx",
               "RelativeToolTip": "ApartmentRentalSystem\\adminUnitScreen.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-02T21:02:21.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T21:02:21.077Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 53,
               "Title": "adminUserScreen.resx",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.resx",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.resx",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUserScreen.resx",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.resx",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUserScreen.resx",
               "RelativeToolTip": "ApartmentRentalSystem\\adminUserScreen.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-02T21:02:21.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T21:02:21.01Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 76,
               "Title": "adminDeleteUser1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteUser1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeleteUser1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUser1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:05:21.017Z"
             },
@@ -1075,9 +1041,9 @@
               "DocumentIndex": 77,
               "Title": "adminDeletePayment1.resx",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment1.resx",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeletePayment1.resx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment1.resx",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment1.resx",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeletePayment1.resx",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-06-02T04:59:23.823Z"
             },
@@ -1086,9 +1052,9 @@
               "DocumentIndex": 78,
               "Title": "adminDeleteUnit1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteUnit1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeleteUnit1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:03:44.001Z"
             },
@@ -1097,9 +1063,9 @@
               "DocumentIndex": 79,
               "Title": "adminDeletePayment1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeletePayment1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeletePayment1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeletePayment1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T03:59:16.983Z"
             },
@@ -1108,9 +1074,9 @@
               "DocumentIndex": 80,
               "Title": "adminAddUser1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddUser1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminAddUser1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:04:22.424Z"
             },
@@ -1119,9 +1085,9 @@
               "DocumentIndex": 81,
               "Title": "adminAddUnit1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUnit1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddUnit1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUnit1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUnit1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminAddUnit1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUnit1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:02:49.252Z"
             },
@@ -1130,9 +1096,9 @@
               "DocumentIndex": 82,
               "Title": "adminAddPayment1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddPayment1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminAddPayment1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddPayment1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T03:52:40.726Z"
             },
@@ -1141,9 +1107,9 @@
               "DocumentIndex": 83,
               "Title": "addTenant1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\addTenant1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\addTenant1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\addTenant1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\addTenant1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\addTenant1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\addTenant1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T03:16:37.34Z"
             },
@@ -1152,9 +1118,9 @@
               "DocumentIndex": 84,
               "Title": "adminUpdateUser1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUser1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdateUser1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUser1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUser1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdateUser1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUser1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:04:56.618Z"
             },
@@ -1162,10 +1128,10 @@
               "$type": "Document",
               "DocumentIndex": 54,
               "Title": "adminAddUser.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminAddUser.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser.cs*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminAddUser.cs*",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminAddUser.cs",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminAddUser.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAWwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:50:42.755Z",
@@ -1176,9 +1142,9 @@
               "DocumentIndex": 85,
               "Title": "clerkAddUnit1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddUnit1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkAddUnit1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddUnit1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddUnit1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkAddUnit1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddUnit1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:06:32.686Z"
             },
@@ -1187,9 +1153,9 @@
               "DocumentIndex": 86,
               "Title": "clerkAddUnit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddUnit.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkAddUnit.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddUnit.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddUnit.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkAddUnit.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddUnit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:06:18.445Z"
             },
@@ -1198,9 +1164,9 @@
               "DocumentIndex": 87,
               "Title": "adminUpdateUnit1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUnit1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdateUnit1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUnit1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUnit1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdateUnit1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdateUnit1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:03:14.108Z"
             },
@@ -1208,23 +1174,22 @@
               "$type": "Document",
               "DocumentIndex": 55,
               "Title": "adminDeleteUnit.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDeleteUnit.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminDeleteUnit.cs*",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDeleteUnit.cs*",
               "ViewState": "AQIAAAEAAAAAAAAAAAAWwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T04:42:53.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T04:42:53.457Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 88,
               "Title": "updateTenant1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\updateTenant1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\updateTenant1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\updateTenant1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T03:22:54.865Z"
             },
@@ -1233,9 +1198,9 @@
               "DocumentIndex": 89,
               "Title": "deleteTenant1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\deleteTenant1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\deleteTenant1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\deleteTenant1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\deleteTenant1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\deleteTenant1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\deleteTenant1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T03:47:41.115Z"
             },
@@ -1244,9 +1209,9 @@
               "DocumentIndex": 90,
               "Title": "clerkAddTenant1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddTenant1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkAddTenant1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddTenant1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddTenant1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkAddTenant1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddTenant1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:07:20.444Z"
             },
@@ -1255,9 +1220,9 @@
               "DocumentIndex": 91,
               "Title": "clerkAddTenant.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddTenant.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkAddTenant.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddTenant.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddTenant.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkAddTenant.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddTenant.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:07:09.212Z"
             },
@@ -1266,9 +1231,9 @@
               "DocumentIndex": 92,
               "Title": "clerkAddPayment1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddPayment1.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkAddPayment1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddPayment1.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddPayment1.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkAddPayment1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddPayment1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:06:46.343Z"
             },
@@ -1277,9 +1242,9 @@
               "DocumentIndex": 93,
               "Title": "clerkAddPayment.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddPayment.cs",
-              "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkAddPayment.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddPayment.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddPayment.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerkAddPayment.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkAddPayment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:06:39.795Z"
             },
@@ -1287,10 +1252,10 @@
               "$type": "Document",
               "DocumentIndex": 56,
               "Title": "adminUpdatePayment.resx",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.resx",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.resx",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdatePayment.resx",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.resx*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdatePayment.resx*",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.resx",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdatePayment.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2024-06-02T04:31:50.162Z",
               "EditorCaption": ""
@@ -1299,10 +1264,10 @@
               "$type": "Document",
               "DocumentIndex": 57,
               "Title": "adminUpdatePayment.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminUpdatePayment.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.Designer.cs*",
-              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdatePayment.Designer.cs*",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminUpdatePayment.Designer.cs",
+              "RelativeToolTip": "ApartmentRentalSystem\\adminUpdatePayment.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T04:16:13.084Z",
@@ -1312,9 +1277,9 @@
               "$type": "Document",
               "DocumentIndex": 58,
               "Title": "adminTenantScreen.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminTenantScreen.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.Designer.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminTenantScreen.Designer.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\adminTenantScreen.Designer.cs",
               "ViewState": "AQIAAIwAAAAAAAAAAAAWwJ8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1337,9 +1302,9 @@
               "$type": "Document",
               "DocumentIndex": 60,
               "Title": "clerkPaymentScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkPaymentScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkPaymentScreen.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkPaymentScreen.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAgwCQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1349,9 +1314,9 @@
               "$type": "Document",
               "DocumentIndex": 59,
               "Title": "clerkTenantScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkTenantScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkTenantScreen.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkTenantScreen.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAwwBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1361,10 +1326,10 @@
               "$type": "Document",
               "DocumentIndex": 61,
               "Title": "clerk.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerk.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerk.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerk.cs",
               "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerk.cs [Design]",
-              "RelativeToolTip": "ApartmentRentalSystem\\clerk.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerk.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T10:54:08.231Z"
             },
@@ -1372,9 +1337,9 @@
               "$type": "Document",
               "DocumentIndex": 62,
               "Title": "admin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.Designer.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\admin.Designer.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.Designer.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\admin.Designer.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\admin.Designer.cs",
               "ViewState": "AQIAAM4AAAAAAAAAAAAwwNYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1440,9 +1405,9 @@
               "$type": "Document",
               "DocumentIndex": 64,
               "Title": "clerkDashboardScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkDashboardScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkDashboardScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerkDashboardScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkDashboardScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerkDashboardScreen.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\clerkDashboardScreen.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1452,9 +1417,9 @@
               "$type": "Document",
               "DocumentIndex": 63,
               "Title": "clerk.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerk.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerk.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\clerk.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerk.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\clerk.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\clerk.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1475,22 +1440,21 @@
               "$type": "Document",
               "DocumentIndex": 66,
               "Title": "adminDashboardScreen.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\adminDashboardScreen.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\adminDashboardScreen.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\adminDashboardScreen.cs",
               "ViewState": "AQIAADUAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T11:27:53.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T11:27:53.902Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 65,
               "Title": "overlayForm.cs",
-              "DocumentMoniker": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\overlayForm.cs",
+              "DocumentMoniker": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\overlayForm.cs",
               "RelativeDocumentMoniker": "ApartmentRentalSystem\\overlayForm.cs",
-              "ToolTip": "C:\\Users\\cedri\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\overlayForm.cs",
+              "ToolTip": "C:\\Users\\tristan\\source\\repos\\Apartment-Rental-SYSTEM\\ApartmentRentalSystem\\overlayForm.cs",
               "RelativeToolTip": "ApartmentRentalSystem\\overlayForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -16,5 +16,12 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+        
+        private void viewDetailsTenants_Click(object sender, EventArgs e)
+        { 
+            clerk c = new clerk();
+            clerkTenantScreen cts = new clerkTenantScreen();
+            c.addUserControl(cts);
+        }
     }
 }
