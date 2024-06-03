@@ -45,7 +45,6 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.adminAddUser1 = new ApartmentRentalSystem.adminAddUser();
             this.roleID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.USERNAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,6 +55,7 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2VScrollBar2 = new Guna.UI2.WinForms.Guna2VScrollBar();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.guna2Panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
@@ -98,6 +98,7 @@
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
             this.addToolStripMenuItem.Size = new System.Drawing.Size(57, 32);
             this.addToolStripMenuItem.Text = "Add";
+            this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // updateToolStripMenuItem
             // 
@@ -105,6 +106,7 @@
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
             this.updateToolStripMenuItem.Size = new System.Drawing.Size(84, 32);
             this.updateToolStripMenuItem.Text = "Update";
+            this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
@@ -112,6 +114,7 @@
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(75, 32);
             this.deleteToolStripMenuItem.Text = "Delete";
+            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // guna2Button2
             // 
@@ -140,11 +143,11 @@
             this.guna2VScrollBar1.BindingContainer = this.guna2DataGridView1;
             this.guna2VScrollBar1.InUpdate = false;
             this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(886, 216);
+            this.guna2VScrollBar1.Location = new System.Drawing.Point(886, 235);
             this.guna2VScrollBar1.Minimum = 1;
             this.guna2VScrollBar1.Name = "guna2VScrollBar1";
             this.guna2VScrollBar1.ScrollbarSize = 18;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 167);
+            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 159);
             this.guna2VScrollBar1.TabIndex = 29;
             this.guna2VScrollBar1.Value = 1;
             // 
@@ -185,7 +188,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(30, 216);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(30, 235);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
             this.guna2DataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -199,7 +202,7 @@
             this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowTemplate.Height = 27;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(874, 167);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(874, 159);
             this.guna2DataGridView1.TabIndex = 28;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -222,13 +225,6 @@
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 27;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // adminAddUser1
-            // 
-            this.adminAddUser1.Location = new System.Drawing.Point(30, 72);
-            this.adminAddUser1.Name = "adminAddUser1";
-            this.adminAddUser1.Size = new System.Drawing.Size(703, 140);
-            this.adminAddUser1.TabIndex = 19;
             // 
             // roleID
             // 
@@ -295,7 +291,7 @@
             dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.Location = new System.Drawing.Point(30, 389);
+            this.guna2DataGridView2.Location = new System.Drawing.Point(30, 400);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.ReadOnly = true;
             this.guna2DataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -309,7 +305,7 @@
             this.guna2DataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.guna2DataGridView2.RowHeadersVisible = false;
             this.guna2DataGridView2.RowTemplate.Height = 27;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(874, 167);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(874, 159);
             this.guna2DataGridView2.TabIndex = 28;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -367,13 +363,20 @@
             this.guna2VScrollBar2.BindingContainer = this.guna2DataGridView2;
             this.guna2VScrollBar2.InUpdate = false;
             this.guna2VScrollBar2.LargeChange = 10;
-            this.guna2VScrollBar2.Location = new System.Drawing.Point(886, 389);
+            this.guna2VScrollBar2.Location = new System.Drawing.Point(886, 400);
             this.guna2VScrollBar2.Minimum = 1;
             this.guna2VScrollBar2.Name = "guna2VScrollBar2";
             this.guna2VScrollBar2.ScrollbarSize = 18;
-            this.guna2VScrollBar2.Size = new System.Drawing.Size(18, 167);
+            this.guna2VScrollBar2.Size = new System.Drawing.Size(18, 159);
             this.guna2VScrollBar2.TabIndex = 30;
             this.guna2VScrollBar2.Value = 1;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(30, 69);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(874, 160);
+            this.panel1.TabIndex = 31;
             // 
             // adminUserScreen
             // 
@@ -384,9 +387,9 @@
             this.Controls.Add(this.guna2DataGridView2);
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.adminAddUser1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
             this.Name = "adminUserScreen";
             this.Size = new System.Drawing.Size(950, 600);
             this.Load += new System.EventHandler(this.adminUserScreen_Load);
@@ -408,7 +411,6 @@
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
-        private adminAddUser adminAddUser1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
@@ -422,5 +424,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar2;
+        private System.Windows.Forms.Panel panel1;
     }
 }

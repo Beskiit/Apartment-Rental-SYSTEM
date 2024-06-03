@@ -11,35 +11,35 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
-
-        private void ShowAddControl()
+        private void addUserControl(UserControl userControl)
         {
-            addTenantControl.Visible = false;
-        }
-
-        private void ShowAddTenantControl()
-        {
-            addTenantControl.Visible = true;
+            userControl.Dock = DockStyle.Fill;
+            mainPanel.Controls.Clear();
+            mainPanel.Controls.Add(userControl);
+            userControl.BringToFront();
         }
 
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ShowAddControl();
+            addTenant addTenant = new addTenant();
+            addUserControl(addTenant);
         }
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ShowAddTenantControl();
-        }
-
-        private void addTenant1_Load(object sender, EventArgs e)
-        {
-
+            updateTenant updateTenant = new updateTenant();
+            addUserControl(updateTenant);
         }
 
         private void adminTenantScreen_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            deleteTenant deleteTenant = new deleteTenant();
+            addUserControl(deleteTenant);
         }
     }
 }

@@ -14,34 +14,31 @@ namespace ApartmentRentalSystem
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void addUserControl(UserControl userControl)
         {
-            admin bigForm = Application.OpenForms.OfType<admin>().FirstOrDefault();
-            if (bigForm != null)
-            {
-                bigForm.ShowOverlay();
-            }
+            userControl.Dock = DockStyle.Fill;
+            mainPanel.Controls.Clear();
+            mainPanel.Controls.Add(userControl);
+            userControl.BringToFront();
         }
 
-        public class CustomToolStripRenderer : ToolStripProfessionalRenderer
+        private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            protected override void OnRenderItemText(ToolStripItemTextRenderEventArgs e)
-            {
-                base.OnRenderItemText(e);
+            adminAddPayment adminAddPayment = new adminAddPayment();
+            addUserControl(adminAddPayment);
 
-                if (e.Item.Selected)
-                {
-                    // Increase font size when hovered
-                    Font originalFont = e.Item.Font;
-                    Font hoverFont = new Font(originalFont.FontFamily, originalFont.Size + 2, originalFont.Style);
-                    e.TextFont = hoverFont;
-                }
-                else
-                {
-                    // Reset font size when not hovered
-                    e.TextFont = e.Item.Font;
-                }
-            }
+        }
+
+        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            adminUpdatePayment adminUpdatePayment = new adminUpdatePayment();
+            addUserControl (adminUpdatePayment);
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           adminDeletePayment adminDeletePayment = new adminDeletePayment();
+            addUserControl(adminDeletePayment);
         }
     }
 }

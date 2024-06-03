@@ -39,14 +39,14 @@
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.transactionid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clerkID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenantID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.adminAddTransaction1 = new ApartmentRentalSystem.adminAddTransaction();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.guna2Panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
@@ -80,6 +80,7 @@
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
             this.addToolStripMenuItem.Size = new System.Drawing.Size(57, 32);
             this.addToolStripMenuItem.Text = "Add";
+            this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
             // updateToolStripMenuItem
             // 
@@ -87,6 +88,7 @@
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
             this.updateToolStripMenuItem.Size = new System.Drawing.Size(84, 32);
             this.updateToolStripMenuItem.Text = "Update";
+            this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
             // 
             // deleteToolStripMenuItem
             // 
@@ -94,17 +96,18 @@
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(75, 32);
             this.deleteToolStripMenuItem.Text = "Delete";
+            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // guna2VScrollBar1
             // 
             this.guna2VScrollBar1.BindingContainer = this.guna2DataGridView2;
             this.guna2VScrollBar1.InUpdate = false;
             this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(886, 216);
+            this.guna2VScrollBar1.Location = new System.Drawing.Point(886, 238);
             this.guna2VScrollBar1.Minimum = 1;
             this.guna2VScrollBar1.Name = "guna2VScrollBar1";
             this.guna2VScrollBar1.ScrollbarSize = 18;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 333);
+            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 313);
             this.guna2VScrollBar1.TabIndex = 28;
             this.guna2VScrollBar1.Value = 1;
             // 
@@ -147,7 +150,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.Location = new System.Drawing.Point(30, 216);
+            this.guna2DataGridView2.Location = new System.Drawing.Point(30, 238);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.ReadOnly = true;
             this.guna2DataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -161,7 +164,7 @@
             this.guna2DataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView2.RowHeadersVisible = false;
             this.guna2DataGridView2.RowTemplate.Height = 27;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(874, 333);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(874, 313);
             this.guna2DataGridView2.TabIndex = 27;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -184,27 +187,6 @@
             this.guna2DataGridView2.ThemeStyle.RowsStyle.Height = 27;
             this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 13;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.SaddleBrown;
-            this.guna2Button2.Font = new System.Drawing.Font("Poppins", 9.75F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(264, 30);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(107, 29);
-            this.guna2Button2.TabIndex = 26;
-            this.guna2Button2.Text = "Refresh";
-            this.guna2Button2.UseTransparentBackground = true;
             // 
             // transactionid
             // 
@@ -247,22 +229,43 @@
             this.Status.Name = "Status";
             this.Status.ReadOnly = true;
             // 
-            // adminAddTransaction1
+            // guna2Button2
             // 
-            this.adminAddTransaction1.Location = new System.Drawing.Point(30, 70);
-            this.adminAddTransaction1.Name = "adminAddTransaction1";
-            this.adminAddTransaction1.Size = new System.Drawing.Size(508, 140);
-            this.adminAddTransaction1.TabIndex = 29;
+            this.guna2Button2.Animated = true;
+            this.guna2Button2.AutoRoundedCorners = true;
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BorderRadius = 13;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.SaddleBrown;
+            this.guna2Button2.Font = new System.Drawing.Font("Poppins", 9.75F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.IndicateFocus = true;
+            this.guna2Button2.Location = new System.Drawing.Point(264, 30);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(107, 29);
+            this.guna2Button2.TabIndex = 26;
+            this.guna2Button2.Text = "Refresh";
+            this.guna2Button2.UseTransparentBackground = true;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(30, 71);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(874, 161);
+            this.panel1.TabIndex = 30;
             // 
             // adminTransactionScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.adminAddTransaction1);
             this.Controls.Add(this.guna2VScrollBar1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2DataGridView2);
             this.Controls.Add(this.guna2Button2);
+            this.Controls.Add(this.panel1);
             this.Name = "adminTransactionScreen";
             this.Size = new System.Drawing.Size(950, 600);
             this.guna2Panel1.ResumeLayout(false);
@@ -290,6 +293,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn unitID;
         private System.Windows.Forms.DataGridViewTextBoxColumn amount;
         private System.Windows.Forms.DataGridViewTextBoxColumn Status;
-        private adminAddTransaction adminAddTransaction1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

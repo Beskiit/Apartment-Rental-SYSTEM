@@ -16,24 +16,34 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void addUserControl(UserControl userControl)
         {
+            userControl.Dock = DockStyle.Fill;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(userControl);
+            userControl.BringToFront();
         }
-
         private void adminUnitScreen_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void dataGridUnitScreen1_Load(object sender, EventArgs e)
+        private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            adminaddUnit adminaddUnit = new adminaddUnit();
+            addUserControl(adminaddUnit);
         }
 
-        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            adminUpdateUnit adminUpdateUnit = new adminUpdateUnit();
+            addUserControl(adminUpdateUnit);
+        }
 
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            adminDeleteUnit adminDeleteUnit = new adminDeleteUnit();
+            addUserControl(adminDeleteUnit);
         }
     }
 }
