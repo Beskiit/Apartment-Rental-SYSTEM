@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
@@ -43,24 +44,31 @@ namespace ApartmentRentalSystem
            
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            string username1 = guna2TextBox2.Text;
-            string password1 = guna2TextBox1.Text;
-
-            if (username1 == "admin" && password1 == "admin123")
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT username, password FROM Admin", Connection.conn);
+            SqlDataReader read = cmd.ExecuteReader();
+            bool isLogin = false;
+            while (read.Read())
             {
-                admin adminForm = new admin();
-                adminForm.Show();
-                this.Hide();
+                if (userInput.Text == read.GetValue(0).ToString() && passwordInput.Text == read.GetValue(1).ToString())
+                {
+                    isLogin = true;
+                    break;
+                }
+                else
+                {
+                    isLogin = false;
+                }
             }
-            else if (username1 == "clerk" && password1 == "clerk123")
+            if (isLogin)
             {
-                clerk clerkForm = new clerk();
-                clerkForm.Show();
+                admin dashboard = new admin();
+                dashboard.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Invalid username or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
             }
         }
 

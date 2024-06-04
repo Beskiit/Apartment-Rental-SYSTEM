@@ -328,6 +328,12 @@
     <Compile Include="clerk.Designer.cs">
       <DependentUpon>clerk.cs</DependentUpon>
     </Compile>
+    <Compile Include="clerkAddTenant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkAddTenant.Designer.cs">
+      <DependentUpon>clerkAddTenant.cs</DependentUpon>
+    </Compile>
     <Compile Include="clerkDashboardScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -446,6 +452,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clerk.resx">
       <DependentUpon>clerk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkAddTenant.resx">
+      <DependentUpon>clerkAddTenant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clerkDashboardScreen.resx">
       <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
