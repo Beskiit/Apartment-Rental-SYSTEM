@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
 {
-    public partial class adminUdateTransaction : UserControl
+    public partial class adminUpdateTransaction : UserControl
     {
-        public adminUdateTransaction()
+        public adminUpdateTransaction()
         {
             InitializeComponent();
         }

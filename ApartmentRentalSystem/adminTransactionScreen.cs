@@ -32,7 +32,7 @@ namespace ApartmentRentalSystem
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            adminUdateTransaction admin = new adminUdateTransaction();
+            adminUpdateTransaction admin = new adminUpdateTransaction();
             addUserControl (admin);
         }
 

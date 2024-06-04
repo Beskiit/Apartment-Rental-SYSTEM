@@ -81,7 +81,8 @@ namespace ApartmentRentalSystem
 
         private void viewDetailsTenants_Click(object sender, EventArgs e)
         {
-
+            adminTenantScreen ats = new adminTenantScreen();
+            
         }
 
         private void ViewDetailsPayments_Click(object sender, EventArgs e)

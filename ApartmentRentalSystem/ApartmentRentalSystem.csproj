@@ -181,11 +181,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addTenant.cs">
+    <Compile Include="adminAddTenant.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="addTenant.Designer.cs">
-      <DependentUpon>addTenant.cs</DependentUpon>
+    <Compile Include="adminAddTenant.Designer.cs">
+      <DependentUpon>adminAddTenant.cs</DependentUpon>
     </Compile>
     <Compile Include="admin.cs">
       <SubType>Form</SubType>
@@ -265,11 +265,11 @@
     <Compile Include="adminTransactionScreen.Designer.cs">
       <DependentUpon>adminTransactionScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminUdateTransaction.cs">
+    <Compile Include="adminUpdateTransaction.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="adminUdateTransaction.Designer.cs">
-      <DependentUpon>adminUdateTransaction.cs</DependentUpon>
+    <Compile Include="adminUpdateTransaction.Designer.cs">
+      <DependentUpon>adminUpdateTransaction.cs</DependentUpon>
     </Compile>
     <Compile Include="adminUnitScreen.cs">
       <SubType>UserControl</SubType>
@@ -337,11 +337,11 @@
     <Compile Include="clerkUnitScreen.Designer.cs">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="deleteTenant.cs">
+    <Compile Include="adminDeleteTenant.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="deleteTenant.Designer.cs">
-      <DependentUpon>deleteTenant.cs</DependentUpon>
+    <Compile Include="adminDeleteTenant.Designer.cs">
+      <DependentUpon>adminDeleteTenant.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -363,14 +363,14 @@
     <Compile Include="successForm.Designer.cs">
       <DependentUpon>successForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="updateTenant.cs">
+    <Compile Include="adminUpdateTenant.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="updateTenant.Designer.cs">
-      <DependentUpon>updateTenant.cs</DependentUpon>
+    <Compile Include="adminUpdateTenant.Designer.cs">
+      <DependentUpon>adminUpdateTenant.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="addTenant.resx">
-      <DependentUpon>addTenant.cs</DependentUpon>
+    <EmbeddedResource Include="adminAddTenant.resx">
+      <DependentUpon>adminAddTenant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="admin.resx">
       <DependentUpon>admin.cs</DependentUpon>
@@ -411,8 +411,8 @@
     <EmbeddedResource Include="adminTransactionScreen.resx">
       <DependentUpon>adminTransactionScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminUdateTransaction.resx">
-      <DependentUpon>adminUdateTransaction.cs</DependentUpon>
+    <EmbeddedResource Include="adminUpdateTransaction.resx">
+      <DependentUpon>adminUpdateTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminUnitScreen.resx">
       <DependentUpon>adminUnitScreen.cs</DependentUpon>
@@ -447,8 +447,8 @@
     <EmbeddedResource Include="clerkUnitScreen.resx">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="deleteTenant.resx">
-      <DependentUpon>deleteTenant.cs</DependentUpon>
+    <EmbeddedResource Include="adminDeleteTenant.resx">
+      <DependentUpon>adminDeleteTenant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -465,8 +465,8 @@
     <EmbeddedResource Include="successForm.resx">
       <DependentUpon>successForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="updateTenant.resx">
-      <DependentUpon>updateTenant.cs</DependentUpon>
+    <EmbeddedResource Include="adminUpdateTenant.resx">
+      <DependentUpon>adminUpdateTenant.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

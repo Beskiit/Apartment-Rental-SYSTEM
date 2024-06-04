@@ -7,7 +7,7 @@ namespace ApartmentRentalSystem
 {
     public partial class adminTenantScreen : UserControl
     {
-        private addTenant addTenantControl;
+        private adminAddTenant addTenantControl;
 
         public adminTenantScreen()
         {
@@ -47,20 +47,20 @@ namespace ApartmentRentalSystem
 
         private void addToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            addTenant addTenant = new addTenant();
+            adminAddTenant addTenant = new adminAddTenant();
             addUserControl(addTenant);
         }
 
         private void updateToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            addTenant addTenant = new addTenant();
+            adminAddTenant addTenant = new adminAddTenant();
             addUserControl(addTenant);
         }
 
         private void deleteToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
 
-            updateTenant updateTenant = new updateTenant();
+            adminUpdateTenant updateTenant = new adminUpdateTenant();
             addUserControl(updateTenant);
         }
     }

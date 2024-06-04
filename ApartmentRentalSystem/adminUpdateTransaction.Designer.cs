@@ -1,6 +1,6 @@
 ﻿namespace ApartmentRentalSystem
 {
-    partial class adminUdateTransaction
+    partial class adminUpdateTransaction
     {
         /// <summary> 
         /// Required designer variable.

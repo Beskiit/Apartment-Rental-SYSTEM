@@ -302,3 +302,4 @@ C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\De
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\System.ClientModel.xml
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1.mdf
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1_log.ldf
+C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdateTransaction.resources
