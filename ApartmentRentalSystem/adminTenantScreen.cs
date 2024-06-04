@@ -53,7 +53,7 @@ namespace ApartmentRentalSystem
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT tenantID, firstName, lastName, email, phoneNum, unit FROM Tenant", Connection.conn);
+            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', email AS 'Email', phoneNum AS 'Phone Number', unit AS 'Unit' FROM Tenant", Connection.conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);

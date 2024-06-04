@@ -116,7 +116,7 @@
             this.firstNameBox.PlaceholderText = "";
             this.firstNameBox.SelectedText = "";
             this.firstNameBox.Size = new System.Drawing.Size(204, 38);
-            this.firstNameBox.TabIndex = 18;
+            this.firstNameBox.TabIndex = 1;
             // 
             // lastNameBox
             // 
@@ -138,7 +138,7 @@
             this.lastNameBox.PlaceholderText = "";
             this.lastNameBox.SelectedText = "";
             this.lastNameBox.Size = new System.Drawing.Size(204, 38);
-            this.lastNameBox.TabIndex = 18;
+            this.lastNameBox.TabIndex = 2;
             // 
             // numBox
             // 
@@ -160,7 +160,7 @@
             this.numBox.PlaceholderText = "";
             this.numBox.SelectedText = "";
             this.numBox.Size = new System.Drawing.Size(204, 38);
-            this.numBox.TabIndex = 18;
+            this.numBox.TabIndex = 3;
             // 
             // emailBox
             // 
@@ -182,7 +182,7 @@
             this.emailBox.PlaceholderText = "";
             this.emailBox.SelectedText = "";
             this.emailBox.Size = new System.Drawing.Size(204, 38);
-            this.emailBox.TabIndex = 18;
+            this.emailBox.TabIndex = 4;
             // 
             // guna2Button1
             // 
@@ -200,7 +200,7 @@
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(77, 40);
-            this.guna2Button1.TabIndex = 23;
+            this.guna2Button1.TabIndex = 6;
             this.guna2Button1.Text = "Add";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
@@ -224,7 +224,7 @@
             this.unitBox.PlaceholderText = "";
             this.unitBox.SelectedText = "";
             this.unitBox.Size = new System.Drawing.Size(204, 38);
-            this.unitBox.TabIndex = 24;
+            this.unitBox.TabIndex = 5;
             // 
             // addTenant
             // 
