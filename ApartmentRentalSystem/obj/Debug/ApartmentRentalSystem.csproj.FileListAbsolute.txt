@@ -216,7 +216,6 @@ C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\De
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\System.ValueTuple.xml
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.csproj.AssemblyReference.cache
-C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.addTenant.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.admin.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminDashboardScreen.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminPaymentScreen.resources
@@ -235,9 +234,7 @@ C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\De
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\Apartmen.F693DFB1.Up2Date
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.exe
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.pdb
-C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.updateTenant.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminDeletePayment.resources
-C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.deleteTenant.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminAddPayment.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdatePayment.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminaddUnit.resources
@@ -250,7 +247,6 @@ C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\De
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminAddTransaction.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminTransactionScreen.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminDeleteTransaction.resources
-C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUdateTransaction.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.clerkTransactionScreen.resources
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Guna.UI2.dll
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.addTenant.resources
@@ -303,6 +299,7 @@ C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\De
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1.mdf
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1_log.ldf
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdateTransaction.resources
+<<<<<<< Updated upstream
 C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.csproj.AssemblyReference.cache
 C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.addTenant.resources
 C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.admin.resources
@@ -339,3 +336,9 @@ C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\o
 C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.csproj.CoreCompileInputs.cache
 C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.exe
 C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.pdb
+=======
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdateTransaction.resources
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminAddTenant.resources
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminDeleteTenant.resources
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdateTenant.resources
+>>>>>>> Stashed changes

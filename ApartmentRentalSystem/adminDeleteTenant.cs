@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
 {
-    public partial class deleteTenant : UserControl
+    public partial class adminDeleteTenant : UserControl
     {
-        public deleteTenant()
+        public adminDeleteTenant()
         {
             InitializeComponent();
         }

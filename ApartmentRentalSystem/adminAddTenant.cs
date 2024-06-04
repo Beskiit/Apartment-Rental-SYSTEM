@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
 {
-    public partial class addTenant : UserControl
+    public partial class adminAddTenant : UserControl
     {
-        public addTenant()
+        public adminAddTenant()
         {
             InitializeComponent();
         }

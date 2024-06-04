@@ -1,6 +1,6 @@
 ﻿namespace ApartmentRentalSystem
 {
-    partial class addTenant
+    partial class adminAddTenant
     {
         /// <summary> 
         /// Required designer variable.
