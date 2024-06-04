@@ -41,6 +41,7 @@
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.generateContract = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -51,19 +52,19 @@
             this.guna2Button2.Animated = true;
             this.guna2Button2.AutoRoundedCorners = true;
             this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 17;
+            this.guna2Button2.BorderRadius = 13;
+            this.guna2Button2.DefaultAutoSize = true;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.FillColor = System.Drawing.Color.SaddleBrown;
-            this.guna2Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.guna2Button2.Font = new System.Drawing.Font("Poppins", 9.75F);
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(352, 37);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button2.Location = new System.Drawing.Point(264, 30);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(143, 36);
+            this.guna2Button2.Size = new System.Drawing.Size(80, 29);
             this.guna2Button2.TabIndex = 17;
             this.guna2Button2.Text = "Refresh";
             this.guna2Button2.UseTransparentBackground = true;
@@ -74,12 +75,11 @@
             this.guna2VScrollBar1.BindingContainer = this.guna2DataGridView2;
             this.guna2VScrollBar1.InUpdate = false;
             this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(1184, 293);
-            this.guna2VScrollBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2VScrollBar1.Location = new System.Drawing.Point(886, 238);
             this.guna2VScrollBar1.Minimum = 1;
             this.guna2VScrollBar1.Name = "guna2VScrollBar1";
-            this.guna2VScrollBar1.ScrollbarSize = 21;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(21, 383);
+            this.guna2VScrollBar1.ScrollbarSize = 18;
+            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 311);
             this.guna2VScrollBar1.TabIndex = 23;
             this.guna2VScrollBar1.Value = 1;
             // 
@@ -115,8 +115,7 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.Location = new System.Drawing.Point(40, 293);
-            this.guna2DataGridView2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2DataGridView2.Location = new System.Drawing.Point(30, 238);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.ReadOnly = true;
             this.guna2DataGridView2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -131,7 +130,7 @@
             this.guna2DataGridView2.RowHeadersVisible = false;
             this.guna2DataGridView2.RowHeadersWidth = 62;
             this.guna2DataGridView2.RowTemplate.Height = 27;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(1165, 383);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(874, 311);
             this.guna2DataGridView2.TabIndex = 22;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -157,19 +156,17 @@
             // 
             // mainPanel
             // 
-            this.mainPanel.Location = new System.Drawing.Point(40, 89);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mainPanel.Location = new System.Drawing.Point(30, 72);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(1165, 197);
+            this.mainPanel.Size = new System.Drawing.Size(874, 160);
             this.mainPanel.TabIndex = 24;
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.Controls.Add(this.menuStrip1);
-            this.guna2Panel1.Location = new System.Drawing.Point(40, 37);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Location = new System.Drawing.Point(30, 30);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(304, 47);
+            this.guna2Panel1.Size = new System.Drawing.Size(228, 38);
             this.guna2Panel1.TabIndex = 25;
             // 
             // menuStrip1
@@ -183,7 +180,8 @@
             this.deleteToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(304, 44);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(228, 36);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -191,7 +189,7 @@
             // 
             this.addToolStripMenuItem.ForeColor = System.Drawing.Color.Lime;
             this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(71, 40);
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(57, 32);
             this.addToolStripMenuItem.Text = "Add";
             this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click_1);
             // 
@@ -199,7 +197,7 @@
             // 
             this.updateToolStripMenuItem.ForeColor = System.Drawing.Color.Goldenrod;
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
-            this.updateToolStripMenuItem.Size = new System.Drawing.Size(105, 40);
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(84, 32);
             this.updateToolStripMenuItem.Text = "Update";
             this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click_1);
             // 
@@ -207,22 +205,45 @@
             // 
             this.deleteToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(93, 40);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(75, 32);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click_1);
             // 
+            // generateContract
+            // 
+            this.generateContract.Animated = true;
+            this.generateContract.AutoRoundedCorners = true;
+            this.generateContract.BackColor = System.Drawing.Color.Transparent;
+            this.generateContract.BorderRadius = 13;
+            this.generateContract.DefaultAutoSize = true;
+            this.generateContract.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.generateContract.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.generateContract.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.generateContract.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.generateContract.FillColor = System.Drawing.Color.SaddleBrown;
+            this.generateContract.Font = new System.Drawing.Font("Poppins", 9.75F);
+            this.generateContract.ForeColor = System.Drawing.Color.White;
+            this.generateContract.IndicateFocus = true;
+            this.generateContract.Location = new System.Drawing.Point(350, 30);
+            this.generateContract.Name = "generateContract";
+            this.generateContract.Size = new System.Drawing.Size(156, 29);
+            this.generateContract.TabIndex = 17;
+            this.generateContract.Text = "Generate Contract";
+            this.generateContract.UseTransparentBackground = true;
+            this.generateContract.Click += new System.EventHandler(this.generateContract_Click);
+            // 
             // adminTenantScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2VScrollBar1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2DataGridView2);
+            this.Controls.Add(this.generateContract);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.mainPanel);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "adminTenantScreen";
-            this.Size = new System.Drawing.Size(1267, 738);
+            this.Size = new System.Drawing.Size(950, 600);
             this.Load += new System.EventHandler(this.adminTenantScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
@@ -230,6 +251,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -243,5 +265,6 @@
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
+        private Guna.UI2.WinForms.Guna2Button generateContract;
     }
 }

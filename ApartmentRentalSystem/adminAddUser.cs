@@ -35,5 +35,10 @@ namespace ApartmentRentalSystem
 
 
         }
+
+        private void adminAddUser_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -30,5 +30,10 @@ namespace ApartmentRentalSystem
 
 
         }
+
+        private void adminDeleteUser_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

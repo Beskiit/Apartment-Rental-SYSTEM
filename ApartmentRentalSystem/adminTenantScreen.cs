@@ -1,6 +1,8 @@
-﻿using System;
-using System.Data.SqlClient;
-using System.Data;
+﻿using iTextSharp.text;
+using iTextSharp.text.pdf;
+using System;
+using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
@@ -11,7 +13,10 @@ namespace ApartmentRentalSystem
         public adminTenantScreen()
         {
             InitializeComponent();
+
         }
+
+
         private void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
@@ -46,21 +51,22 @@ namespace ApartmentRentalSystem
 
         private void addToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            adminAddTenant adminAddTenant = new adminAddTenant();
-            addUserControl(adminAddTenant);
+
         }
 
         private void updateToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-           adminUpdateTenant adminUpdateTenant = new adminUpdateTenant();
-            addUserControl(adminUpdateTenant);
+
         }
 
         private void deleteToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
 
-            adminDeleteTenant adminDeleteTenant = new adminDeleteTenant();
-            addUserControl(adminDeleteTenant);
+
+        }
+            private void generateContract_Click(object sender, EventArgs e)
+            {
+          
+            }
         }
     }
-}
