@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,16 +25,63 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            try
             {
-                MessageBox.Show("Added Successfully!");
+                if (role.Text.ToLower() == "admin")
+                {
+                    SqlCommand cmd = new SqlCommand("INSERT INTO Admin (username, password, firstName, lastName) VALUES (@username, @password, @firstName, @lastName)", Connection.conn);
+                    cmd.Parameters.AddWithValue("@username", usernameBox.Text);
+                    cmd.Parameters.AddWithValue("@password", paswordBox.Text);
+                    cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+                    cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
+                    if (MessageBox.Show("Are you sure you want add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                    {
+                        cmd.Parameters.AddWithValue("@username", usernameBox.Text);
+                        cmd.Parameters.AddWithValue("@password", paswordBox.Text);
+                        cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+                        cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
+                        Connection.conn.Close();
+                        MessageBox.Show("Added Successfully!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("You pressed Cancel!");
+                    }
+
+                }else if(role.Text.ToLower() == "clerk")
+                {
+                    SqlCommand cmd = new SqlCommand("INSERT INTO Clerk (username, password, firstName, lastName) VALUES (@username, @password, @firstName, @lastName)", Connection.conn);
+                    cmd.Parameters.AddWithValue("@username", usernameBox.Text);
+                    cmd.Parameters.AddWithValue("@password", paswordBox.Text);
+                    cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+                    cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
+                    if (MessageBox.Show("Are you sure you want add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                    {
+                        cmd.Parameters.AddWithValue("@username", usernameBox.Text);
+                        cmd.Parameters.AddWithValue("@password", paswordBox.Text);
+                        cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+                        cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
+                        Connection.conn.Close();
+                        MessageBox.Show("Added Successfully!");
+                    }
+                    else
+                    {
+                        MessageBox.Show("You pressed Cancel!");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Incorrect role.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("You pressed Cancel!");
+                MessageBox.Show("Adding user failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
+            finally
+            {
+                Connection.conn.Close();
+            }
         }
 
         private void adminAddUser_Load(object sender, EventArgs e)

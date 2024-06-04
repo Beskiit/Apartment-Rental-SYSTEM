@@ -31,8 +31,8 @@
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.tenantID = new Guna.UI2.WinForms.Guna2TextBox();
-            this.amount = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tenantIdBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.amountBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel3
@@ -78,58 +78,58 @@
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // tenantID
+            // tenantIdBox
             // 
-            this.tenantID.BorderRadius = 2;
-            this.tenantID.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.tenantID.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tenantID.DefaultText = "";
-            this.tenantID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.tenantID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.tenantID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tenantID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.tenantID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tenantID.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.tenantID.ForeColor = System.Drawing.Color.Black;
-            this.tenantID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tenantID.Location = new System.Drawing.Point(83, 25);
-            this.tenantID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.tenantID.Name = "tenantID";
-            this.tenantID.PasswordChar = '\0';
-            this.tenantID.PlaceholderText = "";
-            this.tenantID.SelectedText = "";
-            this.tenantID.Size = new System.Drawing.Size(136, 25);
-            this.tenantID.TabIndex = 25;
+            this.tenantIdBox.BorderRadius = 2;
+            this.tenantIdBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.tenantIdBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tenantIdBox.DefaultText = "";
+            this.tenantIdBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tenantIdBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tenantIdBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tenantIdBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tenantIdBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tenantIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tenantIdBox.ForeColor = System.Drawing.Color.Black;
+            this.tenantIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tenantIdBox.Location = new System.Drawing.Point(83, 25);
+            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tenantIdBox.Name = "tenantIdBox";
+            this.tenantIdBox.PasswordChar = '\0';
+            this.tenantIdBox.PlaceholderText = "";
+            this.tenantIdBox.SelectedText = "";
+            this.tenantIdBox.Size = new System.Drawing.Size(136, 25);
+            this.tenantIdBox.TabIndex = 25;
             // 
-            // amount
+            // amountBox
             // 
-            this.amount.BorderRadius = 2;
-            this.amount.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.amount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.amount.DefaultText = "";
-            this.amount.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.amount.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.amount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.amount.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.amount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.amount.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.amount.ForeColor = System.Drawing.Color.Black;
-            this.amount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.amount.Location = new System.Drawing.Point(294, 25);
-            this.amount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.amount.Name = "amount";
-            this.amount.PasswordChar = '\0';
-            this.amount.PlaceholderText = "";
-            this.amount.SelectedText = "";
-            this.amount.Size = new System.Drawing.Size(136, 25);
-            this.amount.TabIndex = 26;
+            this.amountBox.BorderRadius = 2;
+            this.amountBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.amountBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.amountBox.DefaultText = "";
+            this.amountBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.amountBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.amountBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.amountBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.amountBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.amountBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.amountBox.ForeColor = System.Drawing.Color.Black;
+            this.amountBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.amountBox.Location = new System.Drawing.Point(294, 25);
+            this.amountBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.amountBox.Name = "amountBox";
+            this.amountBox.PasswordChar = '\0';
+            this.amountBox.PlaceholderText = "";
+            this.amountBox.SelectedText = "";
+            this.amountBox.Size = new System.Drawing.Size(136, 25);
+            this.amountBox.TabIndex = 26;
             // 
             // adminAddPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.amount);
-            this.Controls.Add(this.tenantID);
+            this.Controls.Add(this.amountBox);
+            this.Controls.Add(this.tenantIdBox);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel1);
@@ -144,7 +144,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2TextBox tenantID;
-        private Guna.UI2.WinForms.Guna2TextBox amount;
+        private Guna.UI2.WinForms.Guna2TextBox tenantIdBox;
+        private Guna.UI2.WinForms.Guna2TextBox amountBox;
     }
 }

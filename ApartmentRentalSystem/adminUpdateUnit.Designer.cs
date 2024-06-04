@@ -33,10 +33,10 @@
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.roomID = new Guna.UI2.WinForms.Guna2TextBox();
-            this.RoomNumber = new Guna.UI2.WinForms.Guna2TextBox();
-            this.desc = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Amount = new Guna.UI2.WinForms.Guna2TextBox();
+            this.roomIdBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.roomNumBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.descriptionBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.amountBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel2
@@ -102,106 +102,106 @@
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // roomID
+            // roomIdBox
             // 
-            this.roomID.BorderRadius = 2;
-            this.roomID.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.roomID.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.roomID.DefaultText = "";
-            this.roomID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.roomID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.roomID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.roomID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.roomID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.roomID.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.roomID.ForeColor = System.Drawing.Color.Transparent;
-            this.roomID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.roomID.Location = new System.Drawing.Point(115, 25);
-            this.roomID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.roomID.Name = "roomID";
-            this.roomID.PasswordChar = '\0';
-            this.roomID.PlaceholderText = "";
-            this.roomID.SelectedText = "";
-            this.roomID.Size = new System.Drawing.Size(136, 25);
-            this.roomID.TabIndex = 39;
+            this.roomIdBox.BorderRadius = 2;
+            this.roomIdBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.roomIdBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.roomIdBox.DefaultText = "";
+            this.roomIdBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.roomIdBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.roomIdBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.roomIdBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.roomIdBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.roomIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.roomIdBox.ForeColor = System.Drawing.Color.Transparent;
+            this.roomIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.roomIdBox.Location = new System.Drawing.Point(115, 25);
+            this.roomIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.roomIdBox.Name = "roomIdBox";
+            this.roomIdBox.PasswordChar = '\0';
+            this.roomIdBox.PlaceholderText = "";
+            this.roomIdBox.SelectedText = "";
+            this.roomIdBox.Size = new System.Drawing.Size(136, 25);
+            this.roomIdBox.TabIndex = 39;
             // 
-            // RoomNumber
+            // roomNumBox
             // 
-            this.RoomNumber.BorderRadius = 2;
-            this.RoomNumber.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.RoomNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.RoomNumber.DefaultText = "";
-            this.RoomNumber.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.RoomNumber.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.RoomNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.RoomNumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.RoomNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RoomNumber.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.RoomNumber.ForeColor = System.Drawing.Color.Transparent;
-            this.RoomNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RoomNumber.Location = new System.Drawing.Point(115, 86);
-            this.RoomNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.RoomNumber.Name = "RoomNumber";
-            this.RoomNumber.PasswordChar = '\0';
-            this.RoomNumber.PlaceholderText = "";
-            this.RoomNumber.SelectedText = "";
-            this.RoomNumber.Size = new System.Drawing.Size(136, 25);
-            this.RoomNumber.TabIndex = 40;
+            this.roomNumBox.BorderRadius = 2;
+            this.roomNumBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.roomNumBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.roomNumBox.DefaultText = "";
+            this.roomNumBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.roomNumBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.roomNumBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.roomNumBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.roomNumBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.roomNumBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.roomNumBox.ForeColor = System.Drawing.Color.Transparent;
+            this.roomNumBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.roomNumBox.Location = new System.Drawing.Point(115, 86);
+            this.roomNumBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.roomNumBox.Name = "roomNumBox";
+            this.roomNumBox.PasswordChar = '\0';
+            this.roomNumBox.PlaceholderText = "";
+            this.roomNumBox.SelectedText = "";
+            this.roomNumBox.Size = new System.Drawing.Size(136, 25);
+            this.roomNumBox.TabIndex = 40;
             // 
-            // desc
+            // descriptionBox
             // 
-            this.desc.BorderRadius = 2;
-            this.desc.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.desc.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.desc.DefaultText = "";
-            this.desc.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.desc.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.desc.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.desc.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.desc.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.desc.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.desc.ForeColor = System.Drawing.Color.Black;
-            this.desc.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.desc.Location = new System.Drawing.Point(357, 25);
-            this.desc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.desc.Name = "desc";
-            this.desc.PasswordChar = '\0';
-            this.desc.PlaceholderText = "";
-            this.desc.SelectedText = "";
-            this.desc.Size = new System.Drawing.Size(136, 25);
-            this.desc.TabIndex = 41;
+            this.descriptionBox.BorderRadius = 2;
+            this.descriptionBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.descriptionBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.descriptionBox.DefaultText = "";
+            this.descriptionBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.descriptionBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.descriptionBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.descriptionBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.descriptionBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.descriptionBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.descriptionBox.ForeColor = System.Drawing.Color.Black;
+            this.descriptionBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.descriptionBox.Location = new System.Drawing.Point(357, 25);
+            this.descriptionBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.descriptionBox.Name = "descriptionBox";
+            this.descriptionBox.PasswordChar = '\0';
+            this.descriptionBox.PlaceholderText = "";
+            this.descriptionBox.SelectedText = "";
+            this.descriptionBox.Size = new System.Drawing.Size(136, 25);
+            this.descriptionBox.TabIndex = 41;
             // 
-            // Amount
+            // amountBox
             // 
-            this.Amount.BorderRadius = 2;
-            this.Amount.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.Amount.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Amount.DefaultText = "";
-            this.Amount.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Amount.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Amount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Amount.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Amount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Amount.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.Amount.ForeColor = System.Drawing.Color.Black;
-            this.Amount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Amount.Location = new System.Drawing.Point(356, 86);
-            this.Amount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Amount.Name = "Amount";
-            this.Amount.PasswordChar = '\0';
-            this.Amount.PlaceholderText = "";
-            this.Amount.SelectedText = "";
-            this.Amount.Size = new System.Drawing.Size(136, 25);
-            this.Amount.TabIndex = 42;
+            this.amountBox.BorderRadius = 2;
+            this.amountBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.amountBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.amountBox.DefaultText = "";
+            this.amountBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.amountBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.amountBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.amountBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.amountBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.amountBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.amountBox.ForeColor = System.Drawing.Color.Black;
+            this.amountBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.amountBox.Location = new System.Drawing.Point(356, 86);
+            this.amountBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.amountBox.Name = "amountBox";
+            this.amountBox.PasswordChar = '\0';
+            this.amountBox.PlaceholderText = "";
+            this.amountBox.SelectedText = "";
+            this.amountBox.Size = new System.Drawing.Size(136, 25);
+            this.amountBox.TabIndex = 42;
             // 
             // adminUpdateUnit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Amount);
-            this.Controls.Add(this.desc);
-            this.Controls.Add(this.RoomNumber);
-            this.Controls.Add(this.roomID);
+            this.Controls.Add(this.amountBox);
+            this.Controls.Add(this.descriptionBox);
+            this.Controls.Add(this.roomNumBox);
+            this.Controls.Add(this.roomIdBox);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.guna2HtmlLabel2);
@@ -221,9 +221,9 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2TextBox roomID;
-        private Guna.UI2.WinForms.Guna2TextBox RoomNumber;
-        private Guna.UI2.WinForms.Guna2TextBox desc;
-        private Guna.UI2.WinForms.Guna2TextBox Amount;
+        private Guna.UI2.WinForms.Guna2TextBox roomIdBox;
+        private Guna.UI2.WinForms.Guna2TextBox roomNumBox;
+        private Guna.UI2.WinForms.Guna2TextBox descriptionBox;
+        private Guna.UI2.WinForms.Guna2TextBox amountBox;
     }
 }
