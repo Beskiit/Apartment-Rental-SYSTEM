@@ -39,12 +39,6 @@
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.transactionid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clerkID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenantID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.unitID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2Panel1.SuspendLayout();
@@ -134,13 +128,6 @@
             this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.guna2DataGridView2.ColumnHeadersHeight = 25;
             this.guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.transactionid,
-            this.clerkID,
-            this.tenantID,
-            this.unitID,
-            this.amount,
-            this.Status});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -187,47 +174,6 @@
             this.guna2DataGridView2.ThemeStyle.RowsStyle.Height = 27;
             this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // transactionid
-            // 
-            this.transactionid.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.transactionid.HeaderText = "TRANSACTION ID ";
-            this.transactionid.Name = "transactionid";
-            this.transactionid.ReadOnly = true;
-            // 
-            // clerkID
-            // 
-            this.clerkID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clerkID.HeaderText = "CLERK ID";
-            this.clerkID.Name = "clerkID";
-            this.clerkID.ReadOnly = true;
-            // 
-            // tenantID
-            // 
-            this.tenantID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.tenantID.HeaderText = "TENANT ID ";
-            this.tenantID.Name = "tenantID";
-            this.tenantID.ReadOnly = true;
-            // 
-            // unitID
-            // 
-            this.unitID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.unitID.HeaderText = "UNIT ID";
-            this.unitID.Name = "unitID";
-            this.unitID.ReadOnly = true;
-            // 
-            // amount
-            // 
-            this.amount.HeaderText = "AMOUNT";
-            this.amount.Name = "amount";
-            this.amount.ReadOnly = true;
-            // 
-            // Status
-            // 
-            this.Status.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Status.HeaderText = "STATUS";
-            this.Status.Name = "Status";
-            this.Status.ReadOnly = true;
             // 
             // guna2Button2
             // 
@@ -287,12 +233,6 @@
         private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn transactionid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn clerkID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tenantID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn unitID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn amount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
         private System.Windows.Forms.Panel panel1;
     }
 }

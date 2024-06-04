@@ -54,9 +54,8 @@
             this.panel2.Controls.Add(this.guna2HtmlLabel2);
             this.panel2.Controls.Add(this.guna2HtmlLabel1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1520, 74);
+            this.panel2.Size = new System.Drawing.Size(1140, 60);
             this.panel2.TabIndex = 4;
             // 
             // guna2HtmlLabel2
@@ -64,10 +63,9 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(1299, 16);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(974, 13);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(124, 26);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(101, 20);
             this.guna2HtmlLabel2.TabIndex = 1;
             this.guna2HtmlLabel2.Text = "Hello , Clerk!";
             // 
@@ -75,8 +73,7 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(647, 48);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(485, 39);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(3, 2);
             this.guna2HtmlLabel1.TabIndex = 0;
@@ -90,10 +87,9 @@
             this.dashboardIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashboardIcon.Image = ((System.Drawing.Image)(resources.GetObject("dashboardIcon.Image")));
             this.dashboardIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.dashboardIcon.Location = new System.Drawing.Point(16, 7);
-            this.dashboardIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dashboardIcon.Location = new System.Drawing.Point(12, 6);
             this.dashboardIcon.Name = "dashboardIcon";
-            this.dashboardIcon.Size = new System.Drawing.Size(224, 49);
+            this.dashboardIcon.Size = new System.Drawing.Size(168, 40);
             this.dashboardIcon.TabIndex = 2;
             this.dashboardIcon.Text = "Dashboard";
             this.dashboardIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -108,10 +104,9 @@
             this.unitsIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.unitsIcon.Image = ((System.Drawing.Image)(resources.GetObject("unitsIcon.Image")));
             this.unitsIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.unitsIcon.Location = new System.Drawing.Point(16, 71);
-            this.unitsIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.unitsIcon.Location = new System.Drawing.Point(12, 58);
             this.unitsIcon.Name = "unitsIcon";
-            this.unitsIcon.Size = new System.Drawing.Size(224, 49);
+            this.unitsIcon.Size = new System.Drawing.Size(168, 40);
             this.unitsIcon.TabIndex = 2;
             this.unitsIcon.Text = "Units";
             this.unitsIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -126,10 +121,9 @@
             this.tenantIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenantIcon.Image = ((System.Drawing.Image)(resources.GetObject("tenantIcon.Image")));
             this.tenantIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.tenantIcon.Location = new System.Drawing.Point(16, 135);
-            this.tenantIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tenantIcon.Location = new System.Drawing.Point(12, 110);
             this.tenantIcon.Name = "tenantIcon";
-            this.tenantIcon.Size = new System.Drawing.Size(224, 49);
+            this.tenantIcon.Size = new System.Drawing.Size(168, 40);
             this.tenantIcon.TabIndex = 2;
             this.tenantIcon.Text = "Tenants";
             this.tenantIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -144,10 +138,9 @@
             this.paymentIcon.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.paymentIcon.Image = ((System.Drawing.Image)(resources.GetObject("paymentIcon.Image")));
             this.paymentIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.paymentIcon.Location = new System.Drawing.Point(16, 199);
-            this.paymentIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.paymentIcon.Location = new System.Drawing.Point(12, 162);
             this.paymentIcon.Name = "paymentIcon";
-            this.paymentIcon.Size = new System.Drawing.Size(224, 49);
+            this.paymentIcon.Size = new System.Drawing.Size(168, 40);
             this.paymentIcon.TabIndex = 2;
             this.paymentIcon.Text = "Payments";
             this.paymentIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -157,10 +150,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
-            this.panel3.Location = new System.Drawing.Point(0, 7);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(0, 6);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(13, 49);
+            this.panel3.Size = new System.Drawing.Size(10, 40);
             this.panel3.TabIndex = 3;
             // 
             // panel1
@@ -174,10 +166,9 @@
             this.panel1.Controls.Add(this.tenantIcon);
             this.panel1.Controls.Add(this.unitsIcon);
             this.panel1.Controls.Add(this.dashboardIcon);
-            this.panel1.Location = new System.Drawing.Point(0, 74);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 60);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(240, 738);
+            this.panel1.Size = new System.Drawing.Size(180, 600);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -186,10 +177,10 @@
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(16, 677);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(12, 550);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 47);
+            this.button2.Size = new System.Drawing.Size(56, 38);
             this.button2.TabIndex = 7;
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -201,51 +192,50 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(13, 263);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(10, 214);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(228, 49);
+            this.button1.Size = new System.Drawing.Size(171, 40);
             this.button1.TabIndex = 6;
             this.button1.Text = "Transactions";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel4
             // 
-            this.panel4.Location = new System.Drawing.Point(237, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Location = new System.Drawing.Point(178, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1072, 622);
+            this.panel4.Size = new System.Drawing.Size(804, 505);
             this.panel4.TabIndex = 5;
             // 
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.Transparent;
             this.mainPanel.Controls.Add(this.clerkDashboardScreen1);
-            this.mainPanel.Location = new System.Drawing.Point(241, 74);
-            this.mainPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.mainPanel.Location = new System.Drawing.Point(181, 60);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(1267, 738);
+            this.mainPanel.Size = new System.Drawing.Size(950, 600);
             this.mainPanel.TabIndex = 9;
             // 
             // clerkDashboardScreen1
             // 
             this.clerkDashboardScreen1.Location = new System.Drawing.Point(0, 0);
-            this.clerkDashboardScreen1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.clerkDashboardScreen1.Margin = new System.Windows.Forms.Padding(4);
             this.clerkDashboardScreen1.Name = "clerkDashboardScreen1";
-            this.clerkDashboardScreen1.Size = new System.Drawing.Size(1267, 738);
+            this.clerkDashboardScreen1.Size = new System.Drawing.Size(950, 600);
             this.clerkDashboardScreen1.TabIndex = 0;
             this.clerkDashboardScreen1.Load += new System.EventHandler(this.clerkDashboardScreen1_Load);
             // 
             // clerk
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1512, 814);
+            this.ClientSize = new System.Drawing.Size(1134, 661);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "clerk";
             this.Text = "clerk";
             this.Load += new System.EventHandler(this.clerk_Load);

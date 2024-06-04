@@ -16,5 +16,10 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+
+        private void adminDeletePayment_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

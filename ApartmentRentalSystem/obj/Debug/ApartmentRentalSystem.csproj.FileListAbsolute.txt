@@ -156,8 +156,6 @@ C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\De
 C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\Apartmen.F693DFB1.Up2Date
 C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.exe
 C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.pdb
-C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\APARTMENT_RENTAL.mdf
-C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\APARTMENT_RENTAL_log.ldf
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\ApartmentRentalSystem.exe.config
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\ApartmentRentalSystem.exe
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\ApartmentRentalSystem.pdb
@@ -300,3 +298,7 @@ C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\De
 C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.updateTenant.resources
 C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1.mdf
 C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1_log.ldf
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1.mdf
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1_log.ldf
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\System.ClientModel.dll
+C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\System.ClientModel.xml

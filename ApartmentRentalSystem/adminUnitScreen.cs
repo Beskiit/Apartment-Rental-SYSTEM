@@ -29,26 +29,26 @@ namespace ApartmentRentalSystem
 
         }
 
-        private void addToolStripMenuItem_Click(object sender, EventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void addToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             adminaddUnit adminaddUnit = new adminaddUnit();
             addUserControl(adminaddUnit);
         }
 
-        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
+        private void updateToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             adminUpdateUnit adminUpdateUnit = new adminUpdateUnit();
             addUserControl(adminUpdateUnit);
         }
 
-        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        private void deleteToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             adminDeleteUnit adminDeleteUnit = new adminDeleteUnit();
             addUserControl(adminDeleteUnit);
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
         }
     }
 }

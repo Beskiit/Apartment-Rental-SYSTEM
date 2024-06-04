@@ -20,8 +20,7 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            /*try
-            {*/
+            /*
                 Connection.conn.Open();
                 SqlCommand cmd = new SqlCommand("INSERT INTO Tenant (firstName, lastName, phoneNum, email, unit) VALUES (@firstName, @lastName, @phoneNum, @email, @unit)", Connection.conn);
                 cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
@@ -37,6 +36,16 @@ namespace ApartmentRentalSystem
             {
                 MessageBox.Show("Adding tenant failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }*/
+        }
+
+        private void addTenant_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

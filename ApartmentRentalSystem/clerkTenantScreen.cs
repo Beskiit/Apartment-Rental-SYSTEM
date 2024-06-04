@@ -45,5 +45,10 @@ namespace ApartmentRentalSystem
                 MessageBox.Show("You pressed Cancel!");
             }
         }
+
+        private void guna2TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

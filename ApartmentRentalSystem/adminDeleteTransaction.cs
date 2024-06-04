@@ -16,5 +16,15 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+
+        private void adminDeleteTransaction_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -63,6 +63,11 @@ namespace ApartmentRentalSystem
                 MessageBox.Show("Invalid username or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 

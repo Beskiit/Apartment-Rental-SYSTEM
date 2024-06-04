@@ -16,6 +16,7 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+      
         public void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
@@ -29,6 +30,8 @@ namespace ApartmentRentalSystem
         {
             clerkDashboardScreen cds = new clerkDashboardScreen();
             addUserControl(cds);
+            panel3.Height = dashboardIcon.Height;
+            panel3.Top = dashboardIcon.Top;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -40,18 +43,24 @@ namespace ApartmentRentalSystem
         {
             clerkUnitScreen cus = new clerkUnitScreen();
             addUserControl(cus);
+            panel3.Height = unitsIcon.Height;
+            panel3.Top = unitsIcon.Top;
         }
 
         private void tenantIcon_Click(object sender, EventArgs e)
         {
             clerkTenantScreen cts = new clerkTenantScreen();
             addUserControl(cts);
+            panel3.Height = tenantIcon.Height;
+            panel3.Top = tenantIcon.Top;
         }
 
         private void paymentIcon_Click(object sender, EventArgs e)
         {
             clerkPaymentScreen cps = new clerkPaymentScreen();
             addUserControl(cps);
+            panel3.Height = paymentIcon.Height;
+            panel3.Top = paymentIcon.Top;
         }
 
         private void clerk_Load(object sender, EventArgs e)
@@ -76,6 +85,14 @@ namespace ApartmentRentalSystem
         private void clerkDashboardScreen1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clerkTransactionScreen clerkTransactionScreen = new clerkTransactionScreen();
+            addUserControl(clerkTransactionScreen);
+            panel3.Height = button1.Height;
+            panel3.Top = button1.Top;
         }
     }
 }

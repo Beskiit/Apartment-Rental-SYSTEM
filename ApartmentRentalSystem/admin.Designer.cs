@@ -30,8 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.logoutButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
             this.dashboardIcon = new System.Windows.Forms.Button();
             this.unitsIcon = new System.Windows.Forms.Button();
             this.tenantIcon = new System.Windows.Forms.Button();
@@ -39,8 +41,6 @@
             this.userIcon = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.mainPanel.SuspendLayout();
@@ -55,6 +55,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1132, 60);
             this.panel2.TabIndex = 1;
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(974, 13);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(109, 28);
+            this.guna2HtmlLabel2.TabIndex = 2;
+            this.guna2HtmlLabel2.Text = "Hello , Admin!";
             // 
             // logoutButton
             // 
@@ -77,6 +88,15 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(949, 600);
             this.mainPanel.TabIndex = 2;
+            // 
+            // adminDashboardScreen2
+            // 
+            this.adminDashboardScreen2.AutoSize = true;
+            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
+            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
+            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 460);
+            this.adminDashboardScreen2.TabIndex = 0;
+            this.adminDashboardScreen2.Load += new System.EventHandler(this.adminDashboardScreen2_Load);
             // 
             // dashboardIcon
             // 
@@ -186,25 +206,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 651);
             this.panel1.TabIndex = 0;
-            // 
-            // adminDashboardScreen2
-            // 
-            this.adminDashboardScreen2.AutoSize = true;
-            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
-            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
-            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 460);
-            this.adminDashboardScreen2.TabIndex = 0;
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(974, 13);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(109, 28);
-            this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = "Hello , Admin!";
             // 
             // button1
             // 

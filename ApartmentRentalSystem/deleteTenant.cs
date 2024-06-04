@@ -27,5 +27,30 @@ namespace ApartmentRentalSystem
             Connection.conn.Close();
             MessageBox.Show("Tenant successfuly deleted.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void deleteTenant_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void unitBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

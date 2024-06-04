@@ -16,5 +16,20 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+
+        private void adminUpdateUser_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

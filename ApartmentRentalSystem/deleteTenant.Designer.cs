@@ -56,13 +56,13 @@
             this.emailBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.emailBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.emailBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.emailBox.Location = new System.Drawing.Point(758, 38);
-            this.emailBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.emailBox.Location = new System.Drawing.Point(513, 25);
+            this.emailBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.emailBox.Name = "emailBox";
             this.emailBox.PasswordChar = '\0';
             this.emailBox.PlaceholderText = "";
             this.emailBox.SelectedText = "";
-            this.emailBox.Size = new System.Drawing.Size(204, 38);
+            this.emailBox.Size = new System.Drawing.Size(136, 25);
             this.emailBox.TabIndex = 5;
             // 
             // lastNameBox
@@ -78,13 +78,13 @@
             this.lastNameBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.lastNameBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.lastNameBox.Location = new System.Drawing.Point(470, 38);
-            this.lastNameBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.lastNameBox.Location = new System.Drawing.Point(316, 25);
+            this.lastNameBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lastNameBox.Name = "lastNameBox";
             this.lastNameBox.PasswordChar = '\0';
             this.lastNameBox.PlaceholderText = "";
             this.lastNameBox.SelectedText = "";
-            this.lastNameBox.Size = new System.Drawing.Size(204, 38);
+            this.lastNameBox.Size = new System.Drawing.Size(136, 25);
             this.lastNameBox.TabIndex = 3;
             // 
             // unitBox
@@ -100,14 +100,15 @@
             this.unitBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.unitBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.unitBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.unitBox.Location = new System.Drawing.Point(758, 132);
-            this.unitBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.unitBox.Location = new System.Drawing.Point(513, 86);
+            this.unitBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.unitBox.Name = "unitBox";
             this.unitBox.PasswordChar = '\0';
             this.unitBox.PlaceholderText = "";
             this.unitBox.SelectedText = "";
-            this.unitBox.Size = new System.Drawing.Size(204, 38);
+            this.unitBox.Size = new System.Drawing.Size(136, 25);
             this.unitBox.TabIndex = 6;
+            this.unitBox.TextChanged += new System.EventHandler(this.unitBox_TextChanged);
             // 
             // numBox
             // 
@@ -122,14 +123,15 @@
             this.numBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.numBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.numBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.numBox.Location = new System.Drawing.Point(470, 132);
-            this.numBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.numBox.Location = new System.Drawing.Point(316, 86);
+            this.numBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numBox.Name = "numBox";
             this.numBox.PasswordChar = '\0';
             this.numBox.PlaceholderText = "";
             this.numBox.SelectedText = "";
-            this.numBox.Size = new System.Drawing.Size(204, 38);
+            this.numBox.Size = new System.Drawing.Size(136, 25);
             this.numBox.TabIndex = 4;
+            this.numBox.TextChanged += new System.EventHandler(this.numBox_TextChanged);
             // 
             // tenantIdBox
             // 
@@ -144,13 +146,13 @@
             this.tenantIdBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tenantIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tenantIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tenantIdBox.Location = new System.Drawing.Point(130, 38);
-            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.tenantIdBox.Location = new System.Drawing.Point(87, 25);
+            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tenantIdBox.Name = "tenantIdBox";
             this.tenantIdBox.PasswordChar = '\0';
             this.tenantIdBox.PlaceholderText = "";
             this.tenantIdBox.SelectedText = "";
-            this.tenantIdBox.Size = new System.Drawing.Size(204, 38);
+            this.tenantIdBox.Size = new System.Drawing.Size(136, 25);
             this.tenantIdBox.TabIndex = 1;
             // 
             // firstNameBox
@@ -166,78 +168,74 @@
             this.firstNameBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.firstNameBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.firstNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.firstNameBox.Location = new System.Drawing.Point(130, 132);
-            this.firstNameBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this.firstNameBox.Location = new System.Drawing.Point(87, 86);
+            this.firstNameBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.firstNameBox.Name = "firstNameBox";
             this.firstNameBox.PasswordChar = '\0';
             this.firstNameBox.PlaceholderText = "";
             this.firstNameBox.SelectedText = "";
-            this.firstNameBox.Size = new System.Drawing.Size(204, 38);
+            this.firstNameBox.Size = new System.Drawing.Size(136, 25);
             this.firstNameBox.TabIndex = 2;
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(682, 38);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(459, 25);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(62, 27);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(47, 25);
             this.guna2HtmlLabel4.TabIndex = 12;
             this.guna2HtmlLabel4.Text = "Email :";
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(344, 38);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(229, 25);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(108, 27);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(80, 25);
             this.guna2HtmlLabel2.TabIndex = 13;
             this.guna2HtmlLabel2.Text = "Last Name :";
             // 
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(698, 132);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(459, 86);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(48, 27);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(36, 25);
             this.guna2HtmlLabel5.TabIndex = 14;
             this.guna2HtmlLabel5.Text = "Unit :";
+            this.guna2HtmlLabel5.Click += new System.EventHandler(this.guna2HtmlLabel5_Click);
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(352, 132);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(229, 86);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(106, 27);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(75, 25);
             this.guna2HtmlLabel3.TabIndex = 15;
             this.guna2HtmlLabel3.Text = "Phone No. :";
+            this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
             // 
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(4, 38);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(3, 25);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(100, 27);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(73, 25);
             this.guna2HtmlLabel6.TabIndex = 16;
             this.guna2HtmlLabel6.Text = "Tenant ID :";
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(4, 132);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(3, 86);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(108, 27);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(81, 25);
             this.guna2HtmlLabel1.TabIndex = 17;
             this.guna2HtmlLabel1.Text = "First Name :";
             // 
@@ -246,7 +244,7 @@
             this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 19;
+            this.guna2Button1.BorderRadius = 14;
             this.guna2Button1.DefaultAutoSize = true;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -256,10 +254,9 @@
             this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.IndicateFocus = true;
-            this.guna2Button1.Location = new System.Drawing.Point(600, 189);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2Button1.Location = new System.Drawing.Point(400, 123);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(105, 40);
+            this.guna2Button1.Size = new System.Drawing.Size(79, 30);
             this.guna2Button1.TabIndex = 7;
             this.guna2Button1.Text = "Delete";
             this.guna2Button1.UseTransparentBackground = true;
@@ -267,7 +264,7 @@
             // 
             // deleteTenant
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.emailBox);
@@ -282,9 +279,9 @@
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel6);
             this.Controls.Add(this.guna2HtmlLabel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "deleteTenant";
-            this.Size = new System.Drawing.Size(1020, 246);
+            this.Size = new System.Drawing.Size(680, 160);
+            this.Load += new System.EventHandler(this.deleteTenant_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
