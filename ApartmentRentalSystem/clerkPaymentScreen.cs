@@ -44,14 +44,21 @@ namespace ApartmentRentalSystem
 
         private void addPaymentClerk_Click(object sender, EventArgs e)
         {
-          
+            if (MessageBox.Show("Are you sure you want to add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                MessageBox.Show("Added Successfully!");
+            }
+            else
+            {
+                MessageBox.Show("You pressed Cancel!");
+            }
         }
 
         private void updateTenantClerk_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            if (MessageBox.Show("Are you sure you want to update?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
-                MessageBox.Show("Added Successfully!");
+                MessageBox.Show("Updated Successfully!");
             }
             else
             {

@@ -54,5 +54,17 @@ namespace ApartmentRentalSystem
         {
 
         }
+
+        private void updateClerkUnit_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Are you sure you want update?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                MessageBox.Show("Updated Successfully!");
+            }
+            else
+            {
+                MessageBox.Show("You pressed Cancel!");
+            }
+        }
     }
 }

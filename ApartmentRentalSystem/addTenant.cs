@@ -20,6 +20,16 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            if (MessageBox.Show("Are you sure you want add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                MessageBox.Show("Added Successfully!");
+            }
+            else
+            {
+                MessageBox.Show("You pressed Cancel!");
+            }
+
+
             /*
                 Connection.conn.Open();
                 SqlCommand cmd = new SqlCommand("INSERT INTO Tenant (firstName, lastName, phoneNum, email, unit) VALUES (@firstName, @lastName, @phoneNum, @email, @unit)", Connection.conn);
