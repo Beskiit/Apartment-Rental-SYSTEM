@@ -31,7 +31,7 @@ namespace ApartmentRentalSystem
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-            guna2DataGridView2.DataSource = dt;
+            guna2DataGridView1.DataSource = dt;
 
             cmd = new SqlCommand("SELECT adminID AS 'Admin ID', username AS 'Userame', password AS 'Password', firstName AS 'First Name', lastName AS 'Last Name' FROM Admin", Connection.conn);
             sda = new SqlDataAdapter(cmd);
@@ -66,7 +66,7 @@ namespace ApartmentRentalSystem
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-            guna2DataGridView2.DataSource = dt;
+            guna2DataGridView1.DataSource = dt;
 
             cmd = new SqlCommand("SELECT adminID AS 'Admin ID', username AS 'Userame', password AS 'Password', firstName AS 'First Name', lastName AS 'Last Name' FROM Admin", Connection.conn);
             sda = new SqlDataAdapter(cmd);

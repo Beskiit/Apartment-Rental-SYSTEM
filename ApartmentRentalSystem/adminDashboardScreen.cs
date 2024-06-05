@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -26,10 +27,14 @@ namespace ApartmentRentalSystem
 
         private void LoadRentalStatus()
         {
-            int occupiedCount = 17;
-            int freeCount = 41;
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Room WHERE status = 'Occupied'", Connection.conn);
+            int occupiedCount = Convert.ToInt32(cmd.ExecuteScalar());
+            cmd = new SqlCommand("SELECT COUNT(*) FROM Room WHERE status = 'Vacant'", Connection.conn);
+            int freeCount = Convert.ToInt32(cmd.ExecuteScalar());
 
             UpdateChart(occupiedCount, freeCount);
+            Connection.conn.Close();
         }
 
         private void UpdateChart(int available, int occupied)

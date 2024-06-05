@@ -35,7 +35,6 @@ namespace ApartmentRentalSystem
             sda.Fill(dt);
             guna2DataGridView2.DataSource = dt;
             Connection.conn.Close();
-
         }
         private void guna2Button2_Click(object sender, EventArgs e)
         {

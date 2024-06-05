@@ -53,6 +53,7 @@ namespace ApartmentRentalSystem
                 if (userInput.Text == read.GetValue(0).ToString() && passwordInput.Text == read.GetValue(1).ToString())
                 {
                     isLogin = true;
+                    Connection.conn.Close();
                     break;
                 }
                 else
@@ -69,12 +70,46 @@ namespace ApartmentRentalSystem
             else
             {
                 MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
+                Connection.conn.Close();
             }
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT username, password FROM Clerk", Connection.conn);
+            SqlDataReader read = cmd.ExecuteReader();
+            bool isLogin = false;
+            while (read.Read())
+            {
+                if (userInput.Text == read.GetValue(0).ToString() && passwordInput.Text == read.GetValue(1).ToString())
+                {
+                    isLogin = true;
+                    Connection.conn.Close();
+                    break;
+                }
+                else
+                {
+                    isLogin = false;
+                }
+            }
+            if (isLogin)
+            {
+                clerk dashboard = new clerk();
+                dashboard.Show();
+                this.Hide();
+                Connection.conn.Close();
+            }
+            else
+            {
+                MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
+                Connection.conn.Close();
+            }
         }
     }
 }

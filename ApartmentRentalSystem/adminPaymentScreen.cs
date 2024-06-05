@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Data.SqlClient;
+using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Windows.Forms;
 
 namespace ApartmentRentalSystem
@@ -39,6 +42,28 @@ namespace ApartmentRentalSystem
         {
            adminDeletePayment adminDeletePayment = new adminDeletePayment();
             addUserControl(adminDeletePayment);
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT adminID AS 'Admin ID', username AS 'Userame', password AS 'Password', firstName AS 'First Name', lastName AS 'Last Name' FROM Admin", Connection.conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            guna2DataGridView1.DataSource = dt;
+            Connection.conn.Close();
+        }
+
+        private void adminPaymentScreen_Load(object sender, EventArgs e)
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT adminID AS 'Admin ID', username AS 'Userame', password AS 'Password', firstName AS 'First Name', lastName AS 'Last Name' FROM Admin", Connection.conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            guna2DataGridView1.DataSource = dt;
+            Connection.conn.Close();
         }
     }
 }
