@@ -29,6 +29,7 @@ namespace ApartmentRentalSystem
             {
                 if (role.Text.ToLower() == "admin")
                 {
+                    Connection.conn.Open();
                     SqlCommand cmd = new SqlCommand("INSERT INTO Admin (username, password, firstName, lastName) VALUES (@username, @password, @firstName, @lastName)", Connection.conn);
                     cmd.Parameters.AddWithValue("@username", usernameBox.Text);
                     cmd.Parameters.AddWithValue("@password", paswordBox.Text);
@@ -46,34 +47,36 @@ namespace ApartmentRentalSystem
                     else
                     {
                         MessageBox.Show("You pressed Cancel!");
+                        Connection.conn.Close();
                     }
 
-                }else if(role.Text.ToLower() == "clerk")
+                }
+                else if (role.Text.ToLower() == "clerk")
                 {
+                    Connection.conn.Open();
                     SqlCommand cmd = new SqlCommand("INSERT INTO Clerk (username, password, firstName, lastName) VALUES (@username, @password, @firstName, @lastName)", Connection.conn);
-                    cmd.Parameters.AddWithValue("@username", usernameBox.Text);
-                    cmd.Parameters.AddWithValue("@password", paswordBox.Text);
-                    cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
-                    cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
                     if (MessageBox.Show("Are you sure you want add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                     {
                         cmd.Parameters.AddWithValue("@username", usernameBox.Text);
                         cmd.Parameters.AddWithValue("@password", paswordBox.Text);
                         cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
                         cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
+                        cmd.ExecuteNonQuery();
                         Connection.conn.Close();
                         MessageBox.Show("Added Successfully!");
                     }
                     else
                     {
                         MessageBox.Show("You pressed Cancel!");
+                        Connection.conn.Close();
                     }
                 }
                 else
-                {
-                    MessageBox.Show("Incorrect role.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+            {
+                MessageBox.Show("Incorrect role.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Connection.conn.Close();
             }
+        }
             catch (Exception ex)
             {
                 MessageBox.Show("Adding user failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);

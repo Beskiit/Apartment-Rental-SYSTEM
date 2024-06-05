@@ -57,7 +57,7 @@ namespace ApartmentRentalSystem
         private void adminTransactionScreen_Load(object sender, EventArgs e)
         {
             Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT transactionID AS 'Transaction ID', tenantID AS 'Tenant ID', roomID AS 'Room ID', totalCost AS 'Amount' FROM Transaction", Connection.conn);
+            SqlCommand cmd = new SqlCommand("SELECT transactionID AS 'Transaction ID', tenantID AS 'Tenant ID', roomID AS 'Room ID', totalCost AS 'Amount' FROM [Transaction]", Connection.conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);

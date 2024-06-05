@@ -47,7 +47,7 @@ namespace ApartmentRentalSystem
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT adminID AS 'Admin ID', username AS 'Userame', password AS 'Password', firstName AS 'First Name', lastName AS 'Last Name' FROM Admin", Connection.conn);
+            SqlCommand cmd = new SqlCommand("SELECT paymentID AS 'Payment ID', transactionID AS 'Transaction ID', amount AS 'Amount' FROM Payment", Connection.conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
@@ -58,7 +58,7 @@ namespace ApartmentRentalSystem
         private void adminPaymentScreen_Load(object sender, EventArgs e)
         {
             Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT adminID AS 'Admin ID', username AS 'Userame', password AS 'Password', firstName AS 'First Name', lastName AS 'Last Name' FROM Admin", Connection.conn);
+            SqlCommand cmd = new SqlCommand("SELECT paymentID AS 'Payment ID', tenantID AS 'Tenant ID', amount AS 'Amount' FROM Payment", Connection.conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);

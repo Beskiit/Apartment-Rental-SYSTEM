@@ -16,5 +16,10 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+
+        private void updatePaymentClerk_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

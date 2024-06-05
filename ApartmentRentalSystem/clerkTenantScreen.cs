@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -73,8 +74,30 @@ namespace ApartmentRentalSystem
 
         private void updatePaymentClerk_Click(object sender, EventArgs e)
         {
-            clerkUpdatePayment cup = new clerkUpdatePayment (); 
+            clerkUpdateTenant cup = new clerkUpdateTenant (); 
             addUserControl(cup);
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', email AS 'Email', phoneNum AS 'Phone Number', unit AS 'Unit' FROM Tenant", Connection.conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            guna2DataGridView1.DataSource = dt;
+            Connection.conn.Close();
+        }
+
+        private void clerkTenantScreen_Load(object sender, EventArgs e)
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', email AS 'Email', phoneNum AS 'Phone Number', unit AS 'Unit' FROM Tenant", Connection.conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            guna2DataGridView1.DataSource = dt;
+            Connection.conn.Close();
         }
     }
 }

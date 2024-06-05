@@ -33,6 +33,8 @@ namespace ApartmentRentalSystem
             cmd = new SqlCommand("SELECT COUNT(*) FROM Room WHERE status = 'Vacant'", Connection.conn);
             int freeCount = Convert.ToInt32(cmd.ExecuteScalar());
 
+            
+
             UpdateChart(occupiedCount, freeCount);
             Connection.conn.Close();
         }

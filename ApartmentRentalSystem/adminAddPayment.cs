@@ -24,10 +24,13 @@ namespace ApartmentRentalSystem
             {
                 Connection.conn.Open();
                 SqlCommand cmd = new SqlCommand("INSERT INTO Payment (tenantID, amount) VALUES (@tenantID, @amount)");
+                cmd = new SqlCommand("UPDATE Transaction SET totalCost -= @amount");
                 if (MessageBox.Show("Are you sure you want add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
                     cmd.Parameters.AddWithValue("@tenantID", Convert.ToInt32(tenantIdBox.Text));
                     cmd.Parameters.AddWithValue("@amount", Convert.ToDecimal(amountBox.Text));
+                    cmd.Parameters.Add("@amount", Convert.ToDecimal(amountBox.Text));
+                    cmd.ExecuteNonQuery();
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Added Successfully!");
                 }

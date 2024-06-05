@@ -27,7 +27,7 @@ namespace ApartmentRentalSystem
         private void adminUnitScreen_Load(object sender, EventArgs e)
         {
             Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', status AS 'Status' FROM Room", Connection.conn);
+            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description',price AS 'Price', status AS 'Status' FROM Room", Connection.conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
@@ -38,7 +38,7 @@ namespace ApartmentRentalSystem
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', status AS 'Status' FROM Room", Connection.conn);
+            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description',price AS 'Price', status AS 'Status' FROM Room", Connection.conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);

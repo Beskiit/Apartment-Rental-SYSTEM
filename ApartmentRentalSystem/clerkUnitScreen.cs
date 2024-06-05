@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -40,14 +41,7 @@ namespace ApartmentRentalSystem
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-            {
-                MessageBox.Show("Added Successfully!");
-            }
-            else
-            {
-                MessageBox.Show("You pressed Cancel!");
-            }
+
         }
 
         private void guna2TextBox2_TextChanged(object sender, EventArgs e)
@@ -85,6 +79,28 @@ namespace ApartmentRentalSystem
         {
             clerkUpdateUnit cuu = new clerkUpdateUnit();
             addUserControl(cuu);
+        }
+
+        private void clerkUnitScreen_Load(object sender, EventArgs e)
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', price AS 'Price', status AS 'Status' FROM Room", Connection.conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            guna2DataGridView1.DataSource = dt;
+            Connection.conn.Close();
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', price AS 'Price', status AS 'Status' FROM Room", Connection.conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            guna2DataGridView1.DataSource = dt;
+            Connection.conn.Close();
         }
     }
 }

@@ -40,5 +40,10 @@ namespace ApartmentRentalSystem
 
 
         }
+
+        private void tenantIdBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

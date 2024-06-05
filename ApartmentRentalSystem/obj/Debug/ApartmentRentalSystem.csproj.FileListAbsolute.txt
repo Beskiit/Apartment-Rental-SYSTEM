@@ -354,3 +354,5 @@ C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.clerkUpdateTenant.resources
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.clerkUpdateTransaction.resources
 C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.clerkUpdateUnit.resources
+C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database2.mdf
+C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database2_log.ldf
