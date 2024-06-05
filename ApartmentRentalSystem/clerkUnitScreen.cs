@@ -66,5 +66,25 @@ namespace ApartmentRentalSystem
                 MessageBox.Show("You pressed Cancel!");
             }
         }
+        private void addUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(userControl);
+            userControl.BringToFront();
+
+
+        }
+        private void addPaymentClerk_Click(object sender, EventArgs e)
+        {
+            clerkAddUnit cau = new clerkAddUnit();
+            addUserControl(cau);
+        }
+
+        private void updatePaymentClerk_Click(object sender, EventArgs e)
+        {
+            clerkUpdateUnit cuu = new clerkUpdateUnit();
+            addUserControl(cuu);
+        }
     }
 }

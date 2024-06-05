@@ -328,11 +328,29 @@
     <Compile Include="clerk.Designer.cs">
       <DependentUpon>clerk.cs</DependentUpon>
     </Compile>
+    <Compile Include="clerkAddPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkAddPayment.Designer.cs">
+      <DependentUpon>clerkAddPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="clerkAddTenant.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="clerkAddTenant.Designer.cs">
       <DependentUpon>clerkAddTenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkAddTransaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkAddTransaction.Designer.cs">
+      <DependentUpon>clerkAddTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkAddUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkAddUnit.Designer.cs">
+      <DependentUpon>clerkAddUnit.cs</DependentUpon>
     </Compile>
     <Compile Include="clerkDashboardScreen.cs">
       <SubType>UserControl</SubType>
@@ -363,6 +381,30 @@
     </Compile>
     <Compile Include="clerkUnitScreen.Designer.cs">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkUpdatePayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkUpdatePayment.Designer.cs">
+      <DependentUpon>clerkUpdatePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkUpdateTenant.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkUpdateTenant.Designer.cs">
+      <DependentUpon>clerkUpdateTenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkUpdateTransaction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkUpdateTransaction.Designer.cs">
+      <DependentUpon>clerkUpdateTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clerkUpdateUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkUpdateUnit.Designer.cs">
+      <DependentUpon>clerkUpdateUnit.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -453,8 +495,17 @@
     <EmbeddedResource Include="clerk.resx">
       <DependentUpon>clerk.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="clerkAddPayment.resx">
+      <DependentUpon>clerkAddPayment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clerkAddTenant.resx">
       <DependentUpon>clerkAddTenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkAddTransaction.resx">
+      <DependentUpon>clerkAddTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkAddUnit.resx">
+      <DependentUpon>clerkAddUnit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clerkDashboardScreen.resx">
       <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
@@ -470,6 +521,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clerkUnitScreen.resx">
       <DependentUpon>clerkUnitScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkUpdatePayment.resx">
+      <DependentUpon>clerkUpdatePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkUpdateTenant.resx">
+      <DependentUpon>clerkUpdateTenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkUpdateTransaction.resx">
+      <DependentUpon>clerkUpdateTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clerkUpdateUnit.resx">
+      <DependentUpon>clerkUpdateUnit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

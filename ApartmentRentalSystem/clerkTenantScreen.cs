@@ -55,5 +55,26 @@ namespace ApartmentRentalSystem
         {
 
         }
+
+        private void addUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(userControl);
+            userControl.BringToFront();
+
+
+        }
+        private void addPaymentClerk_Click(object sender, EventArgs e)
+        {
+            clerkAddTenant cat = new clerkAddTenant  ();
+            addUserControl(cat);
+        }
+
+        private void updatePaymentClerk_Click(object sender, EventArgs e)
+        {
+            clerkUpdatePayment cup = new clerkUpdatePayment (); 
+            addUserControl(cup);
+        }
     }
 }

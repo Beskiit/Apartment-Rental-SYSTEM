@@ -45,7 +45,15 @@ namespace ApartmentRentalSystem
         {
 
         }
+        private void addUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(userControl);
+            userControl.BringToFront();
 
+
+        }
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -54,6 +62,18 @@ namespace ApartmentRentalSystem
         private void guna2TextBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void addPaymentClerk_Click(object sender, EventArgs e)
+        {
+            clerkAddTransaction cat  = new clerkAddTransaction();
+            addUserControl(cat);
+        }
+
+        private void updatePaymentClerk_Click(object sender, EventArgs e)
+        {
+            clerkUpdateTransaction cut = new clerkUpdateTransaction();
+            addUserControl(cut);
         }
     }
 }

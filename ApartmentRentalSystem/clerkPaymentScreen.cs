@@ -42,28 +42,30 @@ namespace ApartmentRentalSystem
 
         }
 
+        private void addUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(userControl);
+            userControl.BringToFront();
+
+
+        }
+
         private void addPaymentClerk_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to add?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-            {
-                MessageBox.Show("Added Successfully!");
-            }
-            else
-            {
-                MessageBox.Show("You pressed Cancel!");
-            }
+            clerkAddPayment cap = new clerkAddPayment();
+            addUserControl(cap);
+            
+
         }
 
         private void updateTenantClerk_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure you want to update?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-            {
-                MessageBox.Show("Updated Successfully!");
-            }
-            else
-            {
-                MessageBox.Show("You pressed Cancel!");
-            }
+            clerkUpdatePayment cup = new clerkUpdatePayment();
+            addUserControl (cup);
+
+       
         }
 
         private void updatePaymentClerk_Click(object sender, EventArgs e)
