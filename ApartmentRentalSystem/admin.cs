@@ -12,7 +12,6 @@ namespace ApartmentRentalSystem
 {
     public partial class admin : Form
     {
-        private overlayForm overlayForm;
 
         public admin()
         {
@@ -96,6 +95,11 @@ namespace ApartmentRentalSystem
         }
 
         private void adminDashboardScreen2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
         }

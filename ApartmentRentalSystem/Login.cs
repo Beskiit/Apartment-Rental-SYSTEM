@@ -44,6 +44,7 @@ namespace ApartmentRentalSystem
            
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            /*
             Connection.conn.Open();
             SqlCommand cmd = new SqlCommand("SELECT username, password FROM Admin", Connection.conn);
             SqlDataReader read = cmd.ExecuteReader();
@@ -76,11 +77,15 @@ namespace ApartmentRentalSystem
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit();*/
+            admin dashboard = new admin();
+            dashboard.Show();
+            this.Hide();
         }
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
+            /*
             Connection.conn.Open();
             SqlCommand cmd = new SqlCommand("SELECT username, password FROM Clerk", Connection.conn);
             SqlDataReader read = cmd.ExecuteReader();
@@ -109,7 +114,10 @@ namespace ApartmentRentalSystem
             {
                 MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
                 Connection.conn.Close();
-            }
+            }*/
+            clerk dashboard = new clerk();
+            dashboard.Show();
+            this.Hide();
         }
     }
 }

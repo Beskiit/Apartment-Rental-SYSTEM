@@ -83,24 +83,12 @@ namespace ApartmentRentalSystem
 
         private void clerkUnitScreen_Load(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', price AS 'Price', status AS 'Status' FROM Room", Connection.conn);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            guna2DataGridView1.DataSource = dt;
-            Connection.conn.Close();
+          
         }
 
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', price AS 'Price', status AS 'Status' FROM Room", Connection.conn);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            guna2DataGridView1.DataSource = dt;
-            Connection.conn.Close();
+           
         }
     }
 }

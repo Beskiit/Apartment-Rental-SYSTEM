@@ -41,6 +41,8 @@
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // unitBox
@@ -57,13 +59,13 @@
             this.unitBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.unitBox.ForeColor = System.Drawing.Color.Black;
             this.unitBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.unitBox.Location = new System.Drawing.Point(727, 106);
-            this.unitBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.unitBox.Location = new System.Drawing.Point(545, 86);
+            this.unitBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.unitBox.Name = "unitBox";
             this.unitBox.PasswordChar = '\0';
             this.unitBox.PlaceholderText = "";
             this.unitBox.SelectedText = "";
-            this.unitBox.Size = new System.Drawing.Size(181, 31);
+            this.unitBox.Size = new System.Drawing.Size(136, 25);
             this.unitBox.TabIndex = 53;
             // 
             // emailBox
@@ -80,13 +82,13 @@
             this.emailBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.emailBox.ForeColor = System.Drawing.Color.Black;
             this.emailBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.emailBox.Location = new System.Drawing.Point(727, 31);
-            this.emailBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.emailBox.Location = new System.Drawing.Point(545, 25);
+            this.emailBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.emailBox.Name = "emailBox";
             this.emailBox.PasswordChar = '\0';
             this.emailBox.PlaceholderText = "";
             this.emailBox.SelectedText = "";
-            this.emailBox.Size = new System.Drawing.Size(181, 31);
+            this.emailBox.Size = new System.Drawing.Size(136, 25);
             this.emailBox.TabIndex = 54;
             // 
             // numBox
@@ -103,13 +105,13 @@
             this.numBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.numBox.ForeColor = System.Drawing.Color.Black;
             this.numBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.numBox.Location = new System.Drawing.Point(423, 106);
-            this.numBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.numBox.Location = new System.Drawing.Point(317, 86);
+            this.numBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numBox.Name = "numBox";
             this.numBox.PasswordChar = '\0';
             this.numBox.PlaceholderText = "";
             this.numBox.SelectedText = "";
-            this.numBox.Size = new System.Drawing.Size(181, 31);
+            this.numBox.Size = new System.Drawing.Size(136, 25);
             this.numBox.TabIndex = 52;
             // 
             // lastNameBox
@@ -126,13 +128,13 @@
             this.lastNameBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lastNameBox.ForeColor = System.Drawing.Color.Black;
             this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.lastNameBox.Location = new System.Drawing.Point(423, 31);
-            this.lastNameBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.lastNameBox.Location = new System.Drawing.Point(317, 25);
+            this.lastNameBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lastNameBox.Name = "lastNameBox";
             this.lastNameBox.PasswordChar = '\0';
             this.lastNameBox.PlaceholderText = "";
             this.lastNameBox.SelectedText = "";
-            this.lastNameBox.Size = new System.Drawing.Size(181, 31);
+            this.lastNameBox.Size = new System.Drawing.Size(136, 25);
             this.lastNameBox.TabIndex = 51;
             // 
             // firstNameBox
@@ -149,13 +151,13 @@
             this.firstNameBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.firstNameBox.ForeColor = System.Drawing.Color.Black;
             this.firstNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.firstNameBox.Location = new System.Drawing.Point(117, 106);
-            this.firstNameBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.firstNameBox.Location = new System.Drawing.Point(88, 86);
+            this.firstNameBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.firstNameBox.Name = "firstNameBox";
             this.firstNameBox.PasswordChar = '\0';
             this.firstNameBox.PlaceholderText = "";
             this.firstNameBox.SelectedText = "";
-            this.firstNameBox.Size = new System.Drawing.Size(181, 31);
+            this.firstNameBox.Size = new System.Drawing.Size(136, 25);
             this.firstNameBox.TabIndex = 50;
             // 
             // tenantIdBox
@@ -172,13 +174,13 @@
             this.tenantIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tenantIdBox.ForeColor = System.Drawing.Color.Black;
             this.tenantIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tenantIdBox.Location = new System.Drawing.Point(115, 31);
-            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.tenantIdBox.Location = new System.Drawing.Point(86, 25);
+            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tenantIdBox.Name = "tenantIdBox";
             this.tenantIdBox.PasswordChar = '\0';
             this.tenantIdBox.PlaceholderText = "";
             this.tenantIdBox.SelectedText = "";
-            this.tenantIdBox.Size = new System.Drawing.Size(181, 31);
+            this.tenantIdBox.Size = new System.Drawing.Size(136, 25);
             this.tenantIdBox.TabIndex = 49;
             // 
             // guna2Button1
@@ -186,7 +188,7 @@
             this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 19;
+            this.guna2Button1.BorderRadius = 16;
             this.guna2Button1.DefaultAutoSize = true;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -196,10 +198,9 @@
             this.guna2Button1.Font = new System.Drawing.Font("Poppins", 12F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.IndicateFocus = true;
-            this.guna2Button1.Location = new System.Drawing.Point(533, 151);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Button1.Location = new System.Drawing.Point(400, 123);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(108, 40);
+            this.guna2Button1.Size = new System.Drawing.Size(92, 34);
             this.guna2Button1.TabIndex = 48;
             this.guna2Button1.Text = "Update";
             this.guna2Button1.UseTransparentBackground = true;
@@ -209,10 +210,9 @@
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(305, 106);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(229, 86);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(93, 30);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(75, 25);
             this.guna2HtmlLabel4.TabIndex = 42;
             this.guna2HtmlLabel4.Text = "Phone No. :";
             // 
@@ -220,10 +220,9 @@
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(611, 106);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(458, 86);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(43, 30);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(36, 25);
             this.guna2HtmlLabel6.TabIndex = 44;
             this.guna2HtmlLabel6.Text = "Unit : ";
             // 
@@ -231,10 +230,9 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(4, 106);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(3, 86);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(98, 30);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(81, 25);
             this.guna2HtmlLabel2.TabIndex = 43;
             this.guna2HtmlLabel2.Text = "First Name :";
             // 
@@ -242,10 +240,9 @@
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(611, 31);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(458, 25);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(56, 30);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(47, 25);
             this.guna2HtmlLabel5.TabIndex = 45;
             this.guna2HtmlLabel5.Text = "Email : ";
             // 
@@ -253,10 +250,9 @@
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(305, 31);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(229, 25);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(98, 30);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(80, 25);
             this.guna2HtmlLabel3.TabIndex = 46;
             this.guna2HtmlLabel3.Text = "Last Name :";
             // 
@@ -264,17 +260,49 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(4, 31);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(3, 25);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(88, 30);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(73, 25);
             this.guna2HtmlLabel1.TabIndex = 47;
             this.guna2HtmlLabel1.Text = "Tenant ID :";
             // 
+            // guna2DateTimePicker1
+            // 
+            this.guna2DateTimePicker1.Animated = true;
+            this.guna2DateTimePicker1.AutoRoundedCorners = true;
+            this.guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2DateTimePicker1.BorderRadius = 11;
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Poppins", 9F);
+            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.Black;
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.IndicateFocus = true;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(688, 56);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(172, 25);
+            this.guna2DateTimePicker1.TabIndex = 56;
+            this.guna2DateTimePicker1.UseTransparentBackground = true;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 6, 7, 16, 56, 21, 542);
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(688, 25);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(95, 25);
+            this.guna2HtmlLabel7.TabIndex = 55;
+            this.guna2HtmlLabel7.Text = "Move In Date :";
+            // 
             // adminUpdateTenant
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.unitBox);
             this.Controls.Add(this.emailBox);
             this.Controls.Add(this.numBox);
@@ -288,9 +316,8 @@
             this.Controls.Add(this.guna2HtmlLabel5);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "adminUpdateTenant";
-            this.Size = new System.Drawing.Size(975, 197);
+            this.Size = new System.Drawing.Size(882, 160);
             this.Load += new System.EventHandler(this.adminUpdateTenant_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -312,5 +339,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
     }
 }

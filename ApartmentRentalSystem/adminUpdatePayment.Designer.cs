@@ -33,13 +33,15 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.tenantID = new Guna.UI2.WinForms.Guna2TextBox();
             this.Amount = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(229, 25);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(3, 86);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(115, 25);
             this.guna2HtmlLabel3.TabIndex = 12;
@@ -92,7 +94,7 @@
             this.tenantID.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tenantID.ForeColor = System.Drawing.Color.Black;
             this.tenantID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tenantID.Location = new System.Drawing.Point(83, 25);
+            this.tenantID.Location = new System.Drawing.Point(125, 25);
             this.tenantID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tenantID.Name = "tenantID";
             this.tenantID.PasswordChar = '\0';
@@ -115,7 +117,7 @@
             this.Amount.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Amount.ForeColor = System.Drawing.Color.Black;
             this.Amount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Amount.Location = new System.Drawing.Point(351, 25);
+            this.Amount.Location = new System.Drawing.Point(125, 86);
             this.Amount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Amount.Name = "Amount";
             this.Amount.PasswordChar = '\0';
@@ -125,10 +127,43 @@
             this.Amount.TabIndex = 40;
             this.Amount.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
+            // guna2DateTimePicker1
+            // 
+            this.guna2DateTimePicker1.Animated = true;
+            this.guna2DateTimePicker1.AutoRoundedCorners = true;
+            this.guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2DateTimePicker1.BorderRadius = 11;
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Poppins", 9F);
+            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.Black;
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.IndicateFocus = true;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(369, 25);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(172, 25);
+            this.guna2DateTimePicker1.TabIndex = 46;
+            this.guna2DateTimePicker1.UseTransparentBackground = true;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 6, 7, 16, 56, 21, 542);
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(268, 25);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(95, 25);
+            this.guna2HtmlLabel2.TabIndex = 45;
+            this.guna2HtmlLabel2.Text = "Move In Date :";
+            // 
             // adminUpdatePayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.Amount);
             this.Controls.Add(this.tenantID);
             this.Controls.Add(this.guna2Button1);
@@ -147,5 +182,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2TextBox tenantID;
         private Guna.UI2.WinForms.Guna2TextBox Amount;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
     }
 }

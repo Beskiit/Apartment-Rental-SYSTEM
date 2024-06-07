@@ -46,34 +46,7 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                Connection.conn.Open();
-                SqlCommand cmd = new SqlCommand("INSERT INTO Tenant (firstName, lastName, phoneNum, email, unit) VALUES (@firstName, @lastName, @phoneNum, @email, @unit)", Connection.conn);
-                if (Regex.IsMatch(numBox.Text, @"^[0-9]+$"))
-                {
-                    cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
-                    cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
-                    cmd.Parameters.AddWithValue("@phoneNum", numBox.Text);
-                    cmd.Parameters.AddWithValue("@email", emailBox.Text);
-                    cmd.Parameters.AddWithValue("@unit", Convert.ToInt32(unitBox.Text));
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Adding tenant success.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Adding tenant failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Connection.conn.Close();
-                }
-        }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Adding tenant failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                Connection.conn.Close();
-            }
+          
         }
 
         private void guna2HtmlLabel4_Click(object sender, EventArgs e)
@@ -97,6 +70,11 @@ namespace ApartmentRentalSystem
         }
 
         private void guna2TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2DateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
         }

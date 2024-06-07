@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            Guna.UI2.AnimatorNS.Animation animation5 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.logoutButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
             this.dashboardIcon = new System.Windows.Forms.Button();
             this.unitsIcon = new System.Windows.Forms.Button();
             this.tenantIcon = new System.Windows.Forms.Button();
@@ -42,6 +43,9 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
+            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
             this.panel2.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -51,14 +55,16 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
             this.panel2.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2Transition1.SetDecoration(this.panel2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1132, 60);
+            this.panel2.Size = new System.Drawing.Size(1154, 60);
             this.panel2.TabIndex = 1;
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Transition1.SetDecoration(this.guna2HtmlLabel2, Guna.UI2.AnimatorNS.DecorationType.None);
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(974, 13);
@@ -69,6 +75,7 @@
             // 
             // logoutButton
             // 
+            this.guna2Transition1.SetDecoration(this.logoutButton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.logoutButton.FlatAppearance.BorderSize = 0;
             this.logoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logoutButton.Image = ((System.Drawing.Image)(resources.GetObject("logoutButton.Image")));
@@ -84,23 +91,16 @@
             // 
             this.mainPanel.BackColor = System.Drawing.Color.Transparent;
             this.mainPanel.Controls.Add(this.adminDashboardScreen2);
+            this.guna2Transition1.SetDecoration(this.mainPanel, Guna.UI2.AnimatorNS.DecorationType.None);
             this.mainPanel.Location = new System.Drawing.Point(183, 60);
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(949, 600);
             this.mainPanel.TabIndex = 2;
             // 
-            // adminDashboardScreen2
-            // 
-            this.adminDashboardScreen2.AutoSize = true;
-            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
-            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
-            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 460);
-            this.adminDashboardScreen2.TabIndex = 0;
-            this.adminDashboardScreen2.Load += new System.EventHandler(this.adminDashboardScreen2_Load);
-            // 
             // dashboardIcon
             // 
             this.dashboardIcon.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.dashboardIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.dashboardIcon.FlatAppearance.BorderSize = 0;
             this.dashboardIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dashboardIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -118,6 +118,7 @@
             // unitsIcon
             // 
             this.unitsIcon.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.unitsIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.unitsIcon.FlatAppearance.BorderSize = 0;
             this.unitsIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.unitsIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -135,6 +136,7 @@
             // tenantIcon
             // 
             this.tenantIcon.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.tenantIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tenantIcon.FlatAppearance.BorderSize = 0;
             this.tenantIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tenantIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -152,6 +154,7 @@
             // paymentIcon
             // 
             this.paymentIcon.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.paymentIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.paymentIcon.FlatAppearance.BorderSize = 0;
             this.paymentIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.paymentIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -169,6 +172,7 @@
             // userIcon
             // 
             this.userIcon.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.userIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.userIcon.FlatAppearance.BorderSize = 0;
             this.userIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.userIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -186,6 +190,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
+            this.guna2Transition1.SetDecoration(this.panel3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.panel3.Location = new System.Drawing.Point(0, 6);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(10, 40);
@@ -202,6 +207,7 @@
             this.panel1.Controls.Add(this.tenantIcon);
             this.panel1.Controls.Add(this.unitsIcon);
             this.panel1.Controls.Add(this.dashboardIcon);
+            this.guna2Transition1.SetDecoration(this.panel1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.panel1.Location = new System.Drawing.Point(0, 60);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 651);
@@ -209,6 +215,7 @@
             // 
             // button1
             // 
+            this.guna2Transition1.SetDecoration(this.button1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -223,17 +230,52 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // guna2Transition1
+            // 
+            this.guna2Transition1.Cursor = null;
+            animation5.AnimateOnlyDifferences = true;
+            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
+            animation5.LeafCoeff = 0F;
+            animation5.MaxTime = 1F;
+            animation5.MinTime = 0F;
+            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
+            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
+            animation5.MosaicSize = 0;
+            animation5.Padding = new System.Windows.Forms.Padding(0);
+            animation5.RotateCoeff = 0F;
+            animation5.RotateLimit = 0F;
+            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
+            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
+            animation5.TimeCoeff = 0F;
+            animation5.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation5;
+            // 
+            // adminDashboardScreen2
+            // 
+            this.adminDashboardScreen2.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.adminDashboardScreen2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
+            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
+            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 538);
+            this.adminDashboardScreen2.TabIndex = 0;
+            this.adminDashboardScreen2.Load += new System.EventHandler(this.adminDashboardScreen2_Load);
+            // 
             // admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1134, 661);
+            this.ControlBox = false;
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "admin";
+            this.Text = "Arsenia Apartment Rental System";
             this.Load += new System.EventHandler(this.admin_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -263,5 +305,7 @@
         private adminDashboardScreen adminDashboardScreen2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private System.Windows.Forms.Button button1;
+        private Guna.UI2.WinForms.Guna2Transition guna2Transition1;
+        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
     }
 }

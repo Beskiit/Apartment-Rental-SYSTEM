@@ -23,7 +23,7 @@ namespace ApartmentRentalSystem
 
     public class Connection
     {
-        public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\tristan\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database2.mdf;Integrated Security=True");
+        
     }
 
 }

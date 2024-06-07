@@ -21,15 +21,11 @@ namespace ApartmentRentalSystem
         }
         private void LoadRentalStatus()
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Room WHERE status = 'Occupied'", Connection.conn);
-            int occupiedCount = Convert.ToInt32(cmd.ExecuteScalar());
-            cmd = new SqlCommand("SELECT COUNT(*) FROM Room WHERE status = 'Vacant'", Connection.conn);
-            int freeCount = Convert.ToInt32(cmd.ExecuteScalar());
+            int occupiedCount = 12;
 
+            int freeCount = 12;
             UpdateChart(occupiedCount, freeCount);
 
-            Connection.conn.Close();
         }
 
         private void UpdateChart(int available, int occupied)

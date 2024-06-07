@@ -72,24 +72,11 @@ namespace ApartmentRentalSystem
 
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', roomID AS 'Room ID', totalCost AS 'Amount' FROM [Transaction]", Connection.conn);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            guna2DataGridView1.DataSource = dt;
-            Connection.conn.Close();
         }
 
         private void clerkTransactionScreen_Load(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', roomID AS 'Room ID', totalCost AS 'Amount' FROM [Transaction]", Connection.conn);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            guna2DataGridView1.DataSource = dt;
-            Connection.conn.Close();
+           
         }
     }
 }

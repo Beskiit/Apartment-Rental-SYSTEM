@@ -20,13 +20,7 @@ namespace ApartmentRentalSystem
 
         private void clerkPaymentScreen_Load(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT paymentID AS 'Payment ID', transactionID AS 'Transaction ID', amount AS 'Amount' FROM Payment", Connection.conn);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            guna2DataGridView1.DataSource = dt;
-            Connection.conn.Close();
+           
         }
 
 
@@ -83,13 +77,7 @@ namespace ApartmentRentalSystem
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT paymentID AS 'Payment ID', transactionID AS 'Transaction ID', amount AS 'Amount' FROM Payment", Connection.conn);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            guna2DataGridView1.DataSource = dt;
-            Connection.conn.Close();
+           
         }
     }
 }
