@@ -42,10 +42,9 @@
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(167, 4);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(125, 3);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(217, 32);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(178, 27);
             this.guna2HtmlLabel4.TabIndex = 53;
             this.guna2HtmlLabel4.Text = "TRANSACTIONS";
             // 
@@ -63,13 +62,13 @@
             this.unitIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.unitIdBox.ForeColor = System.Drawing.Color.Black;
             this.unitIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.unitIdBox.Location = new System.Drawing.Point(113, 197);
-            this.unitIdBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.unitIdBox.Location = new System.Drawing.Point(85, 150);
+            this.unitIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.unitIdBox.Name = "unitIdBox";
             this.unitIdBox.PasswordChar = '\0';
             this.unitIdBox.PlaceholderText = "";
             this.unitIdBox.SelectedText = "";
-            this.unitIdBox.Size = new System.Drawing.Size(181, 31);
+            this.unitIdBox.Size = new System.Drawing.Size(136, 25);
             this.unitIdBox.TabIndex = 52;
             // 
             // amountBox
@@ -86,13 +85,13 @@
             this.amountBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.amountBox.ForeColor = System.Drawing.Color.Black;
             this.amountBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.amountBox.Location = new System.Drawing.Point(113, 267);
-            this.amountBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.amountBox.Location = new System.Drawing.Point(85, 200);
+            this.amountBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.amountBox.Name = "amountBox";
             this.amountBox.PasswordChar = '\0';
             this.amountBox.PlaceholderText = "";
             this.amountBox.SelectedText = "";
-            this.amountBox.Size = new System.Drawing.Size(181, 31);
+            this.amountBox.Size = new System.Drawing.Size(136, 25);
             this.amountBox.TabIndex = 50;
             // 
             // tenantIdBox
@@ -109,23 +108,22 @@
             this.tenantIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tenantIdBox.ForeColor = System.Drawing.Color.Black;
             this.tenantIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tenantIdBox.Location = new System.Drawing.Point(113, 128);
-            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.tenantIdBox.Location = new System.Drawing.Point(85, 100);
+            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tenantIdBox.Name = "tenantIdBox";
             this.tenantIdBox.PasswordChar = '\0';
             this.tenantIdBox.PlaceholderText = "";
             this.tenantIdBox.SelectedText = "";
-            this.tenantIdBox.Size = new System.Drawing.Size(181, 31);
+            this.tenantIdBox.Size = new System.Drawing.Size(136, 25);
             this.tenantIdBox.TabIndex = 51;
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(7, 197);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(5, 150);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(62, 30);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(52, 25);
             this.guna2HtmlLabel2.TabIndex = 47;
             this.guna2HtmlLabel2.Text = "Unit ID : ";
             // 
@@ -133,10 +131,9 @@
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(7, 267);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(5, 200);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(77, 30);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(63, 25);
             this.guna2HtmlLabel3.TabIndex = 48;
             this.guna2HtmlLabel3.Text = "Amount : ";
             // 
@@ -144,10 +141,9 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(7, 128);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(5, 100);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(88, 30);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(73, 25);
             this.guna2HtmlLabel1.TabIndex = 49;
             this.guna2HtmlLabel1.Text = "Tenant ID : ";
             // 
@@ -156,7 +152,7 @@
             this.addPaymentClerk.Animated = true;
             this.addPaymentClerk.AutoRoundedCorners = true;
             this.addPaymentClerk.BackColor = System.Drawing.Color.Transparent;
-            this.addPaymentClerk.BorderRadius = 17;
+            this.addPaymentClerk.BorderRadius = 13;
             this.addPaymentClerk.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.addPaymentClerk.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.addPaymentClerk.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -165,10 +161,9 @@
             this.addPaymentClerk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.addPaymentClerk.ForeColor = System.Drawing.Color.White;
             this.addPaymentClerk.IndicateFocus = true;
-            this.addPaymentClerk.Location = new System.Drawing.Point(203, 514);
-            this.addPaymentClerk.Margin = new System.Windows.Forms.Padding(4);
+            this.addPaymentClerk.Location = new System.Drawing.Point(152, 418);
             this.addPaymentClerk.Name = "addPaymentClerk";
-            this.addPaymentClerk.Size = new System.Drawing.Size(143, 36);
+            this.addPaymentClerk.Size = new System.Drawing.Size(107, 29);
             this.addPaymentClerk.TabIndex = 54;
             this.addPaymentClerk.Text = "Add";
             this.addPaymentClerk.UseTransparentBackground = true;
@@ -176,7 +171,7 @@
             // 
             // clerkAddTransaction
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.addPaymentClerk);
             this.Controls.Add(this.guna2HtmlLabel4);
@@ -186,9 +181,8 @@
             this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "clerkAddTransaction";
-            this.Size = new System.Drawing.Size(564, 554);
+            this.Size = new System.Drawing.Size(423, 450);
             this.ResumeLayout(false);
             this.PerformLayout();
 

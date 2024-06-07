@@ -235,12 +235,6 @@
     <Compile Include="adminChartDashboard.Designer.cs">
       <DependentUpon>adminChartDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminChartDashboardUser.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="adminChartDashboardUser.Designer.cs">
-      <DependentUpon>adminChartDashboardUser.cs</DependentUpon>
-    </Compile>
     <Compile Include="adminDashboardScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -300,12 +294,6 @@
     </Compile>
     <Compile Include="adminUpdateTenant.Designer.cs">
       <DependentUpon>adminUpdateTenant.cs</DependentUpon>
-    </Compile>
-    <Compile Include="adminUpdateTransaction.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="adminUpdateTransaction.Designer.cs">
-      <DependentUpon>adminUpdateTransaction.cs</DependentUpon>
     </Compile>
     <Compile Include="adminUnitScreen.cs">
       <SubType>UserControl</SubType>
@@ -367,6 +355,12 @@
     <Compile Include="clerkAddUnit.Designer.cs">
       <DependentUpon>clerkAddUnit.cs</DependentUpon>
     </Compile>
+    <Compile Include="clerkChartDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clerkChartDashboard.Designer.cs">
+      <DependentUpon>clerkChartDashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="clerkDashboardScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -409,12 +403,6 @@
     <Compile Include="clerkUpdateTenant.Designer.cs">
       <DependentUpon>clerkUpdateTenant.cs</DependentUpon>
     </Compile>
-    <Compile Include="clerkUpdateTransaction.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkUpdateTransaction.Designer.cs">
-      <DependentUpon>clerkUpdateTransaction.cs</DependentUpon>
-    </Compile>
     <Compile Include="clerkUpdateUnit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -450,9 +438,6 @@
     <EmbeddedResource Include="adminChartDashboard.resx">
       <DependentUpon>adminChartDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminChartDashboardUser.resx">
-      <DependentUpon>adminChartDashboardUser.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="adminDashboardScreen.resx">
       <DependentUpon>adminDashboardScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -482,9 +467,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminUpdateTenant.resx">
       <DependentUpon>adminUpdateTenant.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="adminUpdateTransaction.resx">
-      <DependentUpon>adminUpdateTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminUnitScreen.resx">
       <DependentUpon>adminUnitScreen.cs</DependentUpon>
@@ -516,6 +498,9 @@
     <EmbeddedResource Include="clerkAddUnit.resx">
       <DependentUpon>clerkAddUnit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="clerkChartDashboard.resx">
+      <DependentUpon>clerkChartDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clerkDashboardScreen.resx">
       <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -536,9 +521,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="clerkUpdateTenant.resx">
       <DependentUpon>clerkUpdateTenant.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkUpdateTransaction.resx">
-      <DependentUpon>clerkUpdateTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clerkUpdateUnit.resx">
       <DependentUpon>clerkUpdateUnit.cs</DependentUpon>

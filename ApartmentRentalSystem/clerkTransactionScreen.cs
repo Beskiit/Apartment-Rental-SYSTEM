@@ -64,12 +64,6 @@ namespace ApartmentRentalSystem
             addUserControl(cat);
         }
 
-        private void updatePaymentClerk_Click(object sender, EventArgs e)
-        {
-            clerkUpdateTransaction cut = new clerkUpdateTransaction();
-            addUserControl(cut);
-        }
-
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
         }

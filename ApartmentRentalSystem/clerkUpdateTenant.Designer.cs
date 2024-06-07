@@ -49,7 +49,6 @@
             this.updatePaymentClerk = new Guna.UI2.WinForms.Guna2Button();
             this.tenantIdBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -57,6 +56,9 @@
             this.numBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,6 +66,7 @@
             // 
             this.unitBox.BorderRadius = 2;
             this.unitBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.unitBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.unitBox.DefaultText = "";
             this.unitBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.unitBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -73,19 +76,20 @@
             this.unitBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.unitBox.ForeColor = System.Drawing.Color.Black;
             this.unitBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.unitBox.Location = new System.Drawing.Point(381, 117);
-            this.unitBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.unitBox.Location = new System.Drawing.Point(276, 95);
+            this.unitBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.unitBox.Name = "unitBox";
             this.unitBox.PasswordChar = '\0';
             this.unitBox.PlaceholderText = "";
             this.unitBox.SelectedText = "";
-            this.unitBox.Size = new System.Drawing.Size(181, 31);
+            this.unitBox.Size = new System.Drawing.Size(136, 25);
             this.unitBox.TabIndex = 46;
             // 
             // emailBox
             // 
             this.emailBox.BorderRadius = 2;
             this.emailBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.emailBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.emailBox.DefaultText = "";
             this.emailBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.emailBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -95,19 +99,20 @@
             this.emailBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.emailBox.ForeColor = System.Drawing.Color.Black;
             this.emailBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.emailBox.Location = new System.Drawing.Point(121, 398);
-            this.emailBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.emailBox.Location = new System.Drawing.Point(91, 300);
+            this.emailBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.emailBox.Name = "emailBox";
             this.emailBox.PasswordChar = '\0';
             this.emailBox.PlaceholderText = "";
             this.emailBox.SelectedText = "";
-            this.emailBox.Size = new System.Drawing.Size(181, 31);
+            this.emailBox.Size = new System.Drawing.Size(136, 25);
             this.emailBox.TabIndex = 45;
             // 
             // phoneNumBox
             // 
             this.phoneNumBox.BorderRadius = 2;
             this.phoneNumBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.phoneNumBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.phoneNumBox.DefaultText = "";
             this.phoneNumBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.phoneNumBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -117,19 +122,20 @@
             this.phoneNumBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.phoneNumBox.ForeColor = System.Drawing.Color.Black;
             this.phoneNumBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.phoneNumBox.Location = new System.Drawing.Point(121, 326);
-            this.phoneNumBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.phoneNumBox.Location = new System.Drawing.Point(91, 250);
+            this.phoneNumBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.phoneNumBox.Name = "phoneNumBox";
             this.phoneNumBox.PasswordChar = '\0';
             this.phoneNumBox.PlaceholderText = "";
             this.phoneNumBox.SelectedText = "";
-            this.phoneNumBox.Size = new System.Drawing.Size(181, 31);
+            this.phoneNumBox.Size = new System.Drawing.Size(136, 25);
             this.phoneNumBox.TabIndex = 44;
             // 
             // lastNameBox
             // 
             this.lastNameBox.BorderRadius = 2;
             this.lastNameBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.lastNameBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.lastNameBox.DefaultText = "";
             this.lastNameBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.lastNameBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -139,19 +145,20 @@
             this.lastNameBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lastNameBox.ForeColor = System.Drawing.Color.Black;
             this.lastNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.lastNameBox.Location = new System.Drawing.Point(121, 255);
-            this.lastNameBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.lastNameBox.Location = new System.Drawing.Point(91, 200);
+            this.lastNameBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lastNameBox.Name = "lastNameBox";
             this.lastNameBox.PasswordChar = '\0';
             this.lastNameBox.PlaceholderText = "";
             this.lastNameBox.SelectedText = "";
-            this.lastNameBox.Size = new System.Drawing.Size(181, 31);
+            this.lastNameBox.Size = new System.Drawing.Size(136, 25);
             this.lastNameBox.TabIndex = 43;
             // 
             // firstNameBox
             // 
             this.firstNameBox.BorderRadius = 2;
             this.firstNameBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.firstNameBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.firstNameBox.DefaultText = "";
             this.firstNameBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.firstNameBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -161,13 +168,13 @@
             this.firstNameBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.firstNameBox.ForeColor = System.Drawing.Color.Black;
             this.firstNameBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.firstNameBox.Location = new System.Drawing.Point(121, 183);
-            this.firstNameBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.firstNameBox.Location = new System.Drawing.Point(91, 150);
+            this.firstNameBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.firstNameBox.Name = "firstNameBox";
             this.firstNameBox.PasswordChar = '\0';
             this.firstNameBox.PlaceholderText = "";
             this.firstNameBox.SelectedText = "";
-            this.firstNameBox.Size = new System.Drawing.Size(181, 31);
+            this.firstNameBox.Size = new System.Drawing.Size(136, 25);
             this.firstNameBox.TabIndex = 42;
             // 
             // updateTenantClerk
@@ -175,7 +182,7 @@
             this.updateTenantClerk.Animated = true;
             this.updateTenantClerk.AutoRoundedCorners = true;
             this.updateTenantClerk.BackColor = System.Drawing.Color.Transparent;
-            this.updateTenantClerk.BorderRadius = 17;
+            this.updateTenantClerk.BorderRadius = 13;
             this.updateTenantClerk.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.updateTenantClerk.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.updateTenantClerk.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -184,10 +191,9 @@
             this.updateTenantClerk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.updateTenantClerk.ForeColor = System.Drawing.Color.Black;
             this.updateTenantClerk.IndicateFocus = true;
-            this.updateTenantClerk.Location = new System.Drawing.Point(296, 562);
-            this.updateTenantClerk.Margin = new System.Windows.Forms.Padding(4);
+            this.updateTenantClerk.Location = new System.Drawing.Point(222, 457);
             this.updateTenantClerk.Name = "updateTenantClerk";
-            this.updateTenantClerk.Size = new System.Drawing.Size(143, 36);
+            this.updateTenantClerk.Size = new System.Drawing.Size(107, 29);
             this.updateTenantClerk.TabIndex = 40;
             this.updateTenantClerk.Text = "Update";
             this.updateTenantClerk.UseTransparentBackground = true;
@@ -197,7 +203,7 @@
             this.addTenantClerk.Animated = true;
             this.addTenantClerk.AutoRoundedCorners = true;
             this.addTenantClerk.BackColor = System.Drawing.Color.Transparent;
-            this.addTenantClerk.BorderRadius = 17;
+            this.addTenantClerk.BorderRadius = 13;
             this.addTenantClerk.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.addTenantClerk.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.addTenantClerk.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -206,10 +212,9 @@
             this.addTenantClerk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.addTenantClerk.ForeColor = System.Drawing.Color.White;
             this.addTenantClerk.IndicateFocus = true;
-            this.addTenantClerk.Location = new System.Drawing.Point(141, 562);
-            this.addTenantClerk.Margin = new System.Windows.Forms.Padding(4);
+            this.addTenantClerk.Location = new System.Drawing.Point(106, 457);
             this.addTenantClerk.Name = "addTenantClerk";
-            this.addTenantClerk.Size = new System.Drawing.Size(143, 36);
+            this.addTenantClerk.Size = new System.Drawing.Size(107, 29);
             this.addTenantClerk.TabIndex = 41;
             this.addTenantClerk.Text = "Add";
             this.addTenantClerk.UseTransparentBackground = true;
@@ -218,10 +223,9 @@
             // 
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel8.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(413, 73);
-            this.guna2HtmlLabel8.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(304, 59);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(87, 38);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(71, 30);
             this.guna2HtmlLabel8.TabIndex = 39;
             this.guna2HtmlLabel8.Text = "Unit Info";
             // 
@@ -229,10 +233,9 @@
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(5, 398);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(4, 300);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(56, 30);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(47, 25);
             this.guna2HtmlLabel4.TabIndex = 33;
             this.guna2HtmlLabel4.Text = "Email :";
             // 
@@ -240,10 +243,9 @@
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(325, 117);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(234, 95);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(43, 30);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(36, 25);
             this.guna2HtmlLabel5.TabIndex = 34;
             this.guna2HtmlLabel5.Text = "Unit :";
             // 
@@ -251,30 +253,27 @@
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(5, 326);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(4, 250);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(93, 30);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(75, 25);
             this.guna2HtmlLabel3.TabIndex = 35;
             this.guna2HtmlLabel3.Text = "Phone No. :";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(660, 117);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Location = new System.Drawing.Point(495, 95);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 24);
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 32;
             // 
             // guna2HtmlLabel6
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(5, 255);
-            this.guna2HtmlLabel6.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(4, 200);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(98, 30);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(80, 25);
             this.guna2HtmlLabel6.TabIndex = 24;
             this.guna2HtmlLabel6.Text = "Last Name :";
             // 
@@ -282,10 +281,9 @@
             // 
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(604, 117);
-            this.guna2HtmlLabel7.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(453, 95);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(46, 22);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(38, 18);
             this.guna2HtmlLabel7.TabIndex = 25;
             this.guna2HtmlLabel7.Text = "Unit :";
             // 
@@ -293,36 +291,35 @@
             // 
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel9.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(4, 183);
-            this.guna2HtmlLabel9.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(3, 150);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(98, 30);
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(81, 25);
             this.guna2HtmlLabel9.TabIndex = 27;
             this.guna2HtmlLabel9.Text = "First Name :";
             // 
             // guna2Separator1
             // 
-            this.guna2Separator1.Location = new System.Drawing.Point(4, 538);
-            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Separator1.Location = new System.Drawing.Point(3, 437);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(571, 12);
+            this.guna2Separator1.Size = new System.Drawing.Size(428, 10);
             this.guna2Separator1.TabIndex = 22;
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(209, -5);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(157, -4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(113, 32);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(93, 27);
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "TENANT";
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.guna2DateTimePicker1);
             this.panel1.Controls.Add(this.updatePaymentClerk);
+            this.panel1.Controls.Add(this.guna2HtmlLabel11);
             this.panel1.Controls.Add(this.unitBox);
             this.panel1.Controls.Add(this.emailBox);
             this.panel1.Controls.Add(this.phoneNumBox);
@@ -345,9 +342,8 @@
             this.panel1.Controls.Add(this.guna2HtmlLabel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(571, 554);
+            this.panel1.Size = new System.Drawing.Size(428, 450);
             this.panel1.TabIndex = 72;
             // 
             // updatePaymentClerk
@@ -355,7 +351,7 @@
             this.updatePaymentClerk.Animated = true;
             this.updatePaymentClerk.AutoRoundedCorners = true;
             this.updatePaymentClerk.BackColor = System.Drawing.Color.Transparent;
-            this.updatePaymentClerk.BorderRadius = 17;
+            this.updatePaymentClerk.BorderRadius = 13;
             this.updatePaymentClerk.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.updatePaymentClerk.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.updatePaymentClerk.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -364,10 +360,9 @@
             this.updatePaymentClerk.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.updatePaymentClerk.ForeColor = System.Drawing.Color.Black;
             this.updatePaymentClerk.IndicateFocus = true;
-            this.updatePaymentClerk.Location = new System.Drawing.Point(203, 514);
-            this.updatePaymentClerk.Margin = new System.Windows.Forms.Padding(4);
+            this.updatePaymentClerk.Location = new System.Drawing.Point(152, 418);
             this.updatePaymentClerk.Name = "updatePaymentClerk";
-            this.updatePaymentClerk.Size = new System.Drawing.Size(143, 36);
+            this.updatePaymentClerk.Size = new System.Drawing.Size(107, 29);
             this.updatePaymentClerk.TabIndex = 75;
             this.updatePaymentClerk.Text = "Update";
             this.updatePaymentClerk.UseTransparentBackground = true;
@@ -377,6 +372,7 @@
             // 
             this.tenantIdBox.BorderRadius = 2;
             this.tenantIdBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.tenantIdBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tenantIdBox.DefaultText = "";
             this.tenantIdBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.tenantIdBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -386,41 +382,30 @@
             this.tenantIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tenantIdBox.ForeColor = System.Drawing.Color.Black;
             this.tenantIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tenantIdBox.Location = new System.Drawing.Point(121, 117);
-            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.tenantIdBox.Location = new System.Drawing.Point(91, 95);
+            this.tenantIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tenantIdBox.Name = "tenantIdBox";
             this.tenantIdBox.PasswordChar = '\0';
             this.tenantIdBox.PlaceholderText = "";
             this.tenantIdBox.SelectedText = "";
-            this.tenantIdBox.Size = new System.Drawing.Size(181, 31);
+            this.tenantIdBox.Size = new System.Drawing.Size(136, 25);
             this.tenantIdBox.TabIndex = 42;
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(144, 73);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(108, 59);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(118, 38);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(96, 30);
             this.guna2HtmlLabel2.TabIndex = 39;
             this.guna2HtmlLabel2.Text = "Tenant Info";
-            // 
-            // guna2HtmlLabel10
-            // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(4, 117);
-            this.guna2HtmlLabel10.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(84, 30);
-            this.guna2HtmlLabel10.TabIndex = 27;
-            this.guna2HtmlLabel10.Text = "Tenant ID:";
             // 
             // guna2TextBox6
             // 
             this.guna2TextBox6.BorderRadius = 2;
             this.guna2TextBox6.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox6.DefaultText = "";
             this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -443,6 +428,7 @@
             // 
             this.guna2TextBox2.BorderRadius = 2;
             this.guna2TextBox2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox2.DefaultText = "";
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -465,6 +451,7 @@
             // 
             this.guna2TextBox1.BorderRadius = 2;
             this.guna2TextBox1.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
             this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -487,6 +474,7 @@
             // 
             this.guna2TextBox3.BorderRadius = 2;
             this.guna2TextBox3.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox3.DefaultText = "";
             this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -509,6 +497,7 @@
             // 
             this.numBox.BorderRadius = 2;
             this.numBox.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.numBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.numBox.DefaultText = "";
             this.numBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.numBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -531,6 +520,7 @@
             // 
             this.guna2TextBox4.BorderRadius = 2;
             this.guna2TextBox4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox4.DefaultText = "";
             this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -553,6 +543,7 @@
             // 
             this.guna2TextBox5.BorderRadius = 2;
             this.guna2TextBox5.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox5.DefaultText = "";
             this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -571,14 +562,54 @@
             this.guna2TextBox5.Size = new System.Drawing.Size(181, 31);
             this.guna2TextBox5.TabIndex = 46;
             // 
+            // guna2DateTimePicker1
+            // 
+            this.guna2DateTimePicker1.Animated = true;
+            this.guna2DateTimePicker1.AutoRoundedCorners = true;
+            this.guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2DateTimePicker1.BorderRadius = 11;
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Poppins", 9F);
+            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.Black;
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.IndicateFocus = true;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(104, 350);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(172, 25);
+            this.guna2DateTimePicker1.TabIndex = 74;
+            this.guna2DateTimePicker1.UseTransparentBackground = true;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 6, 7, 16, 56, 21, 542);
+            // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(3, 350);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(95, 25);
+            this.guna2HtmlLabel11.TabIndex = 73;
+            this.guna2HtmlLabel11.Text = "Move In Date :";
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(3, 100);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(73, 25);
+            this.guna2HtmlLabel10.TabIndex = 27;
+            this.guna2HtmlLabel10.Text = "Tenant ID :";
+            // 
             // clerkUpdateTenant
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "clerkUpdateTenant";
-            this.Size = new System.Drawing.Size(571, 554);
+            this.Size = new System.Drawing.Size(428, 450);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -607,7 +638,6 @@
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2TextBox tenantIdBox;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
         private Guna.UI2.WinForms.Guna2Button updatePaymentClerk;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
@@ -616,5 +646,8 @@
         private Guna.UI2.WinForms.Guna2TextBox numBox;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
     }
 }

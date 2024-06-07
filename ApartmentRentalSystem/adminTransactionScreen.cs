@@ -31,12 +31,6 @@ namespace ApartmentRentalSystem
             addUserControl(adminAddTransaction);
         }
 
-        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            adminUpdateTransaction admin = new adminUpdateTransaction();
-            addUserControl (admin);
-        }
-
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             adminDeleteTransaction adminDeleteTransaction = new adminDeleteTransaction();
