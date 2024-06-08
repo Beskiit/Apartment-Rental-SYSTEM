@@ -115,9 +115,7 @@ namespace ApartmentRentalSystem
                 MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
                 Connection.conn.Close();
             }*/
-            clerk dashboard = new clerk();
-            dashboard.Show();
-            this.Hide();
+    
         }
     }
 }

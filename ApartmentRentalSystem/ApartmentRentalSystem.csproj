@@ -325,90 +325,6 @@
     <Compile Include="adminUserScreen.Designer.cs">
       <DependentUpon>adminUserScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="clerk.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="clerk.Designer.cs">
-      <DependentUpon>clerk.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkAddPayment.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkAddPayment.Designer.cs">
-      <DependentUpon>clerkAddPayment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkAddTenant.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkAddTenant.Designer.cs">
-      <DependentUpon>clerkAddTenant.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkAddTransaction.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkAddTransaction.Designer.cs">
-      <DependentUpon>clerkAddTransaction.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkAddUnit.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkAddUnit.Designer.cs">
-      <DependentUpon>clerkAddUnit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkChartDashboard.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkChartDashboard.Designer.cs">
-      <DependentUpon>clerkChartDashboard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkDashboardScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkDashboardScreen.Designer.cs">
-      <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkPaymentScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkPaymentScreen.Designer.cs">
-      <DependentUpon>clerkPaymentScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkTenantScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkTenantScreen.Designer.cs">
-      <DependentUpon>clerkTenantScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkTransactionScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkTransactionScreen.Designer.cs">
-      <DependentUpon>clerkTransactionScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkUnitScreen.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkUnitScreen.Designer.cs">
-      <DependentUpon>clerkUnitScreen.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkUpdatePayment.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkUpdatePayment.Designer.cs">
-      <DependentUpon>clerkUpdatePayment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkUpdateTenant.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkUpdateTenant.Designer.cs">
-      <DependentUpon>clerkUpdateTenant.cs</DependentUpon>
-    </Compile>
-    <Compile Include="clerkUpdateUnit.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="clerkUpdateUnit.Designer.cs">
-      <DependentUpon>clerkUpdateUnit.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -482,48 +398,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminUserScreen.resx">
       <DependentUpon>adminUserScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerk.resx">
-      <DependentUpon>clerk.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkAddPayment.resx">
-      <DependentUpon>clerkAddPayment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkAddTenant.resx">
-      <DependentUpon>clerkAddTenant.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkAddTransaction.resx">
-      <DependentUpon>clerkAddTransaction.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkAddUnit.resx">
-      <DependentUpon>clerkAddUnit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkChartDashboard.resx">
-      <DependentUpon>clerkChartDashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkDashboardScreen.resx">
-      <DependentUpon>clerkDashboardScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkPaymentScreen.resx">
-      <DependentUpon>clerkPaymentScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkTenantScreen.resx">
-      <DependentUpon>clerkTenantScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkTransactionScreen.resx">
-      <DependentUpon>clerkTransactionScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkUnitScreen.resx">
-      <DependentUpon>clerkUnitScreen.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkUpdatePayment.resx">
-      <DependentUpon>clerkUpdatePayment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkUpdateTenant.resx">
-      <DependentUpon>clerkUpdateTenant.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="clerkUpdateUnit.resx">
-      <DependentUpon>clerkUpdateUnit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
