@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ApartmentRentalSystem"
   ],
-  "SelectedNode": "\\ApartmentRentalSystem.sln",
+  "SelectedNode": "\\ApartmentRentalSystem\\adminaddUnit.cs",
   "PreviewInSolutionExplorer": false
 }
