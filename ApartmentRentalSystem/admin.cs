@@ -16,9 +16,32 @@ namespace ApartmentRentalSystem
         public admin()
         {
             InitializeComponent();
+            this.FormClosing += new FormClosingEventHandler(admin_FormClosing);
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+        }
+       
+
+    
+            private void admin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+    
+            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+        
+            if (result == DialogResult.No)
+            {
+        
+               Application.Exit();
+            }
+            else
+            {
+                // Cancel the form closing
+                e.Cancel = true;
+            }
         }
 
-        private void addUserControl(UserControl userControl)
+                private void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
             mainPanel.Controls.Clear();
@@ -58,14 +81,6 @@ namespace ApartmentRentalSystem
             addUserControl(aps);
             panel3.Height = paymentIcon.Height;
             panel3.Top = paymentIcon.Top;
-        }
-
-        private void userIcon_Click(object sender, EventArgs e)
-        {
-            adminUserScreen ausers = new adminUserScreen();
-            addUserControl(ausers);
-            panel3.Height = userIcon.Height;
-            panel3.Top = userIcon.Top;
         }
 
         private void logoutButton_Click(object sender, EventArgs e)

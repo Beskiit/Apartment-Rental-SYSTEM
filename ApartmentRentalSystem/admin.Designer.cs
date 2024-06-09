@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation5 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -39,7 +39,6 @@
             this.unitsIcon = new System.Windows.Forms.Button();
             this.tenantIcon = new System.Windows.Forms.Button();
             this.paymentIcon = new System.Windows.Forms.Button();
-            this.userIcon = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -169,24 +168,6 @@
             this.paymentIcon.UseVisualStyleBackColor = true;
             this.paymentIcon.Click += new System.EventHandler(this.paymentIcon_Click);
             // 
-            // userIcon
-            // 
-            this.userIcon.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.userIcon, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.userIcon.FlatAppearance.BorderSize = 0;
-            this.userIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.userIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userIcon.Image = ((System.Drawing.Image)(resources.GetObject("userIcon.Image")));
-            this.userIcon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.userIcon.Location = new System.Drawing.Point(12, 256);
-            this.userIcon.Name = "userIcon";
-            this.userIcon.Size = new System.Drawing.Size(168, 40);
-            this.userIcon.TabIndex = 2;
-            this.userIcon.Text = "Users";
-            this.userIcon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.userIcon.UseVisualStyleBackColor = true;
-            this.userIcon.Click += new System.EventHandler(this.userIcon_Click);
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
@@ -202,7 +183,6 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.logoutButton);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.userIcon);
             this.panel1.Controls.Add(this.paymentIcon);
             this.panel1.Controls.Add(this.tenantIcon);
             this.panel1.Controls.Add(this.unitsIcon);
@@ -233,22 +213,22 @@
             // guna2Transition1
             // 
             this.guna2Transition1.Cursor = null;
-            animation5.AnimateOnlyDifferences = true;
-            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
-            animation5.LeafCoeff = 0F;
-            animation5.MaxTime = 1F;
-            animation5.MinTime = 0F;
-            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
-            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
-            animation5.MosaicSize = 0;
-            animation5.Padding = new System.Windows.Forms.Padding(0);
-            animation5.RotateCoeff = 0F;
-            animation5.RotateLimit = 0F;
-            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
-            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
-            animation5.TimeCoeff = 0F;
-            animation5.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation5;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation1;
             // 
             // adminDashboardScreen2
             // 
@@ -266,13 +246,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1134, 661);
-            this.ControlBox = false;
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Arsenia Apartment Rental System";
@@ -298,7 +275,6 @@
         private System.Windows.Forms.Button unitsIcon;
         private System.Windows.Forms.Button tenantIcon;
         private System.Windows.Forms.Button paymentIcon;
-        private System.Windows.Forms.Button userIcon;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button logoutButton;

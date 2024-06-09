@@ -79,7 +79,6 @@ C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\De
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdatePayment.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdateUnit.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUpdateUser.resources
-C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminUserScreen.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.Login.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.Properties.Resources.resources
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.csproj.GenerateResource.cache
