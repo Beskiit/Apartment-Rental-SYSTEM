@@ -19,6 +19,18 @@ namespace ApartmentRentalSystem
             InitializeComponent();
         }
 
+        private void addTenant()
+        {
+            SqlCommand cmd = new SqlCommand("INSERT INTO Tenant (firstName, lastName, email, phoneNumber, moveInDate, roomNumber) VALUES @firstName, @lastName, @email, @phoneNumber, @moveInDate, @roomNumber", Connection.conn);
+            cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+            cmd.Parameters.AddWithValue("lastName", lastNameBox.Text);
+            cmd.Parameters.AddWithValue("@email", emailBox.Text);
+            cmd.Parameters.AddWithValue("@phoneNumber", numBox.Text);
+            cmd.Parameters.AddWithValue("@moveInDate", moveInBox.Value.ToString());
+            cmd.Parameters.AddWithValue("@roomNumber", unitBox.Text);
+            cmd.ExecuteNonQuery();
+        }
+
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
 
@@ -46,7 +58,20 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-          
+            try
+            {
+               Connection.conn.Open();
+               addTenant();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Adding tenant failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Connection.conn.Close();
+            }
+
         }
 
         private void guna2HtmlLabel4_Click(object sender, EventArgs e)

@@ -24,9 +24,57 @@ namespace ApartmentRentalSystem
 
         }
 
+        private void updateTenant()
+        {
+            SqlCommand cmd = new SqlCommand("UPDATE Tenant SET firstName = @firstName, lastName = @lastName, phoneNumber = @phoneNumber, email = @email, moveInDate = @moveInDate, roomNumber = @roomNumber WHERE tenantID = @tenantID");
+            cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+            cmd.Parameters.AddWithValue("lastName", lastNameBox.Text);
+            cmd.Parameters.AddWithValue("@email", emailBox.Text);
+            cmd.Parameters.AddWithValue("@phoneNumber", numBox.Text);
+            cmd.Parameters.AddWithValue("@moveInDate", moveInBox.Value.ToString());
+            cmd.Parameters.AddWithValue("@roomNumber", unitBox.Text);
+            cmd.Parameters.AddWithValue("@tenantID", tenantIdBox.Text);
+            cmd.ExecuteNonQuery();
+        }
+
+        private void displayTenant()
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT firstName, lastName, email, phoneNumber, moveInDate, roomNumber FROM Tenant WHERE tenantID = @tenantID");
+            cmd.Parameters.AddWithValue("@tenantID", tenantIdBox.Text);
+            SqlDataReader read = cmd.ExecuteReader();
+            while (read.Read())
+            {
+                firstNameBox.Text = read.GetValue(0).ToString();
+                lastNameBox.Text = read.GetValue(1).ToString();
+                emailBox.Text = read.GetValue(2).ToString();
+                numBox.Text = read.GetValue(3).ToString();
+                moveInBox.Value = read.GetDateTime(4);
+                unitBox.Text = read.GetValue(5).ToString();
+            }
+            Connection.conn.Close();
+        }
+
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-          
+            try
+            {
+                Connection.conn.Open();
+                updateTenant();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Updating tenant failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Connection.conn.Close();
+            }
+        }
+
+        private void tenantIdBox_TextChanged(object sender, EventArgs e)
+        {
+            displayTenant();
         }
     }
 }

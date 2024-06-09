@@ -29,15 +29,10 @@ namespace ApartmentRentalSystem
             DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
         
-            if (result == DialogResult.No)
+            if (result == DialogResult.Yes)
             {
         
                Application.Exit();
-            }
-            else
-            {
-                // Cancel the form closing
-                e.Cancel = true;
             }
         }
 

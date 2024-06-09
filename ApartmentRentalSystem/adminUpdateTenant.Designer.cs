@@ -41,7 +41,7 @@
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.moveInBox = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
@@ -182,6 +182,7 @@
             this.tenantIdBox.SelectedText = "";
             this.tenantIdBox.Size = new System.Drawing.Size(136, 25);
             this.tenantIdBox.TabIndex = 49;
+            this.tenantIdBox.TextChanged += new System.EventHandler(this.tenantIdBox_TextChanged);
             // 
             // guna2Button1
             // 
@@ -266,26 +267,26 @@
             this.guna2HtmlLabel1.TabIndex = 47;
             this.guna2HtmlLabel1.Text = "Tenant ID :";
             // 
-            // guna2DateTimePicker1
+            // moveInBox
             // 
-            this.guna2DateTimePicker1.Animated = true;
-            this.guna2DateTimePicker1.AutoRoundedCorners = true;
-            this.guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2DateTimePicker1.BorderRadius = 11;
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Poppins", 9F);
-            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.Black;
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.IndicateFocus = true;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(688, 56);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(172, 25);
-            this.guna2DateTimePicker1.TabIndex = 56;
-            this.guna2DateTimePicker1.UseTransparentBackground = true;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 6, 7, 16, 56, 21, 542);
+            this.moveInBox.Animated = true;
+            this.moveInBox.AutoRoundedCorners = true;
+            this.moveInBox.BackColor = System.Drawing.Color.Transparent;
+            this.moveInBox.BorderRadius = 11;
+            this.moveInBox.Checked = true;
+            this.moveInBox.FillColor = System.Drawing.Color.White;
+            this.moveInBox.Font = new System.Drawing.Font("Poppins", 9F);
+            this.moveInBox.ForeColor = System.Drawing.Color.Black;
+            this.moveInBox.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.moveInBox.IndicateFocus = true;
+            this.moveInBox.Location = new System.Drawing.Point(688, 56);
+            this.moveInBox.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.moveInBox.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.moveInBox.Name = "moveInBox";
+            this.moveInBox.Size = new System.Drawing.Size(172, 25);
+            this.moveInBox.TabIndex = 56;
+            this.moveInBox.UseTransparentBackground = true;
+            this.moveInBox.Value = new System.DateTime(2024, 6, 7, 16, 56, 21, 542);
             // 
             // guna2HtmlLabel7
             // 
@@ -301,7 +302,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2DateTimePicker1);
+            this.Controls.Add(this.moveInBox);
             this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.unitBox);
             this.Controls.Add(this.emailBox);
@@ -339,7 +340,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker moveInBox;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
     }
 }

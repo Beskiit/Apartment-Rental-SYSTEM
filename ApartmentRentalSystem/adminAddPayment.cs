@@ -18,6 +18,12 @@ namespace ApartmentRentalSystem
             InitializeComponent();
         }
 
+        private void addPayment()
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("INSERT INTO ");
+        }
+
         private void guna2Button1_Click(object sender, EventArgs e)
         {
   
