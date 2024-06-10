@@ -271,6 +271,12 @@
     <Compile Include="adminDeleteUser.Designer.cs">
       <DependentUpon>adminDeleteUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="adminLeaseScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adminLeaseScreen.Designer.cs">
+      <DependentUpon>adminLeaseScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminPaymentScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -365,6 +371,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminDeleteUser.resx">
       <DependentUpon>adminDeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminLeaseScreen.resx">
+      <DependentUpon>adminLeaseScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminPaymentScreen.resx">
       <DependentUpon>adminPaymentScreen.cs</DependentUpon>

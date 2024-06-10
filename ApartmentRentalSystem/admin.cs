@@ -16,27 +16,34 @@ namespace ApartmentRentalSystem
         public admin()
         {
             InitializeComponent();
-            this.FormClosing += new FormClosingEventHandler(admin_FormClosing);
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
+
         }
-       
+        private bool isExitConfirmed = false;
 
-    
-            private void admin_FormClosing(object sender, FormClosingEventArgs e)
+        private void admin_FormClosing(object sender, FormClosingEventArgs e)
         {
-    
-            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-
-        
-            if (result == DialogResult.Yes)
+            if (e.CloseReason == CloseReason.UserClosing && !isExitConfirmed)
             {
-        
-               Application.Exit();
+                DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
+                {
+                    isExitConfirmed = true;
+                }
+                else
+                {
+                    e.Cancel = true;
+                }
             }
         }
+        private void admin_Load(object sender, EventArgs e)
+        {
+            this.FormClosing += new FormClosingEventHandler(admin_FormClosing);
+        }
 
-                private void addUserControl(UserControl userControl)
+        private void addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
             mainPanel.Controls.Clear();
@@ -90,12 +97,6 @@ namespace ApartmentRentalSystem
 
             }
         }
-
-        private void admin_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             adminTransactionScreen adminTransactionScreen = new adminTransactionScreen();
@@ -112,6 +113,14 @@ namespace ApartmentRentalSystem
         private void guna2RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Lease_Click(object sender, EventArgs e)
+        {
+            adminLeaseScreen adminLeaseScreen = new adminLeaseScreen();
+            addUserControl(adminLeaseScreen);
+            panel3.Height = Lease.Height;
+            panel3.Top = Lease.Top;
         }
     }
 }
