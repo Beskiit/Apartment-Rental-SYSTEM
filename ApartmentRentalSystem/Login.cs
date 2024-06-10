@@ -83,39 +83,18 @@ namespace ApartmentRentalSystem
             this.Hide();
         }
 
-        private void guna2Button1_Click_1(object sender, EventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
-            /*
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT username, password FROM Clerk", Connection.conn);
-            SqlDataReader read = cmd.ExecuteReader();
-            bool isLogin = false;
-            while (read.Read())
+            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
             {
-                if (userInput.Text == read.GetValue(0).ToString() && passwordInput.Text == read.GetValue(1).ToString())
-                {
-                    isLogin = true;
-                    Connection.conn.Close();
-                    break;
-                }
-                else
-                {
-                    isLogin = false;
-                }
-            }
-            if (isLogin)
-            {
-                clerk dashboard = new clerk();
-                dashboard.Show();
-                this.Hide();
-                Connection.conn.Close();
+                Application.Exit();
             }
             else
             {
-                MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
-                Connection.conn.Close();
-            }*/
-    
+                
+            }
         }
     }
 }

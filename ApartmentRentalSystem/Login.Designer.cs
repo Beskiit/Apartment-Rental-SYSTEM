@@ -170,6 +170,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(46, 10);
             this.guna2Button2.TabIndex = 9;
             this.guna2Button2.UseTransparentBackground = true;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // Login
             // 
@@ -196,13 +197,13 @@
 
         #endregion
         private Guna.UI2.WinForms.Guna2TextBox passwordInput;
-        private Guna.UI2.WinForms.Guna2TextBox userInput;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button clerkButton;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        public Guna.UI2.WinForms.Guna2TextBox userInput;
     }
 }
 

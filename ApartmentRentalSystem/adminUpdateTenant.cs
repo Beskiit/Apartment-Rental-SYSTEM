@@ -39,9 +39,8 @@ namespace ApartmentRentalSystem
 
         private void displayTenant()
         {
-            Connection.conn.Open();
             SqlCommand cmd = new SqlCommand("SELECT firstName, lastName, email, phoneNumber, moveInDate, roomNumber FROM Tenant WHERE tenantID = @tenantID");
-            cmd.Parameters.AddWithValue("@tenantID", tenantIdBox.Text);
+            cmd.Parameters.AddWithValue("@tenantID", int.Parse(tenantIdBox.Text));
             SqlDataReader read = cmd.ExecuteReader();
             while (read.Read())
             {
@@ -52,7 +51,6 @@ namespace ApartmentRentalSystem
                 moveInBox.Value = read.GetDateTime(4);
                 unitBox.Text = read.GetValue(5).ToString();
             }
-            Connection.conn.Close();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

@@ -124,6 +124,7 @@
             this.roomIdBox.SelectedText = "";
             this.roomIdBox.Size = new System.Drawing.Size(136, 25);
             this.roomIdBox.TabIndex = 39;
+            this.roomIdBox.TextChanged += new System.EventHandler(this.roomIdBox_TextChanged);
             // 
             // roomNumBox
             // 

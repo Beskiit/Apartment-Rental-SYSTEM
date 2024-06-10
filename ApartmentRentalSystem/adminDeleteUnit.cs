@@ -25,7 +25,11 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
-            }
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("ALTER TABLE Room DROP COLUMN roomID WHERE roomID = @roomID", Connection.conn);
+            cmd.Parameters.AddWithValue("@roomID", int.Parse(roomIdBox.Text));
+            cmd.ExecuteNonQuery();
+            Connection.conn.Close();
         }
     }
+}

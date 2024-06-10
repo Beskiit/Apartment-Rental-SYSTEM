@@ -337,3 +337,4 @@ C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\b
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1.mdf
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\bin\Debug\Database1_log.ldf
 C:\Users\cedri\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminLeaseScreen.resources
+C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\obj\Debug\ApartmentRentalSystem.adminLeaseScreen.resources
