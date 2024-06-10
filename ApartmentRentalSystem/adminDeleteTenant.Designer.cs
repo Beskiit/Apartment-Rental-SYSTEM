@@ -182,6 +182,7 @@
             this.tenantIdBox.SelectedText = "";
             this.tenantIdBox.Size = new System.Drawing.Size(136, 25);
             this.tenantIdBox.TabIndex = 49;
+            this.tenantIdBox.TextChanged += new System.EventHandler(this.tenantIdBox_TextChanged);
             // 
             // guna2Button1
             // 

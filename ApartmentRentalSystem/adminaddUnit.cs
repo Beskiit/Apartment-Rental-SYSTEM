@@ -20,15 +20,11 @@ namespace ApartmentRentalSystem
 
         private void addUnit()
         {
-            Login login = new Login();
-            SqlCommand cmd = new SqlCommand("SELECT adminID FROM Admin WHERE username = @username", Connection.conn);
-            cmd.Parameters.AddWithValue("@username", login.userInput.Text);
-            SqlDataReader read = cmd.ExecuteReader();
-            int adminID = read.GetInt32(0);
-            cmd = new SqlCommand("INSERT INTO Room adminID, description, roomPrice, roomNumber, status VALUES (@adminID, @description, @roomPRice, @roomNumber, @status)", Connection.conn);
-            cmd.Parameters.AddWithValue("@adminID", adminID);
+            SqlCommand cmd = new SqlCommand("INSERT INTO Room (adminID, description, roomPrice, roomNumber, status) VALUES (@adminID, @description, @roomPRice, @roomNumber, @status)", Connection.conn);
+            cmd.Parameters.AddWithValue("@adminID", 1001);
             cmd.Parameters.AddWithValue("@description", descriptionBox.Text);
-            cmd.Parameters.AddWithValue("@roomPrice", amountBox.Text);
+            cmd.Parameters.AddWithValue("@roomPrice", decimal.Parse(amountBox.Text));
+            cmd.Parameters.AddWithValue("@roomNumber", int.Parse(roomNumberBox.Text));
             cmd.Parameters.AddWithValue("@status", "Vacant");
             cmd.ExecuteNonQuery();
         }
@@ -47,6 +43,7 @@ namespace ApartmentRentalSystem
         {
             Connection.conn.Open();
             addUnit();
+            Connection.conn.Close();
         }
 
         private void roomNumberBox_TextChanged(object sender, EventArgs e)

@@ -37,7 +37,7 @@ namespace ApartmentRentalSystem
             cmd.ExecuteNonQuery();
         }
 
-        private void displayTenant()
+        public void displayTenant()
         {
             SqlCommand cmd = new SqlCommand("SELECT firstName, lastName, email, phoneNumber, moveInDate, roomNumber FROM Tenant WHERE tenantID = @tenantID");
             cmd.Parameters.AddWithValue("@tenantID", int.Parse(tenantIdBox.Text));
