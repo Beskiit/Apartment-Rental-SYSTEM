@@ -48,8 +48,8 @@ namespace ApartmentRentalSystem
 
         private void addTenant()
         {
-            try
-            {
+            /*try
+            {*/
                 SqlCommand cmd = new SqlCommand("INSERT INTO Tenant (firstName, lastName, email, phoneNumber, moveInDate, roomID) VALUES (@firstName, @lastName, @email, @phoneNumber, @moveInDate, @roomNumber)", Connection.conn);
                 cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
                 cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
@@ -57,8 +57,6 @@ namespace ApartmentRentalSystem
                 cmd.Parameters.AddWithValue("@phoneNumber", numBox.Text);
                 cmd.Parameters.AddWithValue("@moveInDate", moveInBox.Value.ToString());
                 cmd.Parameters.AddWithValue("@roomNumber", int.Parse(unitBox.Text));
-
-                cmd.ExecuteNonQuery();
 
                 SqlCommand checkRoomCmd = new SqlCommand("SELECT status FROM Room WHERE roomID = @roomID", Connection.conn);
                 checkRoomCmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
@@ -74,6 +72,8 @@ namespace ApartmentRentalSystem
                         SqlCommand updateRoomCmd = new SqlCommand("UPDATE Room SET status = 'Occupied' WHERE roomID = @roomID", Connection.conn);
                         updateRoomCmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
                         updateRoomCmd.ExecuteNonQuery();
+                        cmd.ExecuteNonQuery();
+                        addTransaction();
 
                         MessageBox.Show("Adding tenant success.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -101,11 +101,40 @@ namespace ApartmentRentalSystem
                 }
 
                 read.Close();
-            }
+            /*}
             catch (Exception ex)
             {
                 MessageBox.Show("Error adding tenant: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }*/
+        }
+
+        private void addTransaction()
+        {
+            int tenantID = 0;
+            decimal price = 0;
+            SqlCommand cmd = new SqlCommand("SELECT roomPrice FROM Room WHERE roomID = @roomID",Connection.conn);
+            cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
+            SqlDataReader read = cmd.ExecuteReader();
+            if(read.Read())
+            {
+                price = decimal.Parse(read.GetValue(0).ToString());
+                read.Close();
             }
+            cmd = new SqlCommand("SELECT tenantID FROM Tenant WHERE firstName = @firstName", Connection.conn);
+            cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+            read = cmd.ExecuteReader();
+            if(read.Read())
+            {
+                tenantID = int.Parse(read.GetValue(0).ToString());
+                read.Close();
+            }
+            cmd = new SqlCommand("INSERT INTO [Transaction] (tenantID, transactionDate, roomID, totalPrice, status) VALUES (@tenantID, @transactionDate, @roomID, @totalPrice, @status)",Connection.conn);
+            cmd.Parameters.AddWithValue("@tenantID", tenantID);
+            cmd.Parameters.AddWithValue("@transactionDate", DateTime.Now);
+            cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
+            cmd.Parameters.AddWithValue("@totalPrice", price);
+            cmd.Parameters.AddWithValue("@status", "Pending");
+            cmd.ExecuteNonQuery();
         }
 
 
@@ -136,14 +165,14 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            try
-            {
+            /*try
+            {*/
                 adminTenantScreen tenant = new adminTenantScreen(); 
                 Connection.conn.Open();
                 addTenant();
                 tenant.displayTenant();
                 Connection.conn.Close();
-            }
+            /*}
             catch (Exception ex)
             {
                 MessageBox.Show("Adding tenant failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -151,7 +180,7 @@ namespace ApartmentRentalSystem
             finally
             {
                 Connection.conn.Close();
-            }
+            }*/
 
         }
 
