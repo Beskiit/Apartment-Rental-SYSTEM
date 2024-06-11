@@ -25,10 +25,13 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            adminUnitScreen unit = new adminUnitScreen();
             Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("ALTER TABLE Room DROP COLUMN roomID WHERE roomID = @roomID", Connection.conn);
+            SqlCommand cmd = new SqlCommand("DELETE FROM Room WHERE roomID = @roomID", Connection.conn);
             cmd.Parameters.AddWithValue("@roomID", int.Parse(roomIdBox.Text));
             cmd.ExecuteNonQuery();
+            cmd.Parameters.Clear();
+            unit.displayUnit();
             Connection.conn.Close();
         }
     }

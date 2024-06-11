@@ -20,17 +20,19 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            adminTenantScreen tenant = new adminTenantScreen();
             Connection.conn.Open();
             SqlCommand cmd = new SqlCommand("ALTER TABLE Tenant DROP COLUMN tenantID where tenantID = @tenantID", Connection.conn);
             cmd.Parameters.AddWithValue("@tenantID", int.Parse(tenantIdBox.Text));
             cmd.ExecuteNonQuery();
+            tenant.displayTenant();
             Connection.conn.Close();
         }
 
         private void tenantIdBox_TextChanged(object sender, EventArgs e)
         {
-            adminUpdateTenant tenant = new adminUpdateTenant();
-            tenant.displayTenant();
+            adminUpdateTenant tenantUpd = new adminUpdateTenant();
+            tenantUpd.displayTenant();
         }
     }
 }

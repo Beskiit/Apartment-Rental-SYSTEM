@@ -302,8 +302,6 @@
 
         private Guna.UI2.WinForms.Guna2TextBox emailBox;
         private Guna.UI2.WinForms.Guna2TextBox numBox;
-        private Guna.UI2.WinForms.Guna2TextBox lastNameBox;
-        private Guna.UI2.WinForms.Guna2TextBox firstNameBox;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
@@ -313,5 +311,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2DateTimePicker moveInBox;
+        public Guna.UI2.WinForms.Guna2TextBox lastNameBox;
+        public Guna.UI2.WinForms.Guna2TextBox firstNameBox;
     }
 }

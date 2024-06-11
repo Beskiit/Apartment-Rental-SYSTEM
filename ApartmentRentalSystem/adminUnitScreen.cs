@@ -26,12 +26,14 @@ namespace ApartmentRentalSystem
         }
         private void adminUnitScreen_Load(object sender, EventArgs e)
         {
-          
+            displayUnit();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-           
+            Connection.conn.Open();
+            displayUnit();
+            Connection.conn.Close();
         }
 
         private void addToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -50,6 +52,16 @@ namespace ApartmentRentalSystem
         {
             adminDeleteUnit adminDeleteUnit = new adminDeleteUnit();
             addUserControl(adminDeleteUnit);
+        }
+
+        public void displayUnit()
+        {
+            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', roomPrice AS 'Room Price', status AS 'Status' FROM Room",Connection.conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            guna2DataGridView2.DataSource = dt;
         }
 
         private void guna2DataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)

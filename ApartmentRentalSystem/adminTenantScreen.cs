@@ -28,12 +28,11 @@ namespace ApartmentRentalSystem
         }
         private void adminTenantScreen_Load(object sender, EventArgs e)
         {
-          
+            displayTenant();
         }
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-           
-
+            displayTenant();
         }
 
         private void addToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -55,15 +54,16 @@ namespace ApartmentRentalSystem
         }
         private void generateContract_Click(object sender, EventArgs e)
         {
+            adminAddTenant addTenant = new adminAddTenant();
 
             string leaseAgreementContent = @"This CONTRACT OF LEASE made and executed by and between:
           ___________________, of legal age, (Civil Status) _____________, Filipino national and a resident of[Landlord Address] ________________________, Philippines, here in after referred to as the LANDLORD / LESSOR. -
             and -
         _____________________, of legal age, (Civil Status) ________, Filipino national and a resident of[Lessee Address] __________________, here in after referred to as the LESSEE / TENANT.
           ";
-            string lessorName = "Landlord Name";
+            string lessorName = addTenant.firstNameBox.Text + " " + addTenant.lastNameBox.Text;
 
-            string lesseeName = "Lessee Name";
+            string lesseeName = "Arsenia Gonzales";
 
 
             string leaseTerm = "Term";
@@ -75,7 +75,7 @@ namespace ApartmentRentalSystem
 
             try
             {
-                PdfWriter writer = PdfWriter.GetInstance(document, new FileStream("C:\\pdf\\lease.pdf", FileMode.Create));
+                PdfWriter writer = PdfWriter.GetInstance(document, new FileStream($"C:\\pdf\\{lessorName}.pdf", FileMode.Create));
                 document.Open();
 
                 Paragraph title = new Paragraph("CONTRACT OF LEASE", FontFactory.GetFont(FontFactory.TIMES_ROMAN, 27));
@@ -195,8 +195,23 @@ namespace ApartmentRentalSystem
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error creating PDF: " + ex.Message);
                 MessageBox.Show("Error creating PDF: " + ex.Message);
             }
         }
-    }}
+
+        public void displayTenant()
+        {
+            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', roomID as 'Room ID', email AS 'Email', phoneNumber AS 'Phone Number', moveInDate AS 'Move In Date', status AS 'Status' FROM Tenant", Connection.conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            guna2DataGridView2.DataSource = dt;
+        }
+
+        private void guna2DataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+    }
+}

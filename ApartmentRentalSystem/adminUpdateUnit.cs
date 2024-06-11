@@ -20,10 +20,22 @@ namespace ApartmentRentalSystem
 
         private void displayUnit()
         {
-            SqlCommand cmd = new SqlCommand("SELECT roomNumber, description, amount WHERE roomID = @roomID", Connection.conn);
+            if (string.IsNullOrWhiteSpace(roomIdBox.Text))
+            {
+                roomNumBox.Text = "";
+                descriptionBox.Text = "";
+                amountBox.Text = "";
+                return;
+            }
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomNumber, description, roomPrice FROM Room WHERE roomID = @roomID", Connection.conn);
             cmd.Parameters.AddWithValue("@roomID", int.Parse(roomIdBox.Text));
 
             SqlDataReader read = cmd.ExecuteReader();
+
+            roomNumBox.Text = "";
+            descriptionBox.Text = "";
+            amountBox.Text = "";
 
             while(read.Read())
             {
@@ -31,6 +43,8 @@ namespace ApartmentRentalSystem
                 descriptionBox.Text = read.GetValue(1).ToString();
                 amountBox.Text = read.GetValue(2).ToString();
             }
+            read.Close();
+            Connection.conn.Close();
         }
 
         private void updateUnit()
@@ -54,9 +68,10 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            adminUnitScreen unit = new adminUnitScreen();
             Connection.conn.Open();
             updateUnit();
-
+            unit.displayUnit();
         }
 
         private void roomIdBox_TextChanged(object sender, EventArgs e)

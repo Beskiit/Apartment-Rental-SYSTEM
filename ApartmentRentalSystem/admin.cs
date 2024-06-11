@@ -31,6 +31,7 @@ namespace ApartmentRentalSystem
                 if (result == DialogResult.Yes)
                 {
                     isExitConfirmed = true;
+                    Application.Exit();
                 }
                 else
                 {

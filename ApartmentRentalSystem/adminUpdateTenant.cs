@@ -39,9 +39,28 @@ namespace ApartmentRentalSystem
 
         public void displayTenant()
         {
+            if (string.IsNullOrWhiteSpace(tenantIdBox.Text))
+            {
+                firstNameBox.Text = "";
+                lastNameBox.Text = "";
+                emailBox.Text = "";
+                numBox.Text = "";
+                moveInBox.Value = DateTime.Now;
+                unitBox.Text = "";
+                return;
+            }
+            Connection.conn.Open();
             SqlCommand cmd = new SqlCommand("SELECT firstName, lastName, email, phoneNumber, moveInDate, roomNumber FROM Tenant WHERE tenantID = @tenantID");
             cmd.Parameters.AddWithValue("@tenantID", int.Parse(tenantIdBox.Text));
             SqlDataReader read = cmd.ExecuteReader();
+
+            firstNameBox.Text = "";
+            lastNameBox.Text = "";
+            emailBox.Text = "";
+            numBox.Text = "";
+            moveInBox.Value = DateTime.Now;
+            unitBox.Text = "";
+
             while (read.Read())
             {
                 firstNameBox.Text = read.GetValue(0).ToString();
@@ -51,14 +70,20 @@ namespace ApartmentRentalSystem
                 moveInBox.Value = read.GetDateTime(4);
                 unitBox.Text = read.GetValue(5).ToString();
             }
+
+            read.Close();
+
+            Connection.conn.Close();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             try
             {
+                adminTenantScreen tenant = new adminTenantScreen();
                 Connection.conn.Open();
                 updateTenant();
+                tenant.displayTenant();
             }
             catch (Exception ex)
             {
