@@ -41,6 +41,7 @@
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.moveInBox = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.generateContract = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // emailBox
@@ -274,10 +275,34 @@
             this.moveInBox.Value = new System.DateTime(2024, 6, 7, 16, 56, 21, 542);
             this.moveInBox.ValueChanged += new System.EventHandler(this.guna2DateTimePicker1_ValueChanged);
             // 
+            // generateContract
+            // 
+            this.generateContract.Animated = true;
+            this.generateContract.AutoRoundedCorners = true;
+            this.generateContract.BackColor = System.Drawing.Color.Transparent;
+            this.generateContract.BorderRadius = 13;
+            this.generateContract.DefaultAutoSize = true;
+            this.generateContract.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.generateContract.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.generateContract.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.generateContract.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.generateContract.FillColor = System.Drawing.Color.SaddleBrown;
+            this.generateContract.Font = new System.Drawing.Font("Poppins", 9.75F);
+            this.generateContract.ForeColor = System.Drawing.Color.White;
+            this.generateContract.IndicateFocus = true;
+            this.generateContract.Location = new System.Drawing.Point(509, 128);
+            this.generateContract.Name = "generateContract";
+            this.generateContract.Size = new System.Drawing.Size(156, 29);
+            this.generateContract.TabIndex = 43;
+            this.generateContract.Text = "Generate Contract";
+            this.generateContract.UseTransparentBackground = true;
+            this.generateContract.Click += new System.EventHandler(this.generateContract_Click);
+            // 
             // adminAddTenant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.generateContract);
             this.Controls.Add(this.moveInBox);
             this.Controls.Add(this.unitBox);
             this.Controls.Add(this.emailBox);
@@ -313,5 +338,6 @@
         private Guna.UI2.WinForms.Guna2DateTimePicker moveInBox;
         public Guna.UI2.WinForms.Guna2TextBox lastNameBox;
         public Guna.UI2.WinForms.Guna2TextBox firstNameBox;
+        private Guna.UI2.WinForms.Guna2Button generateContract;
     }
 }

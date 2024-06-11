@@ -20,6 +20,7 @@ namespace ApartmentRentalSystem
 
         private void addUnit()
         {
+
             SqlCommand cmd = new SqlCommand("INSERT INTO Room (adminID, description, roomPrice, roomNumber, status) VALUES (@adminID, @description, @roomPRice, @roomNumber, @status)", Connection.conn);
             cmd.Parameters.AddWithValue("@adminID", 1001);
             cmd.Parameters.AddWithValue("@description", descriptionBox.Text);
@@ -41,9 +42,19 @@ namespace ApartmentRentalSystem
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            addUnit();
-            Connection.conn.Close();
+            try
+            {
+                Connection.conn.Open();
+                addUnit();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Adding unit failed. Please try again.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Connection.conn.Close();
+            }
         }
 
         private void roomNumberBox_TextChanged(object sender, EventArgs e)

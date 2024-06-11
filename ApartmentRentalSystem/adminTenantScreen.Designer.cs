@@ -41,7 +41,6 @@
             this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.generateContract = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -211,29 +210,6 @@
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click_1);
             // 
-            // generateContract
-            // 
-            this.generateContract.Animated = true;
-            this.generateContract.AutoRoundedCorners = true;
-            this.generateContract.BackColor = System.Drawing.Color.Transparent;
-            this.generateContract.BorderRadius = 13;
-            this.generateContract.DefaultAutoSize = true;
-            this.generateContract.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.generateContract.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.generateContract.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.generateContract.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.generateContract.FillColor = System.Drawing.Color.SaddleBrown;
-            this.generateContract.Font = new System.Drawing.Font("Poppins", 9.75F);
-            this.generateContract.ForeColor = System.Drawing.Color.White;
-            this.generateContract.IndicateFocus = true;
-            this.generateContract.Location = new System.Drawing.Point(350, 30);
-            this.generateContract.Name = "generateContract";
-            this.generateContract.Size = new System.Drawing.Size(156, 29);
-            this.generateContract.TabIndex = 17;
-            this.generateContract.Text = "Generate Contract";
-            this.generateContract.UseTransparentBackground = true;
-            this.generateContract.Click += new System.EventHandler(this.generateContract_Click);
-            // 
             // adminTenantScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -241,7 +217,6 @@
             this.Controls.Add(this.guna2VScrollBar1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2DataGridView2);
-            this.Controls.Add(this.generateContract);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.mainPanel);
             this.Name = "adminTenantScreen";
@@ -266,7 +241,6 @@
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
-        private Guna.UI2.WinForms.Guna2Button generateContract;
         public Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
     }
 }
