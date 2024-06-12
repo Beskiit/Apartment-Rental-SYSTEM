@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation2 = new Guna.UI2.AnimatorNS.Animation();
+            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.logoutButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
             this.dashboardIcon = new System.Windows.Forms.Button();
             this.unitsIcon = new System.Windows.Forms.Button();
             this.tenantIcon = new System.Windows.Forms.Button();
             this.paymentIcon = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Lease = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
-            this.Lease = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -78,12 +78,15 @@
             this.guna2Transition1.SetDecoration(this.logoutButton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.logoutButton.FlatAppearance.BorderSize = 0;
             this.logoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutButton.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutButton.Image = ((System.Drawing.Image)(resources.GetObject("logoutButton.Image")));
             this.logoutButton.Location = new System.Drawing.Point(12, 550);
             this.logoutButton.Margin = new System.Windows.Forms.Padding(2);
             this.logoutButton.Name = "logoutButton";
-            this.logoutButton.Size = new System.Drawing.Size(56, 38);
+            this.logoutButton.Size = new System.Drawing.Size(92, 38);
             this.logoutButton.TabIndex = 0;
+            this.logoutButton.Text = "Logout";
+            this.logoutButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
@@ -96,6 +99,15 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(949, 600);
             this.mainPanel.TabIndex = 2;
+            // 
+            // adminDashboardScreen2
+            // 
+            this.adminDashboardScreen2.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.adminDashboardScreen2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
+            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
+            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 538);
+            this.adminDashboardScreen2.TabIndex = 0;
             // 
             // dashboardIcon
             // 
@@ -195,6 +207,23 @@
             this.panel1.Size = new System.Drawing.Size(180, 651);
             this.panel1.TabIndex = 0;
             // 
+            // Lease
+            // 
+            this.guna2Transition1.SetDecoration(this.Lease, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Lease.FlatAppearance.BorderSize = 0;
+            this.Lease.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Lease.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lease.Image = ((System.Drawing.Image)(resources.GetObject("Lease.Image")));
+            this.Lease.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Lease.Location = new System.Drawing.Point(12, 251);
+            this.Lease.Name = "Lease";
+            this.Lease.Size = new System.Drawing.Size(168, 40);
+            this.Lease.TabIndex = 4;
+            this.Lease.Text = "Lease";
+            this.Lease.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Lease.UseVisualStyleBackColor = true;
+            this.Lease.Click += new System.EventHandler(this.Lease_Click);
+            // 
             // button1
             // 
             this.guna2Transition1.SetDecoration(this.button1, Guna.UI2.AnimatorNS.DecorationType.None);
@@ -215,48 +244,22 @@
             // guna2Transition1
             // 
             this.guna2Transition1.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation2;
-            // 
-            // adminDashboardScreen2
-            // 
-            this.adminDashboardScreen2.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.adminDashboardScreen2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
-            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
-            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 538);
-            this.adminDashboardScreen2.TabIndex = 0;
-            // 
-            // Lease
-            // 
-            this.guna2Transition1.SetDecoration(this.Lease, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.Lease.FlatAppearance.BorderSize = 0;
-            this.Lease.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Lease.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lease.Image = ((System.Drawing.Image)(resources.GetObject("Lease.Image")));
-            this.Lease.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Lease.Location = new System.Drawing.Point(12, 251);
-            this.Lease.Name = "Lease";
-            this.Lease.Size = new System.Drawing.Size(168, 40);
-            this.Lease.TabIndex = 4;
-            this.Lease.Text = "Lease";
-            this.Lease.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Lease.UseVisualStyleBackColor = true;
-            this.Lease.Click += new System.EventHandler(this.Lease_Click);
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.guna2Transition1.DefaultAnimation = animation1;
             // 
             // admin
             // 

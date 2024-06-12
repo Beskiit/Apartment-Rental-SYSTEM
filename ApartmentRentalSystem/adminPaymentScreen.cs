@@ -29,19 +29,6 @@ namespace ApartmentRentalSystem
         {
             adminAddPayment adminAddPayment = new adminAddPayment();
             addUserControl(adminAddPayment);
-
-        }
-
-        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            adminUpdatePayment adminUpdatePayment = new adminUpdatePayment();
-            addUserControl (adminUpdatePayment);
-        }
-
-        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           adminDeletePayment adminDeletePayment = new adminDeletePayment();
-            addUserControl(adminDeletePayment);
         }
     }
 }

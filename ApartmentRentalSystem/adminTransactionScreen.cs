@@ -16,27 +16,6 @@ namespace ApartmentRentalSystem
         public adminTransactionScreen()
         {
             InitializeComponent();
-            adminAddTransaction adminAddTransaction = new adminAddTransaction();
-            addUserControl(adminAddTransaction);
-        }
-        private void addUserControl(UserControl userControl)
-        {
-            userControl.Dock = DockStyle.Fill;
-            panel1.Controls.Clear();
-            panel1.Controls.Add(userControl);
-            userControl.BringToFront();
-        }
-
-        private void addToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            adminAddTransaction adminAddTransaction = new adminAddTransaction();
-            addUserControl(adminAddTransaction);
-        }
-
-        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            adminDeleteTransaction adminDeleteTransaction = new adminDeleteTransaction();
-            addUserControl(adminDeleteTransaction);
         }
     }
 }

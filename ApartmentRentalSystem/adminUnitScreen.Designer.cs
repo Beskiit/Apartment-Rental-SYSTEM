@@ -62,7 +62,8 @@
             this.guna2Button2.Animated = true;
             this.guna2Button2.AutoRoundedCorners = true;
             this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 13;
+            this.guna2Button2.BorderRadius = 12;
+            this.guna2Button2.DefaultAutoSize = true;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -73,7 +74,7 @@
             this.guna2Button2.IndicateFocus = true;
             this.guna2Button2.Location = new System.Drawing.Point(264, 30);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(107, 29);
+            this.guna2Button2.Size = new System.Drawing.Size(77, 26);
             this.guna2Button2.TabIndex = 25;
             this.guna2Button2.Text = "Refresh";
             this.guna2Button2.UseTransparentBackground = true;
@@ -234,7 +235,7 @@
             this.guna2Button1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.IndicateFocus = true;
-            this.guna2Button1.Location = new System.Drawing.Point(836, 30);
+            this.guna2Button1.Location = new System.Drawing.Point(347, 28);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(73, 28);
             this.guna2Button1.TabIndex = 34;
@@ -256,7 +257,7 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Poppins", 9F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(630, 30);
+            this.guna2TextBox1.Location = new System.Drawing.Point(426, 28);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
