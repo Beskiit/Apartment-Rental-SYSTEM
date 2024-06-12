@@ -66,10 +66,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(400, 18);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(137, 24);
+            this.label7.Size = new System.Drawing.Size(137, 34);
             this.label7.TabIndex = 5;
             this.label7.Text = "DASHBOARD";
             // 

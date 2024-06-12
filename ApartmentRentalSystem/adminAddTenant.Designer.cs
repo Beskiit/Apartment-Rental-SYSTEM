@@ -145,7 +145,7 @@
             this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 16;
+            this.guna2Button1.BorderRadius = 15;
             this.guna2Button1.DefaultAutoSize = true;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -157,9 +157,9 @@
             this.guna2Button1.IndicateFocus = true;
             this.guna2Button1.Location = new System.Drawing.Point(320, 123);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(64, 34);
+            this.guna2Button1.Size = new System.Drawing.Size(71, 32);
             this.guna2Button1.TabIndex = 36;
-            this.guna2Button1.Text = "Add";
+            this.guna2Button1.Text = "Addd";
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
@@ -279,7 +279,7 @@
             this.generateContract.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.generateContract.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.generateContract.FillColor = System.Drawing.Color.SaddleBrown;
-            this.generateContract.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.generateContract.Font = new System.Drawing.Font("Poppins", 12F);
             this.generateContract.ForeColor = System.Drawing.Color.White;
             this.generateContract.IndicateFocus = true;
             this.generateContract.Location = new System.Drawing.Point(401, 123);

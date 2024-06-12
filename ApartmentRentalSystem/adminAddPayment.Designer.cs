@@ -140,7 +140,7 @@
             this.transactionIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.transactionIdBox.ForeColor = System.Drawing.Color.Black;
             this.transactionIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.transactionIdBox.Location = new System.Drawing.Point(335, 25);
+            this.transactionIdBox.Location = new System.Drawing.Point(339, 25);
             this.transactionIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.transactionIdBox.Name = "transactionIdBox";
             this.transactionIdBox.PasswordChar = '\0';

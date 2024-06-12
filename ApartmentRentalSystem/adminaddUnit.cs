@@ -44,6 +44,7 @@ namespace ApartmentRentalSystem
             finally
             {
                 Connection.conn.Close();
+                /*Testing langg*/
             }
         }
     }
