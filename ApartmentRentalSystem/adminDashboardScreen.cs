@@ -19,14 +19,6 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
-        private void addUserControl(UserControl userControl)
-        {
-            userControl.Dock = DockStyle.Fill;
-            chartPanel.Controls.Clear();
-            chartPanel.Controls.Add(userControl);
-            userControl.BringToFront(); 
-        }
-
         private void adminDashboardScreen_Load_1(object sender, EventArgs e)
         {
             dateLabel.Text = DateTime.Now.ToString("dddd, MMMM dd, yyyy");

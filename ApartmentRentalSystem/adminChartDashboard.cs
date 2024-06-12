@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace ApartmentRentalSystem
 {
@@ -21,27 +22,29 @@ namespace ApartmentRentalSystem
 
         private void InitializeChart()
         {
+            string[] units = { "Available", "Occupied", "Not Available" };
 
-            string[] months = { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
+            chart.Legend.Position = Guna.Charts.WinForms.LegendPosition.Right;
+            chart.XAxes.Display = false;
+            chart.YAxes.Display = false;
 
-            gunaChart1.YAxes.GridLines.Display = false;
-
-            var dataset = new Guna.Charts.WinForms.GunaLineDataset();
-            dataset.PointRadius = 5;
-            dataset.PointStyle = PointStyle.Circle;
+            var dataset = new Guna.Charts.WinForms.GunaPieDataset();
             var r = new Random();
-            for (int i = 0; i < months.Length; i++)
+            for (int i = 0; i < units.Length; i++)
             {
-                int num = r.Next(1, 10);
+                int num = r.Next(10, 100);
 
-                dataset.DataPoints.Add(months[i], num);
+                dataset.DataPoints.Add(units[i], num);
             }
 
-
-            gunaChart1.Datasets.Add(dataset);
-            gunaChart1.Update();
+            chart.Datasets.Add(dataset);
+            chart.Dock = DockStyle.Fill;
+            guna2Panel1.Controls.Add(chart);
+            chart.Update();
 
         }
+
     }
     }
+   
 

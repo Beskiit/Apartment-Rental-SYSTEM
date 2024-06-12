@@ -46,18 +46,11 @@
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.chartPanel = new System.Windows.Forms.Panel();
             this.adminChartDashboard1 = new ApartmentRentalSystem.adminChartDashboard();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel3.SuspendLayout();
-            this.guna2CustomGradientPanel4.SuspendLayout();
-            this.chartPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // dateLabel
@@ -89,7 +82,7 @@
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.SaddleBrown;
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(100, 393);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(682, 230);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.ShadowDecoration.Depth = 20;
             this.guna2CustomGradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(4);
@@ -142,7 +135,7 @@
             this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.SaddleBrown;
             this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(292, 393);
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(681, 392);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.ShadowDecoration.Depth = 20;
             this.guna2CustomGradientPanel2.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(4);
@@ -195,7 +188,7 @@
             this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
             this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.Color.SaddleBrown;
             this.guna2CustomGradientPanel3.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(485, 393);
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(681, 68);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.ShadowDecoration.Depth = 20;
             this.guna2CustomGradientPanel3.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(4);
@@ -239,59 +232,6 @@
             this.guna2CircleButton3.Size = new System.Drawing.Size(36, 39);
             this.guna2CircleButton3.TabIndex = 0;
             // 
-            // guna2CustomGradientPanel4
-            // 
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2HtmlLabel7);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2HtmlLabel8);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2CircleButton4);
-            this.guna2CustomGradientPanel4.FillColor = System.Drawing.Color.SaddleBrown;
-            this.guna2CustomGradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.guna2CustomGradientPanel4.FillColor3 = System.Drawing.Color.SaddleBrown;
-            this.guna2CustomGradientPanel4.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.guna2CustomGradientPanel4.Location = new System.Drawing.Point(678, 393);
-            this.guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
-            this.guna2CustomGradientPanel4.ShadowDecoration.Depth = 20;
-            this.guna2CustomGradientPanel4.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(4);
-            this.guna2CustomGradientPanel4.Size = new System.Drawing.Size(170, 135);
-            this.guna2CustomGradientPanel4.TabIndex = 12;
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Poppins SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(10, 93);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(61, 39);
-            this.guna2HtmlLabel7.TabIndex = 1;
-            this.guna2HtmlLabel7.Text = "Users";
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Poppins", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(10, 48);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(21, 50);
-            this.guna2HtmlLabel8.TabIndex = 1;
-            this.guna2HtmlLabel8.Text = "0";
-            // 
-            // guna2CircleButton4
-            // 
-            this.guna2CircleButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
-            this.guna2CircleButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton4.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton4.Image")));
-            this.guna2CircleButton4.Location = new System.Drawing.Point(3, 3);
-            this.guna2CircleButton4.Name = "guna2CircleButton4";
-            this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton4.Size = new System.Drawing.Size(36, 39);
-            this.guna2CircleButton4.TabIndex = 0;
-            // 
             // guna2Button2
             // 
             this.guna2Button2.Animated = true;
@@ -314,20 +254,12 @@
             this.guna2Button2.Text = "Refresh";
             this.guna2Button2.UseTransparentBackground = true;
             // 
-            // chartPanel
-            // 
-            this.chartPanel.Controls.Add(this.adminChartDashboard1);
-            this.chartPanel.Location = new System.Drawing.Point(100, 70);
-            this.chartPanel.Name = "chartPanel";
-            this.chartPanel.Size = new System.Drawing.Size(748, 278);
-            this.chartPanel.TabIndex = 19;
-            // 
             // adminChartDashboard1
             // 
-            this.adminChartDashboard1.Location = new System.Drawing.Point(0, 0);
+            this.adminChartDashboard1.Location = new System.Drawing.Point(-129, -33);
             this.adminChartDashboard1.Name = "adminChartDashboard1";
-            this.adminChartDashboard1.Size = new System.Drawing.Size(847, 281);
-            this.adminChartDashboard1.TabIndex = 0;
+            this.adminChartDashboard1.Size = new System.Drawing.Size(808, 642);
+            this.adminChartDashboard1.TabIndex = 19;
             // 
             // adminDashboardScreen
             // 
@@ -335,15 +267,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.guna2CustomGradientPanel4);
             this.Controls.Add(this.guna2CustomGradientPanel3);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateLabel);
-            this.Controls.Add(this.chartPanel);
+            this.Controls.Add(this.adminChartDashboard1);
             this.Name = "adminDashboardScreen";
-            this.Size = new System.Drawing.Size(950, 600);
+            this.Size = new System.Drawing.Size(950, 680);
             this.Load += new System.EventHandler(this.adminDashboardScreen_Load_1);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
@@ -351,9 +282,6 @@
             this.guna2CustomGradientPanel2.PerformLayout();
             this.guna2CustomGradientPanel3.ResumeLayout(false);
             this.guna2CustomGradientPanel3.PerformLayout();
-            this.guna2CustomGradientPanel4.ResumeLayout(false);
-            this.guna2CustomGradientPanel4.PerformLayout();
-            this.chartPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,12 +302,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton3;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton4;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private System.Windows.Forms.Panel chartPanel;
         private adminChartDashboard adminChartDashboard1;
     }
 }

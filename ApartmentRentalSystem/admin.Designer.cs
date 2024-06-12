@@ -35,7 +35,6 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.logoutButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
-            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
             this.dashboardIcon = new System.Windows.Forms.Button();
             this.unitsIcon = new System.Windows.Forms.Button();
             this.tenantIcon = new System.Windows.Forms.Button();
@@ -46,6 +45,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
+            this.adminDashboardScreen2 = new ApartmentRentalSystem.adminDashboardScreen();
             this.panel2.SuspendLayout();
             this.mainPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -99,15 +99,6 @@
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(949, 600);
             this.mainPanel.TabIndex = 2;
-            // 
-            // adminDashboardScreen2
-            // 
-            this.adminDashboardScreen2.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.adminDashboardScreen2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
-            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
-            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 538);
-            this.adminDashboardScreen2.TabIndex = 0;
             // 
             // dashboardIcon
             // 
@@ -260,6 +251,15 @@
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 0F;
             this.guna2Transition1.DefaultAnimation = animation1;
+            // 
+            // adminDashboardScreen2
+            // 
+            this.adminDashboardScreen2.AutoSize = true;
+            this.guna2Transition1.SetDecoration(this.adminDashboardScreen2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.adminDashboardScreen2.Location = new System.Drawing.Point(0, 0);
+            this.adminDashboardScreen2.Name = "adminDashboardScreen2";
+            this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 680);
+            this.adminDashboardScreen2.TabIndex = 0;
             // 
             // admin
             // 
