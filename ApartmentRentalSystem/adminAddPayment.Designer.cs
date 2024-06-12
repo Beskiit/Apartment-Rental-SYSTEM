@@ -33,8 +33,6 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.tenantIdBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.amountBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.transactionIdBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
@@ -128,37 +126,6 @@
             this.amountBox.Size = new System.Drawing.Size(136, 25);
             this.amountBox.TabIndex = 26;
             // 
-            // guna2DateTimePicker1
-            // 
-            this.guna2DateTimePicker1.Animated = true;
-            this.guna2DateTimePicker1.AutoRoundedCorners = true;
-            this.guna2DateTimePicker1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2DateTimePicker1.BorderRadius = 11;
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.White;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.Black;
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.IndicateFocus = true;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(335, 86);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(172, 25);
-            this.guna2DateTimePicker1.TabIndex = 46;
-            this.guna2DateTimePicker1.UseTransparentBackground = true;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 6, 7, 16, 56, 21, 542);
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(226, 86);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(104, 25);
-            this.guna2HtmlLabel2.TabIndex = 45;
-            this.guna2HtmlLabel2.Text = "Payment Date :";
-            // 
             // transactionIdBox
             // 
             this.transactionIdBox.BorderRadius = 2;
@@ -198,8 +165,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.transactionIdBox);
             this.Controls.Add(this.guna2HtmlLabel4);
-            this.Controls.Add(this.guna2DateTimePicker1);
-            this.Controls.Add(this.guna2HtmlLabel2);
             this.Controls.Add(this.amountBox);
             this.Controls.Add(this.tenantIdBox);
             this.Controls.Add(this.guna2Button1);
@@ -218,8 +183,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2TextBox tenantIdBox;
         private Guna.UI2.WinForms.Guna2TextBox amountBox;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2TextBox transactionIdBox;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
     }
