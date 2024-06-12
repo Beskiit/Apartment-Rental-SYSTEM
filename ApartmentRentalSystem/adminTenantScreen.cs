@@ -57,7 +57,7 @@ namespace ApartmentRentalSystem
 
         public void displayTenant()
         {
-            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', roomID as 'Room ID', email AS 'Email', phoneNumber AS 'Phone Number', moveInDate AS 'Move In Date', status AS 'Status' FROM Tenant", Connection.conn);
+            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', roomID as 'Room ID', email AS 'Email', phoneNumber AS 'Phone Number', rentPayment AS 'Rent Payment', moveInDate AS 'Move In Date', status AS 'Status' FROM Tenant", Connection.conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);

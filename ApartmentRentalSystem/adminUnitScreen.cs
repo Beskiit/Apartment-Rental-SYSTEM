@@ -65,5 +65,19 @@ namespace ApartmentRentalSystem
 
             guna2DataGridView2.DataSource = dt;
         }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', roomPrice AS 'Room Price', status AS 'Status' FROM Room WHERE CONCAT(roomID, roomNumber, description, roomPrice, status) LIKE @search", Connection.conn);
+            cmd.Parameters.AddWithValue("@search", "%" + searchBox.Text + "%");
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            guna2DataGridView2.DataSource= dt;
+
+            Connection.conn.Close();
+        }
     }
 }

@@ -26,13 +26,14 @@ namespace ApartmentRentalSystem
         {
             try
             {
-                SqlCommand cmd = new SqlCommand("INSERT INTO Tenant (firstName, lastName, email, phoneNumber, moveInDate, roomID) VALUES (@firstName, @lastName, @email, @phoneNumber, @moveInDate, @roomNumber)", Connection.conn);
+                SqlCommand cmd = new SqlCommand("INSERT INTO Tenant (firstName, lastName, email, phoneNumber, moveInDate, roomID, rentPayment) VALUES (@firstName, @lastName, @email, @phoneNumber, @moveInDate, @roomNumber, @rentPayment)", Connection.conn);
                 cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
                 cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
                 cmd.Parameters.AddWithValue("@email", emailBox.Text);
                 cmd.Parameters.AddWithValue("@phoneNumber", numBox.Text);
                 cmd.Parameters.AddWithValue("@moveInDate", moveInBox.Value.ToString());
                 cmd.Parameters.AddWithValue("@roomNumber", int.Parse(unitBox.Text));
+                cmd.Parameters.AddWithValue("@rentPayment", rentBox.Text);
 
                 SqlCommand checkRoomCmd = new SqlCommand("SELECT status FROM Room WHERE roomID = @roomID", Connection.conn);
                 checkRoomCmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
@@ -49,7 +50,13 @@ namespace ApartmentRentalSystem
                         updateRoomCmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
                         updateRoomCmd.ExecuteNonQuery();
                         cmd.ExecuteNonQuery();
-                        addTransaction();
+                        if (rentBox.Text.ToLower() == "quarterly")
+                        {
+                            addTransactionQuarterly();
+                        }else if (rentBox.Text.ToLower() == "monthly")
+                        {
+                            addTransactionMonthly();
+                        }
 
                         MessageBox.Show("Adding tenant success.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -59,6 +66,8 @@ namespace ApartmentRentalSystem
                         numBox.Text = "";
                         moveInBox.Value = DateTime.Now;
                         unitBox.Text = "";
+                        rentBox.Text = "";
+                        statusBox.Text = "";
 
                         return;
                     }
@@ -84,33 +93,75 @@ namespace ApartmentRentalSystem
             }
 }
 
-        private void addTransaction()
+        private void addTransactionQuarterly()
         {
             int tenantID = 0;
             decimal price = 0;
-            SqlCommand cmd = new SqlCommand("SELECT roomPrice FROM Room WHERE roomID = @roomID",Connection.conn);
+            decimal quarterPrice = 4;
+            SqlCommand cmd = new SqlCommand("SELECT roomPrice FROM Room WHERE roomID = @roomID", Connection.conn);
             cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
             SqlDataReader read = cmd.ExecuteReader();
-            if(read.Read())
+            if (read.Read())
             {
-                price = decimal.Parse(read.GetValue(0).ToString());
+                price = Convert.ToDecimal(read.GetValue(0).ToString());
                 read.Close();
             }
             cmd = new SqlCommand("SELECT tenantID FROM Tenant WHERE firstName = @firstName", Connection.conn);
             cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
             read = cmd.ExecuteReader();
-            if(read.Read())
+            if (read.Read())
             {
                 tenantID = int.Parse(read.GetValue(0).ToString());
                 read.Close();
             }
-            cmd = new SqlCommand("INSERT INTO [Transaction] (tenantID, transactionDate, roomID, totalPrice, status) VALUES (@tenantID, @transactionDate, @roomID, @totalPrice, @status)",Connection.conn);
-            cmd.Parameters.AddWithValue("@tenantID", tenantID);
-            cmd.Parameters.AddWithValue("@transactionDate", DateTime.Now);
+            for (int i = 1; i <= 3; i++)
+            {
+                cmd = new SqlCommand("INSERT INTO [Transaction] (tenantID, transactionDate, roomID, totalPrice, status) VALUES (@tenantID, @transactionDate, @roomID, @totalPrice, @status)", Connection.conn);
+                cmd.Parameters.AddWithValue("@tenantID", tenantID);
+                int totalMonths = i * 4;
+
+                cmd.Parameters.AddWithValue("@transactionDate", moveInBox.Value.AddMonths(totalMonths));
+
+                cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
+                decimal totalPrice = price * quarterPrice;
+                cmd.Parameters.AddWithValue("@totalPrice", totalPrice);
+                cmd.Parameters.AddWithValue("@status", "Pending");
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        private void addTransactionMonthly()
+        {
+            int tenantID = 0;
+            decimal price = 0;
+            SqlCommand cmd = new SqlCommand("SELECT roomPrice FROM Room WHERE roomID = @roomID", Connection.conn);
             cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
-            cmd.Parameters.AddWithValue("@totalPrice", price);
-            cmd.Parameters.AddWithValue("@status", "Pending");
-            cmd.ExecuteNonQuery();
+            SqlDataReader read = cmd.ExecuteReader();
+            if (read.Read())
+            {
+                price = Convert.ToDecimal(read.GetValue(0).ToString());
+                read.Close();
+            }
+            cmd = new SqlCommand("SELECT tenantID FROM Tenant WHERE firstName = @firstName", Connection.conn);
+            cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+            read = cmd.ExecuteReader();
+            if (read.Read())
+            {
+                tenantID = int.Parse(read.GetValue(0).ToString());
+                read.Close();
+            }
+            for (int i = 1; i <= 12; i++)
+            {
+                cmd = new SqlCommand("INSERT INTO [Transaction] (tenantID, transactionDate, roomID, totalPrice, status) VALUES (@tenantID, @transactionDate, @roomID, @totalPrice, @status)", Connection.conn);
+                cmd.Parameters.AddWithValue("@tenantID", tenantID);
+
+                cmd.Parameters.AddWithValue("@transactionDate", moveInBox.Value.AddMonths(i));
+
+                cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
+                cmd.Parameters.AddWithValue("@totalPrice", price);
+                cmd.Parameters.AddWithValue("@status", "Pending");
+                cmd.ExecuteNonQuery();
+            }
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)

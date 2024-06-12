@@ -26,6 +26,9 @@ namespace ApartmentRentalSystem
             cmd.Parameters.AddWithValue("@transactionID", int.Parse(transactionIdBox.Text));
             cmd.Parameters.AddWithValue("@paymentAmount", decimal.Parse(amountBox.Text));
             cmd.Parameters.AddWithValue("@paymentDate", guna2DateTimePicker1.Value.ToString());
+            SqlCommand cmd2 = new SqlCommand("UPDATE [Transaction] SET totalPrice -= @paymentAmount WHERE transactionID = @transactionID", Connection.conn);
+            cmd2.Parameters.AddWithValue("@paymentAmount", decimal.Parse(amountBox.Text));
+            cmd2.Parameters.AddWithValue("@transactionID", int.Parse(transactionIdBox.Text));
             cmd.ExecuteNonQuery();
         }
 

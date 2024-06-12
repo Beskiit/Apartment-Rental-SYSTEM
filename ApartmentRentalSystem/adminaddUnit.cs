@@ -26,7 +26,7 @@ namespace ApartmentRentalSystem
             cmd.Parameters.AddWithValue("@description", descriptionBox.Text);
             cmd.Parameters.AddWithValue("@roomPrice", decimal.Parse(amountBox.Text));
             cmd.Parameters.AddWithValue("@roomNumber", int.Parse(roomNumberBox.Text));
-            cmd.Parameters.AddWithValue("@status", "Vacant");
+            cmd.Parameters.AddWithValue("@status", statusBox.Text);
             cmd.ExecuteNonQuery();
         }
 
