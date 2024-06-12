@@ -23,6 +23,7 @@ namespace ApartmentRentalSystem
 
     public class Connection
     {
+        //pacomment
         public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Airone\Documents\GitHub\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
     }
 
