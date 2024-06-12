@@ -55,17 +55,6 @@ namespace ApartmentRentalSystem
             cmd.Parameters.AddWithValue("@description", descriptionBox.Text);
             cmd.Parameters.AddWithValue("@amount", double.Parse(amountBox.Text));
         }
-
-        private void adminUpdateUnit_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             adminUnitScreen unit = new adminUnitScreen();

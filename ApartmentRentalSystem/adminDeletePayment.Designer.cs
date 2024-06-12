@@ -125,7 +125,6 @@
             this.amountBox.SelectedText = "";
             this.amountBox.Size = new System.Drawing.Size(136, 25);
             this.amountBox.TabIndex = 28;
-            this.amountBox.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // guna2DateTimePicker1
             // 
@@ -171,7 +170,6 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Name = "adminDeletePayment";
             this.Size = new System.Drawing.Size(625, 160);
-            this.Load += new System.EventHandler(this.adminDeletePayment_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

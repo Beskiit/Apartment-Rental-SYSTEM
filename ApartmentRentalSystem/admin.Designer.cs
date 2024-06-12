@@ -240,7 +240,6 @@
             this.adminDashboardScreen2.Name = "adminDashboardScreen2";
             this.adminDashboardScreen2.Size = new System.Drawing.Size(898, 538);
             this.adminDashboardScreen2.TabIndex = 0;
-            this.adminDashboardScreen2.Load += new System.EventHandler(this.adminDashboardScreen2_Load);
             // 
             // Lease
             // 

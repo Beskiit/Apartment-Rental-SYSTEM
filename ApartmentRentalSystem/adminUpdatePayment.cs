@@ -16,12 +16,6 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want update?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)

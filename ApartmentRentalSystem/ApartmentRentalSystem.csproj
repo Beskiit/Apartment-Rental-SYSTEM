@@ -223,12 +223,6 @@
     <Compile Include="adminaddUnit.Designer.cs">
       <DependentUpon>adminaddUnit.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminAddUser.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="adminAddUser.Designer.cs">
-      <DependentUpon>adminAddUser.cs</DependentUpon>
-    </Compile>
     <Compile Include="adminChartDashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -264,12 +258,6 @@
     </Compile>
     <Compile Include="adminDeleteUnit.Designer.cs">
       <DependentUpon>adminDeleteUnit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="adminDeleteUser.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="adminDeleteUser.Designer.cs">
-      <DependentUpon>adminDeleteUser.cs</DependentUpon>
     </Compile>
     <Compile Include="adminLeaseScreen.cs">
       <SubType>UserControl</SubType>
@@ -319,12 +307,6 @@
     <Compile Include="adminUpdateUnit.Designer.cs">
       <DependentUpon>adminUpdateUnit.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminUpdateUser.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="adminUpdateUser.Designer.cs">
-      <DependentUpon>adminUpdateUser.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -348,9 +330,6 @@
     <EmbeddedResource Include="adminaddUnit.resx">
       <DependentUpon>adminaddUnit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="adminAddUser.resx">
-      <DependentUpon>adminAddUser.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="adminChartDashboard.resx">
       <DependentUpon>adminChartDashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -368,9 +347,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminDeleteUnit.resx">
       <DependentUpon>adminDeleteUnit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="adminDeleteUser.resx">
-      <DependentUpon>adminDeleteUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminLeaseScreen.resx">
       <DependentUpon>adminLeaseScreen.cs</DependentUpon>
@@ -395,9 +371,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminUpdateUnit.resx">
       <DependentUpon>adminUpdateUnit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="adminUpdateUser.resx">
-      <DependentUpon>adminUpdateUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

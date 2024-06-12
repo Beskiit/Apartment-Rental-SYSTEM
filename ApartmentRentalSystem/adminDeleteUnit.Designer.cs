@@ -33,6 +33,8 @@
             this.roomIdBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.desc = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel1
@@ -82,7 +84,7 @@
             this.roomIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.roomIdBox.ForeColor = System.Drawing.Color.Black;
             this.roomIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.roomIdBox.Location = new System.Drawing.Point(71, 25);
+            this.roomIdBox.Location = new System.Drawing.Point(95, 25);
             this.roomIdBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.roomIdBox.Name = "roomIdBox";
             this.roomIdBox.PasswordChar = '\0';
@@ -95,7 +97,7 @@
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(214, 25);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(3, 86);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(85, 25);
             this.guna2HtmlLabel3.TabIndex = 13;
@@ -115,7 +117,7 @@
             this.desc.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.desc.ForeColor = System.Drawing.Color.Black;
             this.desc.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.desc.Location = new System.Drawing.Point(306, 25);
+            this.desc.Location = new System.Drawing.Point(95, 86);
             this.desc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.desc.Name = "desc";
             this.desc.PasswordChar = '\0';
@@ -124,10 +126,44 @@
             this.desc.Size = new System.Drawing.Size(136, 25);
             this.desc.TabIndex = 28;
             // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.AutoRoundedCorners = true;
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderRadius = 17;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Poppins", 8.25F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "Vacant",
+            "Occupied",
+            "Not Available",
+            "Under Maintenance"});
+            this.guna2ComboBox1.Location = new System.Drawing.Point(296, 19);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(137, 36);
+            this.guna2ComboBox1.TabIndex = 48;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(238, 25);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(52, 25);
+            this.guna2HtmlLabel7.TabIndex = 47;
+            this.guna2HtmlLabel7.Text = "Status : ";
+            // 
             // adminDeleteUnit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.roomIdBox);
             this.Controls.Add(this.desc);
             this.Controls.Add(this.guna2Button1);
@@ -135,7 +171,6 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Name = "adminDeleteUnit";
             this.Size = new System.Drawing.Size(641, 160);
-            this.Load += new System.EventHandler(this.adminDeleteUnit_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,5 +182,7 @@
         private Guna.UI2.WinForms.Guna2TextBox roomIdBox;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2TextBox desc;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
     }
 }

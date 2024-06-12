@@ -124,9 +124,7 @@
             this.Amount.PlaceholderText = "";
             this.Amount.SelectedText = "";
             this.Amount.Size = new System.Drawing.Size(136, 25);
-            this.Amount.TabIndex = 40;
-            this.Amount.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
-            // 
+            this.Amount.TabIndex = 40;            // 
             // guna2DateTimePicker1
             // 
             this.guna2DateTimePicker1.Animated = true;

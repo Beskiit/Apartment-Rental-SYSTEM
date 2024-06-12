@@ -16,6 +16,8 @@ namespace ApartmentRentalSystem
         public adminUnitScreen()
         {
             InitializeComponent();
+            adminaddUnit adminaddUnit = new adminaddUnit();
+            addUserControl(adminaddUnit);
         }
         private void addUserControl(UserControl userControl)
         {
@@ -62,11 +64,6 @@ namespace ApartmentRentalSystem
             sda.Fill(dt);
 
             guna2DataGridView2.DataSource = dt;
-        }
-
-        private void guna2DataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }

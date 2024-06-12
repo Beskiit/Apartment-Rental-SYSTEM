@@ -106,16 +106,6 @@ namespace ApartmentRentalSystem
             panel3.Top = button1.Top;
         }
 
-        private void adminDashboardScreen2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2RadioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Lease_Click(object sender, EventArgs e)
         {
             adminLeaseScreen adminLeaseScreen = new adminLeaseScreen();

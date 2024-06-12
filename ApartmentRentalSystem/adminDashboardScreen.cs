@@ -33,13 +33,5 @@ namespace ApartmentRentalSystem
 
         }
 
-
-  
-
-        private void guna2RadioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            adminChartDashboard adminChartDashboard = new adminChartDashboard();
-            addUserControl(adminChartDashboard);
-        }
     }
 }

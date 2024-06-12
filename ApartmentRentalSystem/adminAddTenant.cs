@@ -113,32 +113,6 @@ namespace ApartmentRentalSystem
             cmd.ExecuteNonQuery();
         }
 
-
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             try
@@ -159,37 +133,6 @@ namespace ApartmentRentalSystem
             }
 
         }
-
-        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2DateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void generateContract_Click(object sender, EventArgs e)
         {
             string leaseAgreementContent = @"This CONTRACT OF LEASE made and executed by and between:
@@ -228,7 +171,7 @@ namespace ApartmentRentalSystem
                 document.Add(leaseAgreement);
 
                 Paragraph witnessText = new Paragraph(@"The LESSOR is the owner of a residential house situated at _____________________. The LESSOR hereby lease unto the LESSEE the above-mentioned residential building, and the latter agree to lease the same under the following terms and conditions:",
-                  FontFactory.GetFont(FontFactory.TIMES_ROMAN, 12));
+                FontFactory.GetFont(FontFactory.TIMES_ROMAN, 12));
                 witnessText.Alignment = Element.ALIGN_LEFT;
                 document.Add(witnessText);
 

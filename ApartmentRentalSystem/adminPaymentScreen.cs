@@ -13,8 +13,8 @@ namespace ApartmentRentalSystem
         public adminPaymentScreen()
         {
             InitializeComponent();
-
-
+            adminAddPayment adminAddPayment = new adminAddPayment();
+            addUserControl(adminAddPayment);
         }
 
         private void addUserControl(UserControl userControl)
@@ -42,15 +42,6 @@ namespace ApartmentRentalSystem
         {
            adminDeletePayment adminDeletePayment = new adminDeletePayment();
             addUserControl(adminDeletePayment);
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void adminPaymentScreen_Load(object sender, EventArgs e)
-        {
-          
         }
     }
 }

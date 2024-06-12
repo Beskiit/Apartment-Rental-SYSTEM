@@ -21,7 +21,16 @@ namespace ApartmentRentalSystem
             this.FormBorderStyle = FormBorderStyle.None;
             this.SetRoundedShape();
             SetRoundedShape();
+            CustomizeCloseButton();
 
+        }
+        private void CustomizeCloseButton()
+        {
+            closeButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(0xE0, 0xD2, 0xBA);
+            closeButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(0xE0, 0xD2, 0xBA); 
+            closeButton.BackColor = Color.FromArgb(0xE0, 0xD2, 0xBA); 
+            closeButton.BackgroundImageLayout = ImageLayout.Stretch;
+            closeButton.Cursor = Cursors.Hand; 
         }
 
         private void SetRoundedShape()
@@ -41,7 +50,7 @@ namespace ApartmentRentalSystem
         }
 
 
-           
+
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             /*
@@ -83,7 +92,7 @@ namespace ApartmentRentalSystem
             this.Hide();
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
+        private void closeButton_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
@@ -93,10 +102,8 @@ namespace ApartmentRentalSystem
             }
             else
             {
-                
+
             }
         }
     }
 }
-
-

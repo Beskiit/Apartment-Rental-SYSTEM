@@ -17,11 +17,6 @@ namespace ApartmentRentalSystem
             InitializeComponent();
         }
 
-        private void adminDeletePayment_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
 
@@ -34,11 +29,6 @@ namespace ApartmentRentalSystem
                 MessageBox.Show("You pressed Cancel!");
             }
 
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
 
         }
     }

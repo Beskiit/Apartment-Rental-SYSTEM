@@ -16,6 +16,8 @@ namespace ApartmentRentalSystem
         public adminTransactionScreen()
         {
             InitializeComponent();
+            adminAddTransaction adminAddTransaction = new adminAddTransaction();
+            addUserControl(adminAddTransaction);
         }
         private void addUserControl(UserControl userControl)
         {
@@ -35,15 +37,6 @@ namespace ApartmentRentalSystem
         {
             adminDeleteTransaction adminDeleteTransaction = new adminDeleteTransaction();
             addUserControl(adminDeleteTransaction);
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void adminTransactionScreen_Load(object sender, EventArgs e)
-        {
-           
         }
     }
 }

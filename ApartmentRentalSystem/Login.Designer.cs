@@ -35,8 +35,7 @@
             this.clerkButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.closeButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,10 +53,10 @@
             this.passwordInput.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.passwordInput.ForeColor = System.Drawing.Color.Black;
             this.passwordInput.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordInput.Location = new System.Drawing.Point(49, 231);
+            this.passwordInput.Location = new System.Drawing.Point(51, 207);
             this.passwordInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.passwordInput.Name = "passwordInput";
-            this.passwordInput.PasswordChar = '\0';
+            this.passwordInput.PasswordChar = '*';
             this.passwordInput.PlaceholderText = "";
             this.passwordInput.SelectedText = "";
             this.passwordInput.Size = new System.Drawing.Size(200, 36);
@@ -77,7 +76,7 @@
             this.userInput.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.userInput.ForeColor = System.Drawing.Color.Black;
             this.userInput.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.userInput.Location = new System.Drawing.Point(49, 153);
+            this.userInput.Location = new System.Drawing.Point(51, 129);
             this.userInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.userInput.Name = "userInput";
             this.userInput.PasswordChar = '\0';
@@ -91,7 +90,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(49, 117);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(51, 92);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(85, 30);
             this.guna2HtmlLabel1.TabIndex = 5;
@@ -109,11 +108,11 @@
             this.clerkButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.clerkButton.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold);
             this.clerkButton.ForeColor = System.Drawing.Color.White;
-            this.clerkButton.Location = new System.Drawing.Point(91, 296);
+            this.clerkButton.Location = new System.Drawing.Point(104, 287);
             this.clerkButton.Name = "clerkButton";
             this.clerkButton.Size = new System.Drawing.Size(95, 32);
             this.clerkButton.TabIndex = 7;
-            this.clerkButton.Text = "Admin Log in";
+            this.clerkButton.Text = "Login";
             this.clerkButton.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2PictureBox1
@@ -132,45 +131,24 @@
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(52, 195);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(51, 172);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(79, 30);
             this.guna2HtmlLabel2.TabIndex = 5;
             this.guna2HtmlLabel2.Text = "Password";
             // 
-            // guna2HtmlLabel3
+            // closeButton
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(75, 39);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(151, 44);
-            this.guna2HtmlLabel3.TabIndex = 5;
-            this.guna2HtmlLabel3.Text = "LOGIN FORM";
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button2.DefaultAutoSize = true;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
-            this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(623, 10);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(46, 10);
-            this.guna2Button2.TabIndex = 9;
-            this.guna2Button2.UseTransparentBackground = true;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.closeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(210)))), ((int)(((byte)(186)))));
+            this.closeButton.FlatAppearance.BorderSize = 0;
+            this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeButton.Image = ((System.Drawing.Image)(resources.GetObject("closeButton.Image")));
+            this.closeButton.Location = new System.Drawing.Point(633, 0);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(33, 26);
+            this.closeButton.TabIndex = 10;
+            this.closeButton.UseVisualStyleBackColor = false;
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // Login
             // 
@@ -178,11 +156,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(664, 400);
-            this.Controls.Add(this.guna2Button2);
+            this.Controls.Add(this.closeButton);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.clerkButton);
             this.Controls.Add(this.guna2HtmlLabel2);
-            this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.userInput);
             this.Controls.Add(this.passwordInput);
@@ -201,9 +178,8 @@
         private Guna.UI2.WinForms.Guna2Button clerkButton;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
         public Guna.UI2.WinForms.Guna2TextBox userInput;
+        private System.Windows.Forms.Button closeButton;
     }
 }
 

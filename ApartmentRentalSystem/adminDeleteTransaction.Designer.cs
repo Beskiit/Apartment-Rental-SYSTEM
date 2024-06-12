@@ -37,6 +37,8 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // guna2Button1
@@ -163,7 +165,6 @@
             this.tenantIdBox.SelectedText = "";
             this.tenantIdBox.Size = new System.Drawing.Size(136, 25);
             this.tenantIdBox.TabIndex = 48;
-            this.tenantIdBox.TextChanged += new System.EventHandler(this.tenantIdBox_TextChanged);
             // 
             // guna2HtmlLabel2
             // 
@@ -195,10 +196,43 @@
             this.guna2HtmlLabel1.TabIndex = 46;
             this.guna2HtmlLabel1.Text = "Tenant ID : ";
             // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.AutoRoundedCorners = true;
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderRadius = 17;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Poppins", 8.25F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "Pending",
+            "Paid",
+            "Overdue"});
+            this.guna2ComboBox1.Location = new System.Drawing.Point(529, 19);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(137, 36);
+            this.guna2ComboBox1.TabIndex = 53;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(471, 24);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(52, 25);
+            this.guna2HtmlLabel7.TabIndex = 52;
+            this.guna2HtmlLabel7.Text = "Status : ";
+            // 
             // adminDeleteTransaction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.unitIdBox);
@@ -210,7 +244,6 @@
             this.Controls.Add(this.guna2Button1);
             this.Name = "adminDeleteTransaction";
             this.Size = new System.Drawing.Size(678, 160);
-            this.Load += new System.EventHandler(this.adminDeleteTransaction_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,5 +259,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
     }
 }

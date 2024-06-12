@@ -16,17 +16,6 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
-
-        private void adminDeleteTransaction_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want delete?", "Question", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
@@ -38,11 +27,6 @@ namespace ApartmentRentalSystem
                 MessageBox.Show("You pressed Cancel!");
             }
 
-
-        }
-
-        private void tenantIdBox_TextChanged(object sender, EventArgs e)
-        {
 
         }
     }

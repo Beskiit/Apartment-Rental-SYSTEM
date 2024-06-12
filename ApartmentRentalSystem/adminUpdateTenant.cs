@@ -18,12 +18,6 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
-
-        private void adminUpdateTenant_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void updateTenant()
         {
             SqlCommand cmd = new SqlCommand("UPDATE Tenant SET firstName = @firstName, lastName = @lastName, phoneNumber = @phoneNumber, email = @email, moveInDate = @moveInDate, roomNumber = @roomNumber WHERE tenantID = @tenantID");

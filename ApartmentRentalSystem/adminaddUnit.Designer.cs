@@ -35,6 +35,8 @@
             this.roomNumberBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.descriptionBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.amountBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
             // guna2HtmlLabel2
@@ -112,7 +114,6 @@
             this.roomNumberBox.SelectedText = "";
             this.roomNumberBox.Size = new System.Drawing.Size(136, 25);
             this.roomNumberBox.TabIndex = 26;
-            this.roomNumberBox.TextChanged += new System.EventHandler(this.roomNumberBox_TextChanged);
             // 
             // descriptionBox
             // 
@@ -136,7 +137,6 @@
             this.descriptionBox.SelectedText = "";
             this.descriptionBox.Size = new System.Drawing.Size(136, 25);
             this.descriptionBox.TabIndex = 27;
-            this.descriptionBox.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged_1);
             // 
             // amountBox
             // 
@@ -161,10 +161,44 @@
             this.amountBox.Size = new System.Drawing.Size(136, 25);
             this.amountBox.TabIndex = 28;
             // 
+            // guna2ComboBox1
+            // 
+            this.guna2ComboBox1.AutoRoundedCorners = true;
+            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ComboBox1.BorderRadius = 17;
+            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2ComboBox1.Font = new System.Drawing.Font("Poppins", 8.25F);
+            this.guna2ComboBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2ComboBox1.ItemHeight = 30;
+            this.guna2ComboBox1.Items.AddRange(new object[] {
+            "Vacant",
+            "Occupied",
+            "Not Available",
+            "Under Maintenance"});
+            this.guna2ComboBox1.Location = new System.Drawing.Point(328, 81);
+            this.guna2ComboBox1.Name = "guna2ComboBox1";
+            this.guna2ComboBox1.Size = new System.Drawing.Size(137, 36);
+            this.guna2ComboBox1.TabIndex = 46;
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(258, 86);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(52, 25);
+            this.guna2HtmlLabel7.TabIndex = 45;
+            this.guna2HtmlLabel7.Text = "Status : ";
+            // 
             // adminaddUnit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.guna2ComboBox1);
+            this.Controls.Add(this.guna2HtmlLabel7);
             this.Controls.Add(this.amountBox);
             this.Controls.Add(this.descriptionBox);
             this.Controls.Add(this.roomNumberBox);
@@ -187,5 +221,7 @@
         private Guna.UI2.WinForms.Guna2TextBox roomNumberBox;
         private Guna.UI2.WinForms.Guna2TextBox descriptionBox;
         private Guna.UI2.WinForms.Guna2TextBox amountBox;
+        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
     }
 }
