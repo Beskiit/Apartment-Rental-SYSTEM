@@ -186,21 +186,41 @@ namespace ApartmentRentalSystem
         }
         private void generateContract_Click(object sender, EventArgs e)
         {
-            string leaseAgreementContent = @"This CONTRACT OF LEASE made and executed by and between:
-          ___________________, of legal age, (Civil Status) _____________, Filipino national and a resident of[Landlord Address] ________________________, Philippines, here in after referred to as the LANDLORD / LESSOR. -
-            and -
-        _____________________, of legal age, (Civil Status) ________, Filipino national and a resident of[Lessee Address] __________________, here in after referred to as the LESSEE / TENANT.
-          ";
             string lessorName = firstNameBox.Text + " " + lastNameBox.Text;
 
             string lesseeName = "Arsenia Gonzales";
 
-
             string leaseTerm = "Term";
             string leaseStartDate = moveInBox.Value.ToString();
             string leaseEndDate = moveInBox.Value.AddYears(1).ToString();
-            string monthlyRent = "Monthly Rent";
-            string dueDate = "Due Date";
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomPrice FROM Room WHERE roomID = @roomID");
+            cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
+            cmd.ExecuteNonQuery();
+            SqlDataReader reader = cmd.ExecuteReader();
+            decimal rent = Convert.ToDecimal(0);
+            if (reader.Read())
+            {
+                if (rentBox.Text.ToLower() == "monthly")
+                {
+                    rent = reader.GetDecimal(0);
+                }else if (rentBox.Text.ToLower() == "quarterly")
+                {
+                    rent = (reader.GetDecimal(0) * 4);
+                }
+            }
+            decimal monthlyRent = rent;
+
+            if (firstNameBox.Text == null && lastNameBox.Text == null && unitBox.Text == null)
+            {
+                MessageBox.Show("Generate Conract Failed!", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            string leaseAgreementContent = $@"This CONTRACT OF LEASE made and executed by and between:
+          {lesseeName}, of legal age, (Civil Status) Married, Filipino national and a resident of Lambakin, Marilao, Bulacan, Philippines, here in after referred to as the LANDLORD / LESSOR. -
+            and -
+        {lessorName}, of legal age, (Civil Status) ________, Filipino national and a resident of[Lessee Address] __________________, here in after referred to as the LESSEE / TENANT.
+          ";
+
             Document document = new Document(PageSize.A4);
             document.SetMargins(72f, 72f, 72f, 72f);
 
@@ -230,7 +250,7 @@ namespace ApartmentRentalSystem
                 leaseTermPara.Alignment = Element.ALIGN_LEFT;
                 document.Add(leaseTermPara);
 
-                Paragraph monthlyRentPara = new Paragraph("\n2.   That the monthly rental of the lease shall be " + monthlyRent + " PESOS (P" + monthlyRent.Replace(".00", "") + ".00), per month; payable in every " + dueDate + " of the month. It does not include the monthly homeowner’s dues; Upon signing this contract, the LESSEE shall pay an advance rental equivalent to one (1) month deposit and one (1) month advance deposit;", FontFactory.GetFont(FontFactory.TIMES_ROMAN, 12));
+                Paragraph monthlyRentPara = new Paragraph($"\n2.   That the monthly rental of the lease shall be  PESOS (P{monthlyRent.ToString()}, per month; payable in every {moveInBox.Value.Day.ToString()} of the month. It does not include the monthly homeowner’s dues; Upon signing this contract, the LESSEE shall pay an advance rental equivalent to one (1) month deposit and one (1) month advance deposit;", FontFactory.GetFont(FontFactory.TIMES_ROMAN, 12));
                 monthlyRentPara.Alignment = Element.ALIGN_LEFT;
                 document.Add(monthlyRentPara);
 
