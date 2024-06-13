@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,9 @@ namespace ApartmentRentalSystem
             this.MaximizeBox = false;
 
         }
+
+
+
         private bool isExitConfirmed = false;
 
         private void admin_FormClosing(object sender, FormClosingEventArgs e)

@@ -33,8 +33,9 @@ namespace ApartmentRentalSystem
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT paymentID AS 'Payment ID', transactionID AS 'Transaction ID', tenantID AS 'Tenant ID', paymentAmount AS 'Amount', paymentDate AS 'Payment Date' FROM Payment WHERE CONCAT(paymentID, transactionID, tenantID, paymentAmount, paymentDate) LIKE @search", Connection.conn);
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT paymentID AS 'Payment ID', transactionID AS 'Transaction ID', tenantID AS 'Tenant ID', paymentAmount AS 'Amount', paymentDate AS 'Payment Date' FROM Payment WHERE CONCAT(paymentID, transactionID, tenantID, paymentAmount, paymentDate) LIKE @search", conn);
             cmd.Parameters.AddWithValue("@search", guna2TextBox1.Text);
             cmd.ExecuteNonQuery();
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
@@ -42,22 +43,28 @@ namespace ApartmentRentalSystem
             sda.Fill(dt);
 
             guna2DataGridView1.DataSource = dt;
-            Connection.conn.Close();
+            conn.Close();
         }
 
         private void adminPaymentScreen_Load(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT paymentID AS 'Payment ID', transactionID AS 'Transaction ID', tenantID AS 'Tenant ID', paymentAmount AS 'Amount', paymentDate AS 'Payment Date' FROM Payment", Connection.conn);
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT paymentID AS 'Payment ID', transactionID AS 'Transaction ID', tenantID AS 'Tenant ID', paymentAmount AS 'Amount', paymentDate AS 'Payment Date' FROM Payment", conn);
 
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
 
             guna2DataGridView1.DataSource = dt;
-            Connection.conn.Close();
+            conn.Close();
         }
 
+        public class Connection
+        {
+            //pacomment
+            public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+        }
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             Connection.conn.Open();

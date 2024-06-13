@@ -18,6 +18,13 @@ namespace ApartmentRentalSystem
             InitializeComponent();
         }
 
+        public class Connection
+        {
+            //pacomment
+            public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+        }
+
+
         private void addUnit()
         {
 
@@ -36,6 +43,7 @@ namespace ApartmentRentalSystem
             {
                 Connection.conn.Open();
                 addUnit();
+                MessageBox.Show("Unit added successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
@@ -44,7 +52,6 @@ namespace ApartmentRentalSystem
             finally
             {
                 Connection.conn.Close();
-                /*Testing langg*/
             }
         }
     }

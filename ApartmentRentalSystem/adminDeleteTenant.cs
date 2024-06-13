@@ -18,18 +18,37 @@ namespace ApartmentRentalSystem
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        public class Connection
         {
-            adminTenantScreen tenant = new adminTenantScreen();
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("ALTER TABLE Tenant DROP COLUMN tenantID where tenantID = @tenantID", Connection.conn);
-            cmd.Parameters.AddWithValue("@tenantID", int.Parse(tenantIdBox.Text));
-            cmd.ExecuteNonQuery();
-            tenant.displayTenant();
-            Connection.conn.Close();
+            //pacomment
+            public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
         }
 
-        private void tenantIdBox_TextChanged(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                adminTenantScreen tenant = new adminTenantScreen();
+                Connection.conn.Open();
+                SqlCommand cmd = new SqlCommand("ALTER TABLE Tenant DROP COLUMN tenantID where tenantID = @tenantID", Connection.conn);
+                cmd.Parameters.AddWithValue("@tenantID", int.Parse(tenantIdBox.Text));
+                cmd.ExecuteNonQuery();
+                tenant.displayTenant();
+                MessageBox.Show("Delete Tenant Success.", "Success",
+                  MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Delete Tenant Failed.", "Failed",
+                MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Connection.conn.Close();
+            }
+        }
+
+            private void tenantIdBox_TextChanged(object sender, EventArgs e)
         {
             adminUpdateTenant tenantUpd = new adminUpdateTenant();
             tenantUpd.displayTenant();

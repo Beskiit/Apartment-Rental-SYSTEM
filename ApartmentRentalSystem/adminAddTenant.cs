@@ -21,12 +21,26 @@ namespace ApartmentRentalSystem
         {
             InitializeComponent();
         }
+        public class Connection
+        {
+            //pacomment
+            public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+        }
 
         private void addTenant()
         {
             try
             {
                 SqlCommand cmd = new SqlCommand("INSERT INTO Tenant (firstName, lastName, email, phoneNumber, moveInDate, roomID, rentPayment) VALUES (@firstName, @lastName, @email, @phoneNumber, @moveInDate, @roomNumber, @rentPayment)", Connection.conn);
+                if (Regex.IsMatch(numBox.Text, @"^[0-9]+$"))
+                {
+
+                }
+                else
+                {
+                    MessageBox.Show("Please input number only.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
                 cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
                 cmd.Parameters.AddWithValue("@lastName", lastNameBox.Text);
                 cmd.Parameters.AddWithValue("@email", emailBox.Text);
@@ -34,6 +48,8 @@ namespace ApartmentRentalSystem
                 cmd.Parameters.AddWithValue("@moveInDate", moveInBox.Value.ToString());
                 cmd.Parameters.AddWithValue("@roomNumber", int.Parse(unitBox.Text));
                 cmd.Parameters.AddWithValue("@rentPayment", rentBox.Text);
+                MessageBox.Show("Add Tenant Success.", "Success",
+               MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 SqlCommand checkRoomCmd = new SqlCommand("SELECT status FROM Room WHERE roomID = @roomID", Connection.conn);
                 checkRoomCmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
@@ -90,6 +106,10 @@ namespace ApartmentRentalSystem
             catch (Exception ex)
             {
                 MessageBox.Show("Error adding tenant: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Connection.conn.Close();
             }
 }
 
@@ -176,7 +196,7 @@ namespace ApartmentRentalSystem
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Adding tenant failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Adding Tenant failed.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -186,15 +206,33 @@ namespace ApartmentRentalSystem
         }
         private void generateContract_Click(object sender, EventArgs e)
         {
+
             string lessorName = firstNameBox.Text + " " + lastNameBox.Text;
+            string leaseStartDate = moveInBox.Value.ToString();
+            string leaseEndDate = moveInBox.Value.AddYears(1).ToString();
 
             string lesseeName = "Arsenia Gonzales";
 
-            string leaseTerm = "Term";
-            string leaseStartDate = moveInBox.Value.ToString();
-            string leaseEndDate = moveInBox.Value.AddYears(1).ToString();
             Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT roomPrice FROM Room WHERE roomID = @roomID");
+            SqlCommand cmd3 = new SqlCommand("SELECT tenantID FROM Tenant WHERE firstName = @firstName");
+            cmd3.Parameters.AddWithValue("@firstName", firstNameBox.Text);
+            SqlDataReader read = cmd3.ExecuteReader();
+            int tenantID = 0;
+            if (read.Read())
+            {
+                tenantID = int.Parse(read.GetValue(0).ToString());
+            }
+            SqlCommand cmd2 = new SqlCommand("INSERT INTO Agreement_Form (fileName, roomID, tenantID, startOfContract, endOfContract) VALUES (@fileName, @roomID, @tenantID, @startOfContract, @endOfContract)", Connection.conn);
+            cmd2.Parameters.AddWithValue("@fileName", lessorName + ".pdf");
+            cmd2.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
+            cmd2.Parameters.AddWithValue("@tenantID", tenantID);
+            cmd2.Parameters.AddWithValue("@startOfContract", moveInBox.Value);
+            cmd2.Parameters.AddWithValue("@endOfContract", moveInBox.Value.AddYears(1));
+
+
+            int leaseTerm = 12;
+            Connection.conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomPrice FROM Room WHERE roomID = @roomID", Connection.conn);
             cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
             cmd.ExecuteNonQuery();
             SqlDataReader reader = cmd.ExecuteReader();
@@ -241,7 +279,7 @@ namespace ApartmentRentalSystem
                 leaseAgreement.Alignment = Element.ALIGN_LEFT;
                 document.Add(leaseAgreement);
 
-                Paragraph witnessText = new Paragraph(@"The LESSOR is the owner of a residential house situated at _____________________. The LESSOR hereby lease unto the LESSEE the above-mentioned residential building, and the latter agree to lease the same under the following terms and conditions:",
+                Paragraph witnessText = new Paragraph(@"The LESSOR is the owner of a residential house situated at Lambakin, Marilao, Bulacan. The LESSOR hereby lease unto the LESSEE the above-mentioned residential building, and the latter agree to lease the same under the following terms and conditions:",
                 FontFactory.GetFont(FontFactory.TIMES_ROMAN, 12));
                 witnessText.Alignment = Element.ALIGN_LEFT;
                 document.Add(witnessText);
@@ -347,6 +385,10 @@ namespace ApartmentRentalSystem
             catch (Exception ex)
             {
                 MessageBox.Show("Error creating PDF: " + ex.Message);
+            }
+            finally
+            {
+                Connection.conn.Close();
             }
         }
     }

@@ -61,8 +61,9 @@
             chartFont1.FontName = "Arial";
             this.chart.Legend.LabelFont = chartFont1;
             this.chart.Location = new System.Drawing.Point(0, 0);
+            this.chart.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.chart.Name = "chart";
-            this.chart.Size = new System.Drawing.Size(750, 639);
+            this.chart.Size = new System.Drawing.Size(1090, 857);
             this.chart.TabIndex = 0;
             chartFont2.FontName = "Arial";
             chartFont2.Size = 12;
@@ -95,18 +96,20 @@
             // 
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(729, 642);
+            this.guna2Panel1.Size = new System.Drawing.Size(1094, 988);
             this.guna2Panel1.TabIndex = 1;
             // 
             // adminChartDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.chart);
             this.Controls.Add(this.guna2Panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "adminChartDashboard";
-            this.Size = new System.Drawing.Size(729, 642);
+            this.Size = new System.Drawing.Size(1094, 988);
             this.ResumeLayout(false);
 
         }

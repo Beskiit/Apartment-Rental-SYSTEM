@@ -33,9 +33,10 @@ namespace ApartmentRentalSystem
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Connection.conn.Open();
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+            conn.Open();
             displayUnit();
-            Connection.conn.Close();
+            conn.Close();
         }
 
         private void addToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -58,18 +59,22 @@ namespace ApartmentRentalSystem
 
         public void displayUnit()
         {
-            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', roomPrice AS 'Room Price', status AS 'Status' FROM Room",Connection.conn);
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', roomPrice AS 'Room Price', status AS 'Status' FROM Room", conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
 
             guna2DataGridView2.DataSource = dt;
+            conn.Close();
         }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', roomPrice AS 'Room Price', status AS 'Status' FROM Room WHERE CONCAT(roomID, roomNumber, description, roomPrice, status) LIKE @search", Connection.conn);
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomID AS 'Room ID', roomNumber AS 'Room Number', description AS 'Description', roomPrice AS 'Room Price', status AS 'Status' FROM Room WHERE CONCAT(roomID, roomNumber, description, roomPrice, status) LIKE @search",conn);
             cmd.Parameters.AddWithValue("@search", "%" + searchBox.Text + "%");
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
@@ -77,7 +82,7 @@ namespace ApartmentRentalSystem
 
             guna2DataGridView2.DataSource= dt;
 
-            Connection.conn.Close();
+            conn.Close();
         }
     }
 }

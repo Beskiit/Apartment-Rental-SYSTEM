@@ -21,6 +21,15 @@ namespace ApartmentRentalSystem
         private void updateTenant()
         {
             SqlCommand cmd = new SqlCommand("UPDATE Tenant SET firstName = @firstName, lastName = @lastName, phoneNumber = @phoneNumber, email = @email, moveInDate = @moveInDate, roomNumber = @roomNumber WHERE tenantID = @tenantID");
+            if (Regex.IsMatch(numBox.Text, @"^[0-9]+$"))
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Please input number only.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             cmd.Parameters.AddWithValue("@firstName", firstNameBox.Text);
             cmd.Parameters.AddWithValue("lastName", lastNameBox.Text);
             cmd.Parameters.AddWithValue("@email", emailBox.Text);
@@ -30,7 +39,11 @@ namespace ApartmentRentalSystem
             cmd.Parameters.AddWithValue("@tenantID", tenantIdBox.Text);
             cmd.ExecuteNonQuery();
         }
-
+        public class Connection
+        {
+            //pacomment
+            public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+        }
         public void displayTenant()
         {
             if (string.IsNullOrWhiteSpace(tenantIdBox.Text))
@@ -78,6 +91,8 @@ namespace ApartmentRentalSystem
                 Connection.conn.Open();
                 updateTenant();
                 tenant.displayTenant();
+                MessageBox.Show("Update tenant Success.", "Success",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {

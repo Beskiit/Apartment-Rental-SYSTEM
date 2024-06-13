@@ -49,11 +49,14 @@ namespace ApartmentRentalSystem
             this.Region = new Region(path);
         }
 
-
+        public class Connection
+        {
+            public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+        }
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            /*
+
             Connection.conn.Open();
             SqlCommand cmd = new SqlCommand("SELECT username, password FROM Admin", Connection.conn);
             SqlDataReader read = cmd.ExecuteReader();
@@ -82,14 +85,6 @@ namespace ApartmentRentalSystem
                 MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
                 Connection.conn.Close();
             }
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();*/
-            admin dashboard = new admin();
-            dashboard.Show();
-            this.Hide();
         }
 
         private void closeButton_Click(object sender, EventArgs e)

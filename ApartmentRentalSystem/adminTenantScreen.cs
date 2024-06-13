@@ -57,7 +57,9 @@ namespace ApartmentRentalSystem
 
         public void displayTenant()
         {
-            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', roomID as 'Room ID', email AS 'Email', phoneNumber AS 'Phone Number', rentPayment AS 'Rent Payment', moveInDate AS 'Move In Date', status AS 'Status' FROM Tenant", Connection.conn);
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+            
+            SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', roomID as 'Room ID', email AS 'Email', phoneNumber AS 'Phone Number', rentPayment AS 'Rent Payment', moveInDate AS 'Move In Date', status AS 'Status' FROM Tenant", conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
@@ -65,6 +67,11 @@ namespace ApartmentRentalSystem
             guna2DataGridView2.DataSource = dt;
         }
 
+        public class Connection
+        {
+            //pacomment
+            public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+        }
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
             SqlCommand cmd = new SqlCommand("SELECT tenantID AS 'Tenant ID', firstName AS 'First Name', lastName AS 'Last Name', roomID as 'Room ID', email AS 'Email', phoneNumber AS 'Phone Number', rentPayment AS 'Rent Payment', moveInDate AS 'Move In Date', status AS 'Status' FROM Tenant WHERE CONCAT(tenantID, firstName, lastName, roomID, email, phoneNumber, status) LIKE @search", Connection.conn);

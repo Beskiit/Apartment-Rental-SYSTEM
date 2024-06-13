@@ -18,8 +18,15 @@ namespace ApartmentRentalSystem
             InitializeComponent();
         }
 
+        public class Connection {
+            public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+
+        }
+
+
         private void displayUnit()
         {
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
             if (string.IsNullOrWhiteSpace(roomIdBox.Text))
             {
                 roomNumBox.Text = "";
@@ -27,8 +34,8 @@ namespace ApartmentRentalSystem
                 amountBox.Text = "";
                 return;
             }
-            Connection.conn.Open();
-            SqlCommand cmd = new SqlCommand("SELECT roomNumber, description, roomPrice FROM Room WHERE roomID = @roomID", Connection.conn);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("SELECT roomNumber, description, roomPrice FROM Room WHERE roomID = @roomID", conn);
             cmd.Parameters.AddWithValue("@roomID", int.Parse(roomIdBox.Text));
 
             SqlDataReader read = cmd.ExecuteReader();
@@ -44,12 +51,13 @@ namespace ApartmentRentalSystem
                 amountBox.Text = read.GetValue(2).ToString();
             }
             read.Close();
-            Connection.conn.Close();
+            conn.Close();
         }
 
         private void updateUnit()
         {
-            SqlCommand cmd = new SqlCommand("UPDATE Room SET roomNumber = @roomNumber, description = @description, amount = @amount WHERE roomID = @roomID");
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+            SqlCommand cmd = new SqlCommand("UPDATE Room SET roomNumber = @roomNumber, description = @description, amount = @amount WHERE roomID = @roomID", conn);
             cmd.Parameters.AddWithValue("@roomID", int.Parse(roomIdBox.Text));
             cmd.Parameters.AddWithValue("@roomNumber", int.Parse(roomNumBox.Text));
             cmd.Parameters.AddWithValue("@description", descriptionBox.Text);
@@ -57,10 +65,26 @@ namespace ApartmentRentalSystem
         }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            adminUnitScreen unit = new adminUnitScreen();
-            Connection.conn.Open();
-            updateUnit();
-            unit.displayUnit();
+            try
+            {
+                adminUnitScreen unit = new adminUnitScreen();
+                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
+                conn.Open();
+                updateUnit();
+                MessageBox.Show("Unit updated successfully.", "Success",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                unit.displayUnit();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Update Unit Failed.", "Failed",
+                     MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            finally
+            {
+                Connection.conn.Close();
+            }
+            
         }
 
         private void roomIdBox_TextChanged(object sender, EventArgs e)
