@@ -80,6 +80,8 @@ namespace ApartmentRentalSystem
 
             read.Close();
 
+
+
             Connection.conn.Close();
         }
 
@@ -107,6 +109,19 @@ namespace ApartmentRentalSystem
         private void tenantIdBox_TextChanged(object sender, EventArgs e)
         {
             displayTenant();
+        }
+
+        private void numBox_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(numBox.Text, @"^[0-9]+$"))
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Please input number only.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Guna.Charts.WinForms;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,9 +19,47 @@ namespace ApartmentRentalSystem
         public adminDashboardScreen()
         {
             InitializeComponent();
+            InitializeChart();
         }
 
-        public class Connection
+        private void InitializeChart()
+        {
+            string[] units = { "Vacant", "Occupied", "Not Available(Under Maintenance)" };
+
+            chart.XAxes.Display = false;
+            chart.YAxes.Display = false;
+
+            var dataset = new Guna.Charts.WinForms.GunaPieDataset
+            {
+                Label = "Room status"
+            };
+
+            using (SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True"))
+            {
+                conn.Open();
+
+                for (int i = 0; i < units.Length; i++)
+                {
+                    int num = 0;
+                    string status = units[i];
+
+                    string query = "SELECT COUNT(*) FROM [Room] WHERE status = @status";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@status", status);
+                        num = (int)cmd.ExecuteScalar();
+                    }
+
+                    dataset.DataPoints.Add(status, num);
+                }
+            }
+
+            chart.Datasets.Add(dataset);
+
+            chart.Update();
+        }
+
+public class Connection
         {
             public static SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\jack_\source\repos\Apartment-Rental-SYSTEM\ApartmentRentalSystem\Database1.mdf;Integrated Security=True");
         }

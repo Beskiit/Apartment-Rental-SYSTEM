@@ -32,22 +32,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(adminDashboardScreen));
+            Guna.Charts.WinForms.ChartFont chartFont25 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont26 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont27 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont28 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid10 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick10 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont29 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid11 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick11 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont30 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid12 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel4 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont31 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick12 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont32 = new Guna.Charts.WinForms.ChartFont();
             this.dateLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.unitLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.occuLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.tenantLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.adminChartDashboard1 = new ApartmentRentalSystem.adminChartDashboard();
+            this.gunaPieDataset1 = new Guna.Charts.WinForms.GunaPieDataset();
+            this.chart = new Guna.Charts.WinForms.GunaChart();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel3.SuspendLayout();
@@ -77,7 +93,7 @@
             // 
             // guna2CustomGradientPanel1
             // 
-            this.guna2CustomGradientPanel1.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.label2);
             this.guna2CustomGradientPanel1.Controls.Add(this.unitLabel);
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2CircleButton1);
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.SaddleBrown;
@@ -91,17 +107,6 @@
             this.guna2CustomGradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(254, 208);
             this.guna2CustomGradientPanel1.TabIndex = 12;
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(15, 143);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(192, 53);
-            this.guna2HtmlLabel2.TabIndex = 1;
-            this.guna2HtmlLabel2.Text = "Units Vacant";
             // 
             // unitLabel
             // 
@@ -134,7 +139,7 @@
             // 
             // guna2CustomGradientPanel2
             // 
-            this.guna2CustomGradientPanel2.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2CustomGradientPanel2.Controls.Add(this.label3);
             this.guna2CustomGradientPanel2.Controls.Add(this.occuLabel);
             this.guna2CustomGradientPanel2.Controls.Add(this.guna2CircleButton2);
             this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.SaddleBrown;
@@ -148,17 +153,6 @@
             this.guna2CustomGradientPanel2.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(255, 208);
             this.guna2CustomGradientPanel2.TabIndex = 12;
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(15, 143);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(226, 53);
-            this.guna2HtmlLabel3.TabIndex = 1;
-            this.guna2HtmlLabel3.Text = "Units Occupied";
             // 
             // occuLabel
             // 
@@ -191,7 +185,7 @@
             // 
             // guna2CustomGradientPanel3
             // 
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2CustomGradientPanel3.Controls.Add(this.label1);
             this.guna2CustomGradientPanel3.Controls.Add(this.tenantLabel);
             this.guna2CustomGradientPanel3.Controls.Add(this.guna2CircleButton3);
             this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.SaddleBrown;
@@ -205,17 +199,6 @@
             this.guna2CustomGradientPanel3.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(255, 208);
             this.guna2CustomGradientPanel3.TabIndex = 12;
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Poppins SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(15, 143);
-            this.guna2HtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(123, 53);
-            this.guna2HtmlLabel5.TabIndex = 1;
-            this.guna2HtmlLabel5.Text = "Tenants";
             // 
             // tenantLabel
             // 
@@ -270,26 +253,96 @@
             this.guna2Button2.Text = "Refresh";
             this.guna2Button2.UseTransparentBackground = true;
             // 
-            // adminChartDashboard1
+            // gunaPieDataset1
             // 
-            this.adminChartDashboard1.Location = new System.Drawing.Point(-65, 0);
-            this.adminChartDashboard1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.adminChartDashboard1.Name = "adminChartDashboard1";
-            this.adminChartDashboard1.Size = new System.Drawing.Size(1084, 988);
-            this.adminChartDashboard1.TabIndex = 19;
+            this.gunaPieDataset1.Label = "Pie1";
+            this.gunaPieDataset1.TargetChart = this.chart;
+            // 
+            // chart
+            // 
+            this.chart.BackColor = System.Drawing.SystemColors.Control;
+            this.chart.Datasets.AddRange(new Guna.Charts.Interfaces.IGunaDataset[] {
+            this.gunaPieDataset1});
+            chartFont25.FontName = "Arial";
+            this.chart.Legend.LabelFont = chartFont25;
+            this.chart.Location = new System.Drawing.Point(48, 110);
+            this.chart.Name = "chart";
+            this.chart.Size = new System.Drawing.Size(948, 804);
+            this.chart.TabIndex = 19;
+            chartFont26.FontName = "Arial";
+            chartFont26.Size = 12;
+            chartFont26.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.chart.Title.Font = chartFont26;
+            chartFont27.FontName = "Arial";
+            this.chart.Tooltips.BodyFont = chartFont27;
+            chartFont28.FontName = "Arial";
+            chartFont28.Size = 9;
+            chartFont28.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.chart.Tooltips.TitleFont = chartFont28;
+            this.chart.XAxes.GridLines = grid10;
+            chartFont29.FontName = "Arial";
+            tick10.Font = chartFont29;
+            this.chart.XAxes.Ticks = tick10;
+            this.chart.YAxes.GridLines = grid11;
+            chartFont30.FontName = "Arial";
+            tick11.Font = chartFont30;
+            this.chart.YAxes.Ticks = tick11;
+            this.chart.ZAxes.GridLines = grid12;
+            chartFont31.FontName = "Arial";
+            pointLabel4.Font = chartFont31;
+            this.chart.ZAxes.PointLabels = pointLabel4;
+            chartFont32.FontName = "Arial";
+            tick12.Font = chartFont32;
+            this.chart.ZAxes.Ticks = tick12;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Poppins SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(3, 154);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(138, 50);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Tenants";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Poppins SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(6, 154);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(207, 50);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Units Vacant";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Poppins SemiBold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(3, 154);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(240, 50);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Units Occupied";
             // 
             // adminDashboardScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.Controls.Add(this.chart);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2CustomGradientPanel3);
             this.Controls.Add(this.guna2CustomGradientPanel2);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateLabel);
-            this.Controls.Add(this.adminChartDashboard1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "adminDashboardScreen";
             this.Size = new System.Drawing.Size(1425, 1046);
@@ -310,17 +363,18 @@
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel unitLabel;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel occuLabel;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel tenantLabel;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private adminChartDashboard adminChartDashboard1;
+        private Guna.Charts.WinForms.GunaPieDataset gunaPieDataset1;
+        private Guna.Charts.WinForms.GunaChart chart;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }

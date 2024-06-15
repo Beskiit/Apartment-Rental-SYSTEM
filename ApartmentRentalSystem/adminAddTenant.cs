@@ -138,7 +138,7 @@ namespace ApartmentRentalSystem
             {
                 cmd = new SqlCommand("INSERT INTO [Transaction] (tenantID, transactionDate, roomID, totalPrice, status) VALUES (@tenantID, @transactionDate, @roomID, @totalPrice, @status)", Connection.conn);
                 cmd.Parameters.AddWithValue("@tenantID", tenantID);
-                int totalMonths = i * 4;
+                int totalMonths = i * 3;
 
                 cmd.Parameters.AddWithValue("@transactionDate", moveInBox.Value.AddMonths(totalMonths));
 
@@ -206,15 +206,16 @@ namespace ApartmentRentalSystem
         }
         private void generateContract_Click(object sender, EventArgs e)
         {
-
-            string lessorName = firstNameBox.Text + " " + lastNameBox.Text;
+            try
+            {
+                string lessorName = firstNameBox.Text + " " + lastNameBox.Text;
             string leaseStartDate = moveInBox.Value.ToString();
             string leaseEndDate = moveInBox.Value.AddYears(1).ToString();
 
             string lesseeName = "Arsenia Gonzales";
 
             Connection.conn.Open();
-            SqlCommand cmd3 = new SqlCommand("SELECT tenantID FROM Tenant WHERE firstName = @firstName");
+            SqlCommand cmd3 = new SqlCommand("SELECT tenantID FROM Tenant WHERE firstName = @firstName", Connection.conn);
             cmd3.Parameters.AddWithValue("@firstName", firstNameBox.Text);
             SqlDataReader read = cmd3.ExecuteReader();
             int tenantID = 0;
@@ -222,16 +223,17 @@ namespace ApartmentRentalSystem
             {
                 tenantID = int.Parse(read.GetValue(0).ToString());
             }
+            read.Close();
             SqlCommand cmd2 = new SqlCommand("INSERT INTO Agreement_Form (fileName, roomID, tenantID, startOfContract, endOfContract) VALUES (@fileName, @roomID, @tenantID, @startOfContract, @endOfContract)", Connection.conn);
             cmd2.Parameters.AddWithValue("@fileName", lessorName + ".pdf");
             cmd2.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
             cmd2.Parameters.AddWithValue("@tenantID", tenantID);
             cmd2.Parameters.AddWithValue("@startOfContract", moveInBox.Value);
             cmd2.Parameters.AddWithValue("@endOfContract", moveInBox.Value.AddYears(1));
+            cmd2.ExecuteNonQuery();
 
 
             int leaseTerm = 12;
-            Connection.conn.Open();
             SqlCommand cmd = new SqlCommand("SELECT roomPrice FROM Room WHERE roomID = @roomID", Connection.conn);
             cmd.Parameters.AddWithValue("@roomID", int.Parse(unitBox.Text));
             cmd.ExecuteNonQuery();
@@ -242,11 +244,14 @@ namespace ApartmentRentalSystem
                 if (rentBox.Text.ToLower() == "monthly")
                 {
                     rent = reader.GetDecimal(0);
+                        reader.Close();
                 }else if (rentBox.Text.ToLower() == "quarterly")
                 {
-                    rent = (reader.GetDecimal(0) * 4);
-                }
+                    rent = (reader.GetDecimal(0) * 3);
+                        reader.Close();
+                    }
             }
+                reader.Close();
             decimal monthlyRent = rent;
 
             if (firstNameBox.Text == null && lastNameBox.Text == null && unitBox.Text == null)
@@ -262,8 +267,7 @@ namespace ApartmentRentalSystem
             Document document = new Document(PageSize.A4);
             document.SetMargins(72f, 72f, 72f, 72f);
 
-            try
-            {
+            
                 PdfWriter writer = PdfWriter.GetInstance(document, new FileStream($"C:\\pdf\\{lessorName}.pdf", FileMode.Create));
                 document.Open();
 
@@ -389,6 +393,19 @@ namespace ApartmentRentalSystem
             finally
             {
                 Connection.conn.Close();
+            }
+        }
+
+        private void numBox_TextChanged(object sender, EventArgs e)
+        {
+            if (Regex.IsMatch(numBox.Text, @"^[0-9]+$"))
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Please input number only.", "Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
         }
     }

@@ -28,36 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.tenantIdBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.amountBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.transactionIdBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(4, 132);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(95, 38);
-            this.guna2HtmlLabel3.TabIndex = 5;
-            this.guna2HtmlLabel3.Text = "Amount : ";
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(4, 38);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(110, 38);
-            this.guna2HtmlLabel1.TabIndex = 6;
-            this.guna2HtmlLabel1.Text = "Tenant ID :";
             // 
             // guna2Button1
             // 
@@ -97,7 +75,7 @@
             this.tenantIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tenantIdBox.ForeColor = System.Drawing.Color.Black;
             this.tenantIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tenantIdBox.Location = new System.Drawing.Point(124, 38);
+            this.tenantIdBox.Location = new System.Drawing.Point(129, 40);
             this.tenantIdBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.tenantIdBox.Name = "tenantIdBox";
             this.tenantIdBox.PasswordChar = '\0';
@@ -120,7 +98,7 @@
             this.amountBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.amountBox.ForeColor = System.Drawing.Color.Black;
             this.amountBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.amountBox.Location = new System.Drawing.Point(124, 132);
+            this.amountBox.Location = new System.Drawing.Point(129, 132);
             this.amountBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.amountBox.Name = "amountBox";
             this.amountBox.PasswordChar = '\0';
@@ -143,7 +121,7 @@
             this.transactionIdBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.transactionIdBox.ForeColor = System.Drawing.Color.Black;
             this.transactionIdBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.transactionIdBox.Location = new System.Drawing.Point(508, 38);
+            this.transactionIdBox.Location = new System.Drawing.Point(525, 40);
             this.transactionIdBox.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.transactionIdBox.Name = "transactionIdBox";
             this.transactionIdBox.PasswordChar = '\0';
@@ -152,28 +130,47 @@
             this.transactionIdBox.Size = new System.Drawing.Size(204, 38);
             this.transactionIdBox.TabIndex = 48;
             // 
-            // guna2HtmlLabel4
+            // label4
             // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(339, 38);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(162, 38);
-            this.guna2HtmlLabel4.TabIndex = 47;
-            this.guna2HtmlLabel4.Text = "Transaction ID :";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(-2, 42);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(127, 36);
+            this.label4.TabIndex = 50;
+            this.label4.Text = "Tenant ID : ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(-2, 134);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 36);
+            this.label1.TabIndex = 50;
+            this.label1.Text = "Amount : ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Poppins SemiBold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(342, 42);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(174, 36);
+            this.label2.TabIndex = 50;
+            this.label2.Text = "Transaction ID :";
             // 
             // adminAddPayment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.transactionIdBox);
-            this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.amountBox);
             this.Controls.Add(this.tenantIdBox);
             this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2HtmlLabel3);
-            this.Controls.Add(this.guna2HtmlLabel1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "adminAddPayment";
             this.Size = new System.Drawing.Size(886, 246);
@@ -183,12 +180,12 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2TextBox tenantIdBox;
         private Guna.UI2.WinForms.Guna2TextBox amountBox;
         private Guna.UI2.WinForms.Guna2TextBox transactionIdBox;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

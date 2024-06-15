@@ -28,11 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            Guna.UI2.AnimatorNS.Animation animation1 = new Guna.UI2.AnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(admin));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.label1 = new System.Windows.Forms.Label();
             this.logoutButton = new System.Windows.Forms.Button();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.dashboardIcon = new System.Windows.Forms.Button();
@@ -43,8 +41,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.Lease = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.guna2Transition1 = new Guna.UI2.WinForms.Guna2Transition();
-            this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -52,35 +48,31 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
-            this.panel2.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2Transition1.SetDecoration(this.panel2, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1731, 92);
+            this.panel2.Size = new System.Drawing.Size(1700, 92);
             this.panel2.TabIndex = 1;
             // 
-            // guna2HtmlLabel2
+            // label1
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.guna2HtmlLabel2, Guna.UI2.AnimatorNS.DecorationType.None);
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(1461, 20);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(161, 42);
-            this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = "Hello , Admin!";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(1416, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(172, 42);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Hello, Admin";
             // 
             // logoutButton
             // 
-            this.guna2Transition1.SetDecoration(this.logoutButton, Guna.UI2.AnimatorNS.DecorationType.None);
             this.logoutButton.FlatAppearance.BorderSize = 0;
             this.logoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logoutButton.Font = new System.Drawing.Font("Poppins SemiBold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutButton.Image = ((System.Drawing.Image)(resources.GetObject("logoutButton.Image")));
-            this.logoutButton.Location = new System.Drawing.Point(18, 846);
+            this.logoutButton.Location = new System.Drawing.Point(18, 835);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(138, 58);
             this.logoutButton.TabIndex = 0;
@@ -92,7 +84,6 @@
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Transition1.SetDecoration(this.mainPanel, Guna.UI2.AnimatorNS.DecorationType.None);
             this.mainPanel.Location = new System.Drawing.Point(274, 92);
             this.mainPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.mainPanel.Name = "mainPanel";
@@ -102,7 +93,6 @@
             // dashboardIcon
             // 
             this.dashboardIcon.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.dashboardIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.dashboardIcon.FlatAppearance.BorderSize = 0;
             this.dashboardIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dashboardIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,7 +111,6 @@
             // unitsIcon
             // 
             this.unitsIcon.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.unitsIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.unitsIcon.FlatAppearance.BorderSize = 0;
             this.unitsIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.unitsIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -140,7 +129,6 @@
             // tenantIcon
             // 
             this.tenantIcon.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.tenantIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.tenantIcon.FlatAppearance.BorderSize = 0;
             this.tenantIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tenantIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -159,7 +147,6 @@
             // paymentIcon
             // 
             this.paymentIcon.AutoSize = true;
-            this.guna2Transition1.SetDecoration(this.paymentIcon, Guna.UI2.AnimatorNS.DecorationType.None);
             this.paymentIcon.FlatAppearance.BorderSize = 0;
             this.paymentIcon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.paymentIcon.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -178,7 +165,6 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(40)))), ((int)(((byte)(17)))));
-            this.guna2Transition1.SetDecoration(this.panel3, Guna.UI2.AnimatorNS.DecorationType.None);
             this.panel3.Location = new System.Drawing.Point(0, 9);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
@@ -196,16 +182,14 @@
             this.panel1.Controls.Add(this.tenantIcon);
             this.panel1.Controls.Add(this.unitsIcon);
             this.panel1.Controls.Add(this.dashboardIcon);
-            this.guna2Transition1.SetDecoration(this.panel1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.panel1.Location = new System.Drawing.Point(0, 92);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(270, 1002);
+            this.panel1.Size = new System.Drawing.Size(270, 924);
             this.panel1.TabIndex = 0;
             // 
             // Lease
             // 
-            this.guna2Transition1.SetDecoration(this.Lease, Guna.UI2.AnimatorNS.DecorationType.None);
             this.Lease.FlatAppearance.BorderSize = 0;
             this.Lease.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Lease.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -223,7 +207,6 @@
             // 
             // button1
             // 
-            this.guna2Transition1.SetDecoration(this.button1, Guna.UI2.AnimatorNS.DecorationType.None);
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Poppins SemiBold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -239,36 +222,18 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // guna2Transition1
-            // 
-            this.guna2Transition1.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.guna2Transition1.DefaultAnimation = animation1;
-            // 
             // admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1701, 1017);
+            this.ClientSize = new System.Drawing.Size(1628, 1010);
             this.Controls.Add(this.mainPanel);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.guna2Transition1.SetDecoration(this, Guna.UI2.AnimatorNS.DecorationType.None);
+            this.Controls.Add(this.panel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -285,7 +250,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private adminDashboardScreen adminDashboardScreen1;
         private adminUnitScreen adminUnitScreen1;
         private adminPaymentScreen adminPaymentScreen1;
         private System.Windows.Forms.Panel mainPanel;
@@ -296,10 +260,8 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button logoutButton;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private System.Windows.Forms.Button button1;
-        private Guna.UI2.WinForms.Guna2Transition guna2Transition1;
-        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
         private System.Windows.Forms.Button Lease;
+        private System.Windows.Forms.Label label1;
     }
 }

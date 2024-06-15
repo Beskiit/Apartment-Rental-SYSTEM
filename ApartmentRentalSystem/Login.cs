@@ -27,10 +27,10 @@ namespace ApartmentRentalSystem
         private void CustomizeCloseButton()
         {
             closeButton.FlatAppearance.MouseOverBackColor = Color.FromArgb(0xE0, 0xD2, 0xBA);
-            closeButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(0xE0, 0xD2, 0xBA); 
-            closeButton.BackColor = Color.FromArgb(0xE0, 0xD2, 0xBA); 
+            closeButton.FlatAppearance.MouseDownBackColor = Color.FromArgb(0xE0, 0xD2, 0xBA);
+            closeButton.BackColor = Color.FromArgb(0xE0, 0xD2, 0xBA);
             closeButton.BackgroundImageLayout = ImageLayout.Stretch;
-            closeButton.Cursor = Cursors.Hand; 
+            closeButton.Cursor = Cursors.Hand;
         }
 
         private void SetRoundedShape()
@@ -77,17 +77,17 @@ namespace ApartmentRentalSystem
             if (isLogin)
             {
                 admin dashboard = new admin();
-                dashboard.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
-                Connection.conn.Close();
-            }
+            dashboard.Show();
+            this.Hide();
         }
+          else
+          {
+              MessageBox.Show("Incorrect Username or Password. \n Please try again.", "ALERT", MessageBoxButtons.OK);
+              Connection.conn.Close();
+          }
+}
 
-        private void closeButton_Click(object sender, EventArgs e)
+private void closeButton_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 

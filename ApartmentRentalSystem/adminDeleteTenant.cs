@@ -30,7 +30,7 @@ namespace ApartmentRentalSystem
             {
                 adminTenantScreen tenant = new adminTenantScreen();
                 Connection.conn.Open();
-                SqlCommand cmd = new SqlCommand("ALTER TABLE Tenant DROP COLUMN tenantID where tenantID = @tenantID", Connection.conn);
+                SqlCommand cmd = new SqlCommand("DELETE FROM Tenant WHERE tenantID = @tenantID", Connection.conn);
                 cmd.Parameters.AddWithValue("@tenantID", int.Parse(tenantIdBox.Text));
                 cmd.ExecuteNonQuery();
                 tenant.displayTenant();

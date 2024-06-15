@@ -17,9 +17,8 @@ namespace ApartmentRentalSystem
         public admin()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-
+            adminDashboardScreen ads = new adminDashboardScreen();
+            addUserControl(ads);
         }
 
 

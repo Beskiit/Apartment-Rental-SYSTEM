@@ -224,12 +224,6 @@
     <Compile Include="adminaddUnit.Designer.cs">
       <DependentUpon>adminaddUnit.cs</DependentUpon>
     </Compile>
-    <Compile Include="adminChartDashboard.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="adminChartDashboard.Designer.cs">
-      <DependentUpon>adminChartDashboard.cs</DependentUpon>
-    </Compile>
     <Compile Include="adminDashboardScreen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -309,9 +303,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="adminaddUnit.resx">
       <DependentUpon>adminaddUnit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="adminChartDashboard.resx">
-      <DependentUpon>adminChartDashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminDashboardScreen.resx">
       <DependentUpon>adminDashboardScreen.cs</DependentUpon>
